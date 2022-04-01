@@ -1,9 +1,14 @@
 class Solution {
     public void reverseString(char[] s) {
   
-     char[] copy = Arrays.copyOf(s, s.length);
-        for (int i = 0; i < s.length; i++) {
-            s[i] = copy[s.length - 1 - i];
+      int lf = 0;
+        int rf = s.length-1;
+        while(lf<rf){
+            char tmp = s[rf];
+            s[rf] = s[lf];
+            s[lf] = tmp;
+            lf++;
+            rf--;
         }
 }
 }
