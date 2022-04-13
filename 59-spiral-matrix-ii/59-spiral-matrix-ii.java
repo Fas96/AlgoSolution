@@ -1,25 +1,29 @@
 class Solution {
     public int[][] generateMatrix(int n) {
-        int[][] result = new int[n][n];
-        int cnt = 1;
-        for (int layer = 0; layer < (n + 1) / 2; layer++) {
-            // direction 1 - traverse from left to right
-            for (int ptr = layer; ptr < n - layer; ptr++) {
-                result[layer][ptr] = cnt++;
+        int[][] soln = new int[n][n];
+        int t=1;
+
+        for (int l = 0; l < (n + 1) / 2; l++) {
+            // from left to right
+            for (int j = l; j < n-l; j++) {
+                soln[l][j]=t++;
             }
-            // direction 2 - traverse from top to bottom
-            for (int ptr = layer + 1; ptr < n - layer; ptr++) {
-                result[ptr][n - layer - 1] = cnt++;
+            // from top to down
+            for (int j = l+1; j < (n-l); j++) {
+                soln[j][n-l-1]=t++;
             }
-            // direction 3 - traverse from right to left
-            for (int ptr = layer + 1; ptr < n - layer; ptr++) {
-                result[n - layer - 1][n - ptr - 1] = cnt++;
+
+            // from right to left
+
+            for (int j = l+1; j < (n - l); j++) {
+                soln[n-l-1][n-j-1]=t++;
             }
-            // direction 4 - traverse from bottom to top
-            for (int ptr = layer + 1; ptr < n - layer - 1; ptr++) {
-                result[n - ptr - 1][layer] = cnt++;
+
+            // from bottom to top
+            for (int j = l+1; j < (n - l-1); j++) {
+                soln[n-j-1][l]=t++;
             }
         }
-        return result;
+        return soln;
     }
 }
