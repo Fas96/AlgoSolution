@@ -1,20 +1,59 @@
+class Node {
+    public int val;
+    public Node next;
+
+    public Node(int val) {
+        this.val = val;
+    }
+}
+
 class MyHashSet {
-int size = (int)Math.pow(10, 6)+1;
-	boolean[] flag;
+
+    private static final int size = 10000;
+    
+    Node[] hashSet = new Node[size];
+    
     public MyHashSet() {
-		flag = new boolean[size];
-	}
-    
+
+    }
+
     public void add(int key) {
-        flag[key]=true;
+        Node pointer = hashSet[key % size];
+        if (pointer == null) {
+            hashSet[key % size] = new Node(key);
+        } else {
+            Node current = pointer;
+            Node previous = current;
+            while (current != null) {
+                if (current.val == key) return;
+                previous = current;
+                current = current.next;
+            }
+            previous.next = new Node(key);
+        }
+
     }
-    
+
     public void remove(int key) {
-        flag[key]=false;
+
+        Node current = hashSet[key % size];
+
+        while (current != null) {
+            if (current.val == key) {
+                current.val = -1; // Simply replace with -1
+                return;
+            }
+            current = current.next;
+        }
     }
-    
+
     public boolean contains(int key) {
-        return flag[key];
+        Node current = hashSet[key % size];
+        while (current != null) {
+            if (current.val == key) return true;
+            current = current.next;
+        }
+        return false;
     }
 }
 
