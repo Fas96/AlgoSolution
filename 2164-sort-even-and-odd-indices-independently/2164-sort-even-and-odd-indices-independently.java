@@ -1,24 +1,22 @@
 class Solution {
     public int[] sortEvenOdd(int[] nums) {
-       int even[] = new int[101];
-        int odd[] = new int[101];
-        for(int i = 0 ; i < nums.length; i++) {
-            if(i%2 == 0) even[nums[i]]++;
-            else odd[nums[i]]++;
-        }
-        int e = 0;
-        int o = 100;
-        for(int i = 0; i < nums.length; i++) {
-            if(i%2 == 0) {
-                while(even[e] == 0) e++;
-                nums[i] = e;
-                even[e]--;
-            } else {
-                while(odd[o] == 0) o--;
-                nums[i] = o;
-                odd[o]--;
+      ArrayList<Integer> odd= new ArrayList<>();
+        ArrayList<Integer> even= new ArrayList<>();
+        for (int i=0;i<nums.length;i++) {
+            if(i%2==0){even.add(nums[i]);}
+            else  {
+                odd.add(nums[i]);
             }
         }
+        Collections.sort(odd, Collections.reverseOrder());
+        Collections.sort(even); 
+        for(int i=0;i<nums.length;i+=2) {
+            nums[i] = even.get(i/2);
+        }
+        for(int i=1;i<nums.length;i+=2) {
+            nums[i] = odd.get(i/2);
+        }
         return nums;
+
     }
 }
