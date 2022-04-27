@@ -12,26 +12,24 @@ class Solution {
  
         int minSum=Integer.MAX_VALUE;
 
-
-        //while loop untill the diffrence will be 0
-        while(TotalTimeneeded!=0){
-            if(TotalTimeneeded>=60){
-                TotalTimeneeded-=60;
+         while(TotalTimeneeded!=0){
+            if(TotalTimeneeded>=op[3]){
+                TotalTimeneeded-=op[3];
                 r++;
             }
-            else if(TotalTimeneeded>=15){
-                TotalTimeneeded-=15;
+            else if(TotalTimeneeded>=op[2]){
+                TotalTimeneeded-=op[2];
                 r++;
             }
-            else if(TotalTimeneeded>=5){
-                TotalTimeneeded-=5;
+            else if(TotalTimeneeded>=op[1]){
+                TotalTimeneeded-=op[1];
                 r++;
             }
-            else if(TotalTimeneeded>=1){
-                TotalTimeneeded-=1;
+            else if(TotalTimeneeded>=op[0]){
+                TotalTimeneeded-=op[0];
                 r++;
             }
-        } 
+        }
 
 
 
