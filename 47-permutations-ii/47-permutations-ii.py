@@ -4,8 +4,7 @@ class Solution:
         
         res=[]
         for ls in set(list(permutations(nums, len(nums)))):
-            res.append(list(ls))
-        print(res)
+            res.append(list(ls)) 
         
         return res
         
