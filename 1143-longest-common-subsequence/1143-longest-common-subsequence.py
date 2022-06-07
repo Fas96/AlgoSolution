@@ -8,8 +8,8 @@ class Solution(object):
         """
         n = len(text1)
         m = len(text2)
-        # dp = [[0] * (len(text2) + 1)] * (len(text1) + 1)
-        mx = 0
+        # dp = [[-1] * (len(text2) + 1)] * (len(text1) + 1)
+#         mx = 0
         dp = [[-1 for _ in range(m+1)] for _ in range(n+1)]
     
         for j in range(0,m+1):
