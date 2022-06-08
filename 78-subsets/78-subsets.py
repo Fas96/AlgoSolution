@@ -4,12 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        size = len(nums)
-        result = []
-        for i in range(size):
-            if i == 0:
-                result = [[], [nums[i]]]
-            else:
-                result += [[nums[i]] + item for item in result]
-            
-        return result
+        n = len(nums)
+        output = [[]]
+        
+        for num in nums:
+            output += [curr + [num] for curr in output]
+        
+        return output
