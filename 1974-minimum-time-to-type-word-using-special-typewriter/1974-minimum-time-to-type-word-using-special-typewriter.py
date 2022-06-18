@@ -4,7 +4,6 @@ class Solution(object):
         tocount=0
         for ch in word:
             tocount+=1
-            idx=abs(ord(ch)-ord(cur))
-            tocount+=min(idx,26-idx)
+            tocount+=min(abs(ord(ch)-ord(cur)),26-abs(ord(ch)-ord(cur)))
             cur=ch
         return tocount
