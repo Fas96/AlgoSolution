@@ -4,7 +4,7 @@ class Solution(object):
         while n>k:
             for i in range(len(s)):
                 if s[i]=='1':
-                    s=s[:i]+s[i+1:]
+                    s=s[:i]+s[i+1:] 
                     break
             n=int(s,2)
             
