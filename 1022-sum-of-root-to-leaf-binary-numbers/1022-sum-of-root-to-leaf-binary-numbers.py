@@ -5,22 +5,20 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+    sm=0
     def sumRootToLeaf(self, root):
-        ptl=[] 
+        
         def dfs(root,path):
-            if root.left:
-                dfs(root.left,path+str(root.val))
-            if root.right:
-                dfs(root.right,path+str(root.val))
+            if not root:
+                return 
             if not root.left and not root.right:
                 path+=str(root.val)
-                ptl.append(path)
-      
+                self.sm+=int(path,2)
+            dfs(root.left,path+str(root.val))
+            dfs(root.right,path+str(root.val))
         dfs(root,"")
-        s=0
-        for b in ptl:
-            s+=int(b,2)
-        return s
+        return self.sm
+   
             
         
         
