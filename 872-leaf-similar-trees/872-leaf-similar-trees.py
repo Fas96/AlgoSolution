@@ -5,8 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    rt1=[]
-    rt2=[]
+ 
     def leafSimilar(self, root1, root2):
         """
         :type root1: TreeNode
@@ -25,5 +24,5 @@ class Solution(object):
 
         dfs(root1,rt1)
         dfs(root2,rt2)
-        print(rt1,rt2)
+        
         return rt1==rt2
