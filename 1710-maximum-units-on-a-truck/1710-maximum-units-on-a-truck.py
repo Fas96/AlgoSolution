@@ -5,14 +5,16 @@ class Solution(object):
         :type truckSize: int
         :rtype: int
         """
+        pweight=boxTypes
+        
 
-        boxTypes.sort(key=lambda x: (-x[1]))
-
-        ress = 0
-        for b, n in boxTypes:
-            print(b,n)
-            boxes = min(b, truckSize)
-            ress += (boxes * n)
-            truckSize -= boxes
-            if truckSize == 0: return ress
-        return ress
+        pweight.sort(key=lambda x: -( x[1]))
+        print(pweight)
+        res = 0
+        for f, s in pweight:
+            print(f, s)
+            b = min(f, truckSize)
+            res += (s * b)
+            truckSize -= b
+            if truckSize == 0: return res
+        return res
