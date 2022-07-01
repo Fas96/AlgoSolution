@@ -7,7 +7,7 @@ class Solution(object):
         """
         pweight=boxTypes
         
-        pweight.sort(key=lambda x: -(x[1]))
+        pweight.sort(key=lambda x:-x[1])
          
         res = 0
         for b, n in pweight:
