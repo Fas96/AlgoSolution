@@ -7,14 +7,12 @@ class Solution(object):
         """
         pweight=boxTypes
         
-
-        pweight.sort(key=lambda x: -( x[1]))
-        print(pweight)
+        pweight.sort(key=lambda x: -(x[1]))
+         
         res = 0
-        for f, s in pweight:
-            print(f, s)
-            b = min(f, truckSize)
-            res += (s * b)
-            truckSize -= b
+        for b, n in pweight:
+            bb = min(b, truckSize)
+            res += (bb * n)
+            truckSize -= bb
             if truckSize == 0: return res
         return res
