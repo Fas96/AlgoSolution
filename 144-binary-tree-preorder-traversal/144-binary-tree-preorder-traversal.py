@@ -5,6 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
+ 
    
     def preorderTraversal(self, root):
         """
@@ -12,9 +13,10 @@ class Solution(object):
         :rtype: List[int]
         """
         ls=[]
+        
         if root:
-            ls.append(root.val)
-            ls+=self.preorderTraversal(root.left)
+            ls.append(root.val) 
+            ls+=self.preorderTraversal(root.left) 
             ls+=self.preorderTraversal(root.right)
         
         return ls
