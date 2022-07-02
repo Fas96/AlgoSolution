@@ -5,10 +5,12 @@
 #         self.left = left
 #         self.right = right
 class Solution(object):
-    ls=[]
+ 
     def countNodes(self, root):
         if not root:
             return 0
-        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
+        l=self.countNodes(root.left) 
+        r=self.countNodes(root.right)
+        return l+r+1
         
         
