@@ -15,8 +15,10 @@ class Solution(object):
         ls=[]
         
         if root:
-            ls.append(root.val) 
-            ls+=self.preorderTraversal(root.left) 
+            ls.append(root.val)
+        if root:
+            ls+=self.preorderTraversal(root.left)
+        if root:
             ls+=self.preorderTraversal(root.right)
         
         return ls
