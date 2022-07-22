@@ -12,24 +12,23 @@ class Solution(object):
         """
         emptyNode = ListNode()
         emptyNode.next = head
-        last_check = emptyNode
-        last_less_than = emptyNode
+        lcheck = emptyNode
+        llt = emptyNode
         
-        check = last_check.next
+        check = lcheck.next
         while check is not None:
-            if check.val < x:
-                # remove check
-                last_check.next = check.next
+            if check.val < x: 
+                lcheck.next = check.next
                 check.next = None
                 
-                # add check after the last_less_than
-                tmp = last_less_than.next
-                last_less_than.next = check
+              
+                tmp = llt.next
+                llt.next = check
                 check.next = tmp
                 
-                # update pointers
-                last_less_than = last_less_than.next
+               
+                llt = llt.next
             
-            last_check, check = check, check.next
+            lcheck, check = check, check.next
         
         return emptyNode.next
