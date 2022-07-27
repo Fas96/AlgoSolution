@@ -24,6 +24,9 @@ class Solution {
         
         while(!pushVisitedOnStack.isEmpty()){
             TreeNode curNode=pushVisitedOnStack.pop();
+            
+            //maintaining the preorder traversal by 
+            //first visiting right and left
             if(curNode.right!=null){
                 pushVisitedOnStack.push(curNode.right);
             }
