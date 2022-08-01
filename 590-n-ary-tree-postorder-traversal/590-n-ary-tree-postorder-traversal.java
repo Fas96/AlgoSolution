@@ -18,15 +18,27 @@ class Node {
 */
 
 class Solution {
-   private void helper( List<Integer> list, Node root ) {
-        if( root==null ) return;
-        for( Node child: root.children ) helper( list, child );
-        list.add( root.val );
-    }
-    
+ 
+    List<Integer> list = new ArrayList<Integer>();
     public List<Integer> postorder(Node root) {
-        List<Integer> list = new ArrayList<Integer>();
-        helper( list, root );
-        return list;
+        
+    Stack<Node> st = new Stack<Node>(); 
+    
+    if(root == null) return list;
+    
+    st.push(root);
+    
+    while(!st.isEmpty()){
+        
+        Node n = st.pop();    
+        list.add(0, n.val);
+        
+        for(int i = 0; i < n.children.size(); i++ ){
+            st.push(n.children.get(i));   // add all the children to stack and repeat the process
+        }
+        
+    }
+            
+    return list;
     }
 }
