@@ -5,8 +5,11 @@ class Solution {
 
   public int minSetSize(int[] a) {
        Map<Integer, Integer> m = new HashMap<>();
-        for (int n : a) 
-            m.put(n, m.getOrDefault(n, 0) + 1);
+  
+    for (int i = 0; i < a.length; i++) {
+      m.merge(a[i],1,Integer::sum);
+    }
+      
         PriorityQueue<Integer> pq = new PriorityQueue<>((c, d) -> d - c);
         for (int n : m.keySet()) pq.offer(m.get(n));
         int res = 0, sum = 0;
