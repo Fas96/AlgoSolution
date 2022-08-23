@@ -7,9 +7,9 @@ class Solution {
     for (int i = 0; i < N; i++) {
       for (int j = 0; j < N; j++) {
         if (board[i][j] == '.'){
-          for (int tryNum = 1; tryNum <= N; tryNum++) {
-            if(isValidPlacement(board,String.valueOf( tryNum).charAt(0),i,j)){
-              board[i][j]=  String.valueOf( tryNum).charAt(0);
+          for (char tryNum = '1'; tryNum <= '9'; tryNum++) {
+            if(isValidPlacement(board,tryNum,i,j)){
+              board[i][j]=  tryNum;
               if(solveSudoku(board,N)){
                 return true;
               }else{
