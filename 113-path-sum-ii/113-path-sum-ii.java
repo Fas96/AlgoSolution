@@ -14,21 +14,20 @@
  * }
  */
 class Solution {
-  List<List<Integer>>  res= new ArrayList<>();
-
-
-  public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
-    if(root==null)return res;
-    Stack<Integer> stkTrack = new Stack<>();
-    getPathSum(root,targetSum,stkTrack);
-    return res;
-  }
-
-  private void getPathSum(TreeNode root, int targetSum, Stack<Integer> stkTrack) {
-    stkTrack.push(root.val);
-    if(root.left==null && root.right==null && targetSum==root.val)res.add(new ArrayList<>(stkTrack));
-    if(root.left!=null)getPathSum(root.left,targetSum-root.val,stkTrack);
-    if(root.right!=null)getPathSum(root.right,targetSum-root.val,stkTrack);
-    stkTrack.pop();
-  }
+      List<List<Integer>>  res= new ArrayList<>();
+    public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+        if(root==null) return res;
+        Stack<Integer> stk= new Stack<>();
+        getPathSum(root,targetSum,stk);
+        return res;
+    }
+   private void  getPathSum(TreeNode root, int targetSum,Stack<Integer> stk){
+        stk.push(root.val);
+       
+       if(root.left==null && root.right==null && root.val==targetSum) res.add(new ArrayList<>(stk));
+       if(root.left!=null)getPathSum(root.left,targetSum-root.val,stk);
+       if(root.right!=null)getPathSum(root.right,targetSum-root.val,stk);
+       
+       stk.pop();
+    }
 }
