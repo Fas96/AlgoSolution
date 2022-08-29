@@ -1,11 +1,10 @@
 class Solution {
-    private int row;
+
+  private int row;
   private int col;
     public int numIslands(char[][] grid) {
-
        col= grid.length;
        row= grid[0].length;
-      int max=0;
       int cnt=0;
       for (int i = 0; i < col; i++) {
         for (int j = 0; j < row; j++) {
@@ -13,11 +12,8 @@ class Solution {
             dfs(grid,i,j);
             cnt+=1;
           }
-
-
         }
       }
-
       return cnt;
     }
     private void dfs (char[][] grid, int i, int j){
