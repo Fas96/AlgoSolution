@@ -1,6 +1,6 @@
 class Solution {
-  public boolean canFinish(int numCourses, int[][] prerequisites) {
-    int[] table= new int[numCourses];
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[] table= new int[numCourses];
     for (int[] course : prerequisites) {
       int curCourse= course[0];
       table[curCourse]++;
@@ -12,7 +12,7 @@ class Solution {
     }
     //if set is empty that means we have cyclic graph
     if(noIncomingEdges.isEmpty())return false;
-    
+
     while (!noIncomingEdges.isEmpty()){
       Iterator<Integer> it=noIncomingEdges.iterator();
       Integer element=  it.next();
@@ -30,12 +30,11 @@ class Solution {
       }
       noIncomingEdges.remove(element);
     }
-    
+
     //check if there is cycle
     for (int course :table) {
       if(course>0)return false;
     }
-    
-    return true;
-  }
+    return  Arrays.stream(table).allMatch(e->e<=0);
+    }
 }
