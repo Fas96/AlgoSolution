@@ -15,19 +15,20 @@
  */
 class Solution {
   
-   
+   int ans=0;
     public int goodNodes(TreeNode root) {
     if(root==null) return 0;
     if(root.left==null && root.right==null) return 1;
-    return goodNodesCountHelper(root, -100000);
+     goodNodesCountHelper(root, root.val);
+        return ans;
   }
 
-  private int goodNodesCountHelper(TreeNode root,int cnt) {
-    if(root==null) return 0;
-      int ans=root.val>=cnt?1:0;
-      ans+=goodNodesCountHelper(root.left,Math.max(cnt,root.val));
-      ans+=goodNodesCountHelper(root.right,Math.max(cnt,root.val));
-      return ans;
+  private void goodNodesCountHelper(TreeNode root,int cnt) {
+    if(root==null) return ;
+      if(root.val>=cnt)ans++;
+      goodNodesCountHelper(root.left,Math.max(cnt, root.val));
+      goodNodesCountHelper(root.right,Math.max(cnt,  root.val));
+       
      
   }
 }
