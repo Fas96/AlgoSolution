@@ -15,21 +15,24 @@
  */
 class Solution {
   
-   int ans=0;
+   int res=0;
+   TreeNode tem=null;
     public int goodNodes(TreeNode root) {
     if(root==null) return 0;
     if(root.left==null && root.right==null) return 1;
-    
-    goodNodesCountHelper(root, root.val);
-    return ans;
+    tem=root;
+    goodNodesCountHelper(root,root.val);
+    return res;
   }
 
-  private void goodNodesCountHelper(TreeNode root,int cnt) {
-    if(root==null) return ;
-      if(root.val>=cnt)ans++;
-      goodNodesCountHelper(root.left,Math.max(cnt, root.val));
-      goodNodesCountHelper(root.right,Math.max(cnt,  root.val));
+  private void goodNodesCountHelper(TreeNode root,int curVal) {
+    if(root==null) return;
+     if(root.val>=curVal)res++;
+      goodNodesCountHelper(root.left,Math.max(curVal,root.val));
+   
+      goodNodesCountHelper(root.right,Math.max(curVal,root.val));
        
+    
      
   }
 }
