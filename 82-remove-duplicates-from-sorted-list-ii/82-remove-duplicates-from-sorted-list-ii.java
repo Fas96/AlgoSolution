@@ -20,9 +20,9 @@ class Solution {
 
     while (cur != null) {
       if (cur.next != null && cur.val == cur.next.val) {
-        while (cur.next != null && cur.val == cur.next.val){
-            cur = cur.next;}
-          prev.next=cur.next;
+        while (cur.next != null && cur.val == cur.next.val)cur = cur.next;
+        
+        prev.next=cur.next;
       } else {
         prev = cur;
       }
