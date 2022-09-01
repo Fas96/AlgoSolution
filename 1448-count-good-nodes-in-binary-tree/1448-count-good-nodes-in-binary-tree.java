@@ -19,8 +19,9 @@ class Solution {
     public int goodNodes(TreeNode root) {
     if(root==null) return 0;
     if(root.left==null && root.right==null) return 1;
-     goodNodesCountHelper(root, root.val);
-        return ans;
+    
+    goodNodesCountHelper(root, root.val);
+    return ans;
   }
 
   private void goodNodesCountHelper(TreeNode root,int cnt) {
