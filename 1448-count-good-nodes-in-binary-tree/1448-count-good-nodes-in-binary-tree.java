@@ -15,12 +15,12 @@
  */
 class Solution {
   
-   int res=0;
-   TreeNode tem=null;
+    int res=0;
+ 
     public int goodNodes(TreeNode root) {
     if(root==null) return 0;
     if(root.left==null && root.right==null) return 1;
-    tem=root;
+  
     goodNodesCountHelper(root,root.val);
     return res;
   }
