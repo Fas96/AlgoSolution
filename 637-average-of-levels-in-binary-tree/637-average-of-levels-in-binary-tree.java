@@ -15,14 +15,13 @@
  */
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
-      List<List<Integer>> ans = new ArrayList<>();
-     List<Double> res = new ArrayList<>();
-      callStackLevels(ans,root,0);
-     for(List<Integer> e: ans){
-         res.add(e.stream()
-                .mapToDouble(d -> d)
-                .average()
-                .orElse(0.0));
+      List<List<Integer>> levelList = new ArrayList<>();
+      List<Double> res = new ArrayList<>();
+     
+        callStackLevels(levelList,root,0);
+     
+     for(List<Integer> e: levelList){
+         res.add(e.stream() .mapToDouble(d -> d).average().orElse(0.0));
      }
         return res;
     }
