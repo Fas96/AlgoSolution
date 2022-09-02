@@ -18,20 +18,20 @@ class Solution {
       List<List<Integer>> levelList = new ArrayList<>();
       List<Double> res = new ArrayList<>();
      
-        callStackLevels(levelList,root,0);
+        callStackLevels(root,levelList,0);
      
      for(List<Integer> e: levelList){
          res.add(e.stream() .mapToDouble(d -> d).average().orElse(0.0));
      }
         return res;
     }
-     public void callStackLevels(List<List<Integer>>  lelVals,TreeNode root,int level) {
+     public void callStackLevels(TreeNode root,List<List<Integer>>  lelVals,int level) {
       if(root==null) return;
       if(level>=lelVals.size()){
         lelVals.add(new LinkedList<Integer>());
       }
       lelVals.get(level).add(root.val );
-      callStackLevels(lelVals,root.left,level+1);
-      callStackLevels(lelVals,root.right,level+1);
+      callStackLevels(root.left,lelVals,level+1);
+      callStackLevels(root.right,lelVals,level+1);
     }
 }
