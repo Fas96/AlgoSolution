@@ -10,7 +10,7 @@ class Solution {
     if(n==0){listNums.add(genNum);return;}
     for (int i = 0; i < 10; i++) {
       if(i==0 && genNum==0) continue;
-      if(genNum==0 && i!=0){
+      if(genNum==0){
         dfs(n-1, k, listNums, i);
       }
       else if(Math.abs((genNum%10) - i )==k) {
