@@ -1,7 +1,8 @@
 class Solution {
-    List<Integer> listNums= new ArrayList<>();
+   
     
     public int[] numsSameConsecDiff(int n, int k) {
+     List<Integer> listNums= new ArrayList<>();
         
     if(n==0)return new int[0];
         
