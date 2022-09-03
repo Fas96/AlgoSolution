@@ -1,8 +1,12 @@
 class Solution {
-    public int[] numsSameConsecDiff(int n, int k) {
     List<Integer> listNums= new ArrayList<>();
+    
+    public int[] numsSameConsecDiff(int n, int k) {
+        
     if(n==0)return new int[0];
+        
     dfs(n,k,listNums,0);
+        
     return listNums.stream().mapToInt(e->e).toArray();
   }
 
