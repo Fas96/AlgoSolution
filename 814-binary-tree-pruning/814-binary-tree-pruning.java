@@ -19,8 +19,8 @@ class Solution {
         
         root.left=dfs(root.left);
         root.right=dfs(root.right);
-         if (root.left == null && root.right == null && root.val == 0) return null;
-        return root;
+        return   (root.val == 1 || root.left != null || root.right != null) ? root : null;
+        // return root;
     }
     private TreeNode dfs(TreeNode root){
         if(root==null) return null;
