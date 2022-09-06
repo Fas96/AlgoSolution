@@ -22,7 +22,9 @@ class Solution {
          if(root==null) return null;
         root.left=dfs(root.left);
         root.right=dfs(root.right);
-        return   (root.val == 1 || root.left != null || root.right != null) ? root : null;
+        // return   (root.val == 1 || root.left != null || root.right != null) ? root : null;
+        
+        return (root.val==0 && root.left==null && root.right==null)?null:root;
         
         }
 }
