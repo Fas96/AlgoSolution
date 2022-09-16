@@ -9,9 +9,9 @@ class Solution {
             return 0;
         if(dp[R][L] != null)
             return dp[R][L];
-        int leftSide = nums[R] * multipliers[L] + memo(nums, multipliers, L + 1, R + 1, N, dp);
-        int rightSide = nums[N] * multipliers[L] + memo(nums, multipliers, L + 1, R, N - 1, dp);
-        dp[R][L] = Math.max(leftSide, rightSide);
+        int lf = nums[R] * multipliers[L] + memo(nums, multipliers, L + 1, R + 1, N, dp);
+        int rg = nums[N] * multipliers[L] + memo(nums, multipliers, L + 1, R, N - 1, dp);
+        dp[R][L] = Math.max(lf, rg);
         return dp[R][L];
         
     }
