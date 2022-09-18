@@ -6,6 +6,7 @@ class Solution {
     for (int i = 0; i < N; i++) {
       left[i]=i==0?height[i]:Math.max(left[i-1],height[i]);
     }
+    System.out.println();
     int[]right=new int[N];
     for (int i = N-1; i >=0 ; i--) {
       right[i]=i==N-1?height[i]:Math.max(right[i+1],height[i]);
