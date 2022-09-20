@@ -1,6 +1,6 @@
 class Solution {
     public int findLength(int[] nums1, int[] nums2) {
-         int N = nums1.length;
+          int N = nums1.length;
         int M = nums2.length;
         int mx=0;
         int[][]dp=new int[N+1][M+1];
@@ -9,10 +9,10 @@ class Solution {
                 if(nums1[i]==nums2[j]) {
                     dp[i+1][j+1] =1 + dp[i][j];
                     mx = Math.max(mx, dp[i+1][j+1]);
-                } 
+                }
 
             }
-            
+
         }
 
         return mx;
