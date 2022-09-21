@@ -2,13 +2,8 @@ class Solution {
     public int[] sumEvenAfterQueries(int[] nums, int[][] queries) {
        int N=nums.length;
         int[] result= new int[N];
-        int T= 0;
-
-        for(int i = 0; i < N; i++) {
-            if(nums[i] % 2 == 0) {
-                T += nums[i];
-            }
-        }
+        
+        int T=Arrays.stream(nums).filter(e->e%2==0).sum();
 
         for (int i = 0; i < N; i++) {
             int[] quer= queries[i];
