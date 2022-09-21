@@ -24,3 +24,17 @@ class Solution {
         return result; 
     }
 }
+/*
+       int N=nums.length;
+        int[] result= new int[N];
+
+        for (int i = 0; i < N; i++) {
+            int[] quer= queries[i];
+            nums[quer[1]]=nums[quer[1]]+quer[0];
+          
+            result[i]=Arrays.stream(nums).filter(e->e%2==0).sum();
+        }
+
+
+        return result; 
+*/
