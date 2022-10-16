@@ -1,15 +1,15 @@
 function minDifficulty(jobDifficulty: number[], d: number): number {
 
-      let n = jobDifficulty.length;
+    let n = jobDifficulty.length;
     if (n < d) {
         return -1;
     }
     let dp = new Array(d);
     
     for (let i = 0; i < d; i++) {
-        dp[i] = new Array(n);
-        
+        dp[i] = new Array(n);    
     }
+    
     dp[0][0] = jobDifficulty[0];
     for (let i = 1; i < n; i++) {
         dp[0][i] = Math.max(dp[0][i - 1], jobDifficulty[i]);
