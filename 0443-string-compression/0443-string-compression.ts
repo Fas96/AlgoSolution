@@ -12,12 +12,16 @@ function compress(chars: string[]): number {
             count = 1;
         }
     }
+  
+    //last character count
     compressed += chars[chars.length - 1];
     if (count > 1) {
         compressed += count;
     }
+    //modifying the input array
     for (let i = 0; i < compressed.length; i++) {
         chars[i] = compressed[i];
     }
+ 
     return compressed.length;
 };
