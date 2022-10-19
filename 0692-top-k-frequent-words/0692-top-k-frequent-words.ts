@@ -9,9 +9,10 @@ function topKFrequent(words: string[], k: number): string[] {
     }
     
     let wordsA: string[] = Array.from(map.keys());
-    
+    //sort lexicographical if same else compare frequencies
     wordsA.sort((w1, w2) => map.get(w1) == map.get(w2) ? w1.localeCompare(w2) : map.get(w2) - map.get(w1));
     
+    //get the top k
     for (let i = 0; i < k; i++) {
         result.push(wordsA[i]);
     }
