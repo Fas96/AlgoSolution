@@ -17,8 +17,9 @@ class Solution {
         while (!q.isEmpty()) {
             int[] cur = q.poll();
             for (int[] dir : dirs) {
-                int x = cur[0] + dir[0], y = cur[1] + dir[1];
-                if (x < 0 || x >= m || y < 0 || y >= n || res[x][y] <= res[cur[0]][cur[1]] + 1) continue;
+                int x = cur[0] + dir[0], y = cur[1] + dir[1]; 
+                if (x < 0 || x >= m || y < 0 || y >= n)continue;  
+                if(res[x][y] <= res[cur[0]][cur[1]] + 1) continue;
                 res[x][y] = res[cur[0]][cur[1]] + 1;
                 q.offer(new int[]{x, y});
             }
