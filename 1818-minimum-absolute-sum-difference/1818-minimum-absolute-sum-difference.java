@@ -1,6 +1,5 @@
 class Solution {
     public int minAbsoluteSumDiff(int[] nums1, int[] nums2) {
-        
       int n = nums1.length;
         int[] sorted = nums1.clone();
         Arrays.sort(sorted);
@@ -12,7 +11,7 @@ class Solution {
             sum = (sum + diff) % MOD;
             int j = binarySearch(sorted, nums2[i]);
             if (j < n) {
-                maxDiff = Math.max(maxDiff, diff - (sorted[j] - nums2[i]));
+                maxDiff =  Math.max(maxDiff, diff - (sorted[j] - nums2[i])) ;
             }
             if (j > 0) {
                 maxDiff = Math.max(maxDiff, diff - (nums2[i] - sorted[j - 1]));
