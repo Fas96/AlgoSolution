@@ -10,9 +10,9 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-          if(head==null||head.next==null) return head;
-        List<ListNode> odd=new ArrayList<>();
-        List<ListNode> even=new ArrayList<>();
+         if(head==null||head.next==null) return head;
+        List<ListNode> odd=new LinkedList<>();
+        List<ListNode> even=new LinkedList<>();
         ListNode temp=head;
         int i=1;
         while(temp!=null){
@@ -26,8 +26,10 @@ class Solution {
         }
         ListNode oddHead=odd.get(0);
         ListNode evenHead=even.get(0);
+        
         ListNode oddTemp=oddHead;
         ListNode evenTemp=evenHead;
+        
         for (int j = 1; j < odd.size(); j++) {
             oddTemp.next=odd.get(j);
             oddTemp=oddTemp.next;
