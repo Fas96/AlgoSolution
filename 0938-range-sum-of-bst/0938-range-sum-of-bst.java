@@ -14,19 +14,12 @@
  * }
  */
 class Solution {
-   int ans=0;
+  
     public int rangeSumBST(TreeNode root, int low, int high) {
- 
-        dfs(root,low,high);
-        return ans;
+        if(root==null)return 0;
+        
+        return rangeSumBST(root.left,low,high)+rangeSumBST(root.right,low,high)+(root.val>=low&&root.val<=high?root.val:0);
     }
 
-    private void dfs(TreeNode root, int low, int high) {
-        if(root==null)return;
-        if(root.val>=low&&root.val<=high){
-            ans+=root.val;
-        }
-        dfs(root.left,low,high);
-        dfs(root.right,low,high);
-    }
+     
 }
