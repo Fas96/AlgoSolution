@@ -1,25 +1,12 @@
 class Solution {
     public boolean possibleBipartition(int n, int[][] dislikes) {
-        
-   UF_BOP uf = new UF_BOP(n);
+        UF_BOP uf = new UF_BOP(n);
         HashMap<Integer, LinkedList<Integer>> disMap = new HashMap<>();
 
-        for(int[] dis: dislikes) {
-            int x = dis[0], y = dis[1];
-            if(disMap.containsKey(x)) {
-                disMap.get(x).add(y);
-            } else {
-                LinkedList<Integer> list = new LinkedList<>();
-                list.add(y);
-                disMap.put(x, list);
-            }
-            if(disMap.containsKey(y)) {
-                disMap.get(y).add(x);
-            } else {
-                LinkedList<Integer> list = new LinkedList<>();
-                list.add(x);
-                disMap.put(y, list);
-            }
+        for(int[] d: dislikes) {
+            int x = d[0], y = d[1];
+            disMap.computeIfAbsent(x, f -> new LinkedList<>()).add(y);
+            disMap.computeIfAbsent(y, f -> new LinkedList<>()).add(x);
         }
 
 
@@ -27,7 +14,7 @@ class Solution {
             if (disMap.get(i) != null) {
                 int initDisLike = disMap.get(i).get(0);
                 for (int j = 1; j < disMap.get(i).size(); j++) {
-                    int dis = disMap.get(i).get(j); 
+                    int dis = disMap.get(i).get(j);
                     if (!uf.union(initDisLike, dis, i)) return false;
                 }
             }
