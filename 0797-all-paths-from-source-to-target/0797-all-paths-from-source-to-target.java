@@ -17,14 +17,14 @@ class Solution {
         return res;
     }
 
-    private void dfs(int i, int i1, HashMap<Integer, List<Integer>> edgeNConnections, List<Integer> path, List<List<Integer>> res) {
-        if (i == i1) {
+     private void dfs(int i, int nM1, HashMap<Integer, List<Integer>> edgeNConnections, List<Integer> path, List<List<Integer>> res) {
+        if (i == nM1) {
             res.add(new ArrayList<>(path));
             return;
         }
         for (int j = 0; j < edgeNConnections.get(i).size(); j++) {
             path.add(edgeNConnections.get(i).get(j));
-            dfs(edgeNConnections.get(i).get(j), i1, edgeNConnections, path, res);
+            dfs(edgeNConnections.get(i).get(j), nM1, edgeNConnections, path, res);
             path.remove(path.size() - 1);
         }
 
