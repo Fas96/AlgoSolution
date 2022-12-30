@@ -12,7 +12,7 @@ class Solution {
         List<Integer> path = new ArrayList<>();
         path.add(0);
         dfs(0, n - 1, edgeNConnections, path, res);
-        System.out.println(edgeNConnections);
+        
 
         return res;
     }
