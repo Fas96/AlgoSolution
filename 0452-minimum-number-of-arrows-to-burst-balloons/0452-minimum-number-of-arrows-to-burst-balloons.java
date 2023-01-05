@@ -1,6 +1,6 @@
 class Solution {
     public int findMinArrowShots(int[][] points) {
-        
+        //common template for overlapping ends
         int numberOfOverlappingEnds = 0;
         int minimumEnd = Integer.MAX_VALUE;
         
