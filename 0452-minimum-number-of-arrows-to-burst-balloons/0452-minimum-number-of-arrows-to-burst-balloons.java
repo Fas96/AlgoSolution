@@ -1,18 +1,21 @@
 class Solution {
     public int findMinArrowShots(int[][] points) {
         
-        int count = 0, minEnd = Integer.MAX_VALUE;
+        int numberOfOverlappingEnds = 0;
+        int minimumEnd = Integer.MAX_VALUE;
+        
         Arrays.sort(points, Comparator.comparingInt(o -> o[1]));
+        
         for (int[] p : points) {
             
-            if (p[0] > minEnd) {
-                count++;
-                minEnd = p[1];
+            if (p[0] > minimumEnd) {
+                numberOfOverlappingEnds++;
+                minimumEnd = p[1];
             } else {
-                minEnd = Math.min(minEnd, p[1]);
+                minimumEnd = Math.min(minimumEnd, p[1]);
             }
         }
-        return count + (points.length > 0 ? 1 : 0);
+        return numberOfOverlappingEnds + (points.length > 0 ? 1 : 0);
 
     }
 }
