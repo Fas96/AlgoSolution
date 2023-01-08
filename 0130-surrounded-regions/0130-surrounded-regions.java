@@ -1,45 +1,69 @@
 class Solution {
+    int[][] dir = {{1,0}, {0,1}, {-1,0}, {0,-1}};
     public void solve(char[][] board) {
-   int m = board.length;
+        int m = board.length;
+        if(board == null || board.length == 0) return;
         int n = board[0].length;
-
-       //1st-Last columns
-        for (int i = 0; i < m; i++){
-            dfs(board, i, 0);
-            dfs(board, i, n - 1);
-        }
-
-       //1st-Last Row
-        for (int j = 0; j < n; j++){
-            dfs(board, 0, j);
-            dfs(board, m - 1, j);
-        }
-
-        for (int i = 0; i < m; i++){
-            for (int j = 0; j < n; j++){
-                if (board[i][j] == 'O'){
-                    board[i][j] = 'X';
+        int border = m * n; 
+        UnionFindSet uf = new UnionFindSet(border + 1);
+        for(int x = 0; x < m; x++) {
+            for(int y = 0; y < n; y++) {
+                if(board[x][y] != 'O') continue;
+                int cur = x * n + y;
+                //edges
+                if(x == 0 || x == m - 1 || y == 0 || y == n - 1) {
+                    uf.union(border, cur);
+                    continue;
                 }
-                if (board[i][j] == '^'){
-                    board[i][j] = 'O';
+                //not on edge
+                for(int[] d: dir) {
+                    int nextX = x + d[0];
+                    int nextY = y + d[1];
+                    if(nextX >= 0 && nextX < m && nextY >= 0 && nextY < n && board[nextX][nextY] == 'O') {
+                        int next = nextX * n + nextY;
+                        uf.union(next, cur);
+                    }
+                }
+            }
+        }
+
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(board[i][j] == 'O' && uf.find(i * n + j) != uf.find(border)) {
+                    board[i][j] = 'X';
                 }
             }
         }
 
     }
-    public void dfs(char[][] board, int i, int j){
-        if (i < 0 || j < 0 || i >= board.length || j >= board[i].length){
-            return;
+
+    class UnionFindSet {
+        int[] parents;
+        int[] ranks;
+
+        public UnionFindSet(int n) {
+            parents = new int[n];
+            ranks = new int[n];
+            for(int i = 0; i < n; i++) parents[i] = i;
         }
 
-        if (board[i][j] == 'X' || board[i][j] == '^'){
-            return;
+        private int find(int x) {
+            if(x != parents[x]) x = find(parents[x]);
+            return parents[x];
         }
 
-        board[i][j] = '^';
-        dfs(board, i + 1, j);
-        dfs(board, i - 1, j);
-        dfs(board, i, j + 1);
-        dfs(board, i, j - 1);
+        private boolean union(int x, int y) {
+            int px = find(x);
+            int py = find(y);
+            if(px == py) return false;
+            if(ranks[px] > ranks[py]) {
+                parents[py] = px;
+                ranks[px] ++;
+            } else{
+                parents[px] = py;
+                ranks[py] ++;
+            }
+            return true;
+        }
     }
 }
