@@ -13,6 +13,7 @@ class Solution {
         for (int p : person) {
             if (!trustiee.contains(p)) {
                 int count = 0;
+                //The town judge trusts nobody.
                 for (int[] t : trust) {
                     if (t[1] == p) count++;
                 }
