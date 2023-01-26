@@ -1,7 +1,7 @@
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         
-         List<Node> [] map= new ArrayList[n];
+        List<Node> [] map= new ArrayList[n];
         int answer=0;
 
         for (int i = 0; i < map.length; i++) {
