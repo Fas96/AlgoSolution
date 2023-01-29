@@ -14,6 +14,7 @@ class LFUCache {
             this.cache = new HashMap<>();
             this.frequencyMap = new HashMap<>();
         }
+    
         public int get(int key) {
             DLLNode curNode = cache.get(key);
             if (curNode == null) {
@@ -22,6 +23,7 @@ class LFUCache {
             updateNode(curNode);
             return curNode.value;
         }
+    
         public void put(int key, int value) {
 
             if (capacity == 0) {
@@ -70,6 +72,8 @@ class LFUCache {
             frequencyMap.put(curNode.freq, newList);
         }
     }
+
+
    class DLLNode{
         int key;
         int value;
@@ -82,6 +86,8 @@ class LFUCache {
             this.freq = 1;
         }
    }
+
+
    class DLL{
         DLLNode head;
         DLLNode tail;
