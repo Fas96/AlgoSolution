@@ -8,7 +8,7 @@ class Solution {
         int res=0;
         Map<Integer, Integer> sumPrefixMap = new HashMap<>();
         sumPrefixMap.put(0, 1);
-        System.out.println(Arrays.toString(prefix));
+         
         for (int i = 1; i <=n; i++) {
             if (sumPrefixMap.containsKey(prefix[i] - goal)) {
                 res += sumPrefixMap.get(prefix[i] - goal);
