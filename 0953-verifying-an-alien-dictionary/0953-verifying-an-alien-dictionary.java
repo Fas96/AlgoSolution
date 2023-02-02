@@ -7,14 +7,13 @@ class Solution {
         }
         return true;
     }
+    
     private boolean isAlienSorted(String word1, String word2, List<Character> orderList,int n,int m) {
-       
-        int i = 0;
-        while(i < n && i < m) {
+     
+        for (int i = 0;i < n && i < m;i++){
             if(word1.charAt(i) != word2.charAt(i)) {
                 return orderList.indexOf(word1.charAt(i)) < orderList.indexOf(word2.charAt(i));
             }
-            i++;
         }
         return n <= m;
     }
