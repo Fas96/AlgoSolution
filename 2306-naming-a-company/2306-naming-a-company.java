@@ -12,12 +12,13 @@ class Solution {
             Set<String> currentCompany=companyStartingInitialsMap.get(key);
             for(char key1: companyStartingInitialsMap.keySet())
             {
-                if(isInitialsCompany(key, key1)) continue;
-                Set<String> isNameMatchPossibleCompany=companyStartingInitialsMap.get(key1);
+                 if(isInitialsCompany(key, key1)) continue;
+                Set<String> ideaMatchPossible=companyStartingInitialsMap.get(key1);
 
-                Set<String> setOfSimilarNames=getSetSimilarCompanyNames(currentCompany, isNameMatchPossibleCompany);
+                Set<String> setOfSimilarIdeas=getSetSimilarCompanyNames(currentCompany, ideaMatchPossible);
 
-                res+=((long) getUniqueNamesCount(isNameMatchPossibleCompany, setOfSimilarNames) * getUniqueNamesCount(currentCompany, setOfSimilarNames));
+                res+=((long) getUniqueNamesCount(ideaMatchPossible, setOfSimilarIdeas) * getUniqueNamesCount(currentCompany, setOfSimilarIdeas));
+           
             }
         }
 
