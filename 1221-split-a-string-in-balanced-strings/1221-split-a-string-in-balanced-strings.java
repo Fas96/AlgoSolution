@@ -8,10 +8,13 @@ class Solution {
             else RCount++;
             if(LCount == RCount) {
                 ans++;
-                LCount = 0;
-                RCount = 0;
+                
             }
         }
         return ans;
     }
+    
+  
 }
+
+ 
