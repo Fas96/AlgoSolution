@@ -5,11 +5,8 @@ class Solution {
  
         for (int i : num) s.append(i);
         
-        BigInteger n = (new BigInteger(s.toString())).add(new BigInteger(String.valueOf(k)));
-        
-        String s1 = String.valueOf(n);
  
-       return s1.chars().mapToObj(c -> c - '0').collect(Collectors.toList());
+       return  String.valueOf((new BigInteger(s.toString())).add(new BigInteger(String.valueOf(k)))).chars().mapToObj(c -> c - '0').collect(Collectors.toList());
  
     }
 }
