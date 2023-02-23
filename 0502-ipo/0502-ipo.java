@@ -1,23 +1,31 @@
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         
-      PriorityQueue<IPO> pq = new PriorityQueue<>((a, b) -> a.capital - b.capital);
-        for (int i = 0; i < profits.length; i++) {
-            pq.offer(new IPO(profits[i], capital[i]));
-        }
-        PriorityQueue<IPO> pq2 = new PriorityQueue<>((a, b) -> b.profit - a.profit);
+        PriorityQueue<IPO> capitalPq = new PriorityQueue<>((a, b) -> a.capital - b.capital);
+        IPOBuilder(profits, capital, capitalPq);
+        PriorityQueue<IPO> profitPq = new PriorityQueue<>((a, b) -> b.profit - a.profit);
         for (int i = 0; i < k; i++) {
-            while (!pq.isEmpty() && pq.peek().capital <= w) {
-                pq2.offer(pq.poll());
+            while (hasEnoughCapital(w, capitalPq)) {
+                profitPq.offer(capitalPq.poll());
             }
-            if (pq2.isEmpty()) {
-                break;
-            }
-            w += pq2.poll().profit;
+            if (profitPq.isEmpty()) break;
+            
+            w += profitPq.poll().profit;
         }
         return w;
 
     }
+
+    private static boolean hasEnoughCapital(int w, PriorityQueue<IPO> capitalPq) {
+        return !capitalPq.isEmpty() && capitalPq.peek().capital <= w;
+    }
+
+    private  void IPOBuilder(int[] profits, int[] capital, PriorityQueue<IPO> capitalPq) {
+        for (int i = 0; i < profits.length; i++) {
+            capitalPq.offer(new IPO(profits[i], capital[i]));
+        }
+    }
+
     class IPO {
         int profit;
         int capital;
