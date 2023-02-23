@@ -16,14 +16,13 @@ class Solution {
 
     }
 
-    private static boolean hasEnoughCapital(int w, PriorityQueue<IPO> capitalPq) {
+    private  boolean hasEnoughCapital(int w, PriorityQueue<IPO> capitalPq) {
         return !capitalPq.isEmpty() && capitalPq.peek().capital <= w;
     }
 
     private  void IPOBuilder(int[] profits, int[] capital, PriorityQueue<IPO> capitalPq) {
-        for (int i = 0; i < profits.length; i++) {
-            capitalPq.offer(new IPO(profits[i], capital[i]));
-        }
+        for (int i = 0; i < profits.length; i++)  capitalPq.offer(new IPO(profits[i], capital[i]));
+        
     }
 
     class IPO {
