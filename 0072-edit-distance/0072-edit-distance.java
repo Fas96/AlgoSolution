@@ -15,15 +15,15 @@ class Solution {
         return dp[m][n];
     }
 
-    private static void minOfTDL(int[][] dp, int i, int j) {
+    private   void minOfTDL(int[][] dp, int i, int j) {
         dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1])) + 1;
     }
 
-    private static void diagonalValue(int[][] dp, int i, int j) {
+    private   void diagonalValue(int[][] dp, int i, int j) {
         dp[i][j] = dp[i - 1][j - 1];
     }
 
-    private static boolean isSameCharacter(String word1, String word2, int i, int j) {
+    private   boolean isSameCharacter(String word1, String word2, int i, int j) {
         return word1.charAt(i - 1) == word2.charAt(j - 1);
     }
 }
