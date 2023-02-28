@@ -25,7 +25,8 @@ class Solution {
 
     private String postOrderTraversal(TreeNode root, List<TreeNode> ans) {
         if(root == null) return "FAS";
-        String subTree = postOrderTraversal(root.left, ans) + "," +  postOrderTraversal(root.right, ans) + "," + root.val;
+        String subTree = postOrderTraversal(root.left, ans) + "-" +  postOrderTraversal(root.right, ans) + "-" + root.val;
+        System.out.println(subTree);
         map.put(subTree, map.getOrDefault(subTree, 0) + 1);
         if(map.get(subTree) == 2) ans.add(root);
         return subTree;
