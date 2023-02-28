@@ -26,8 +26,8 @@ class Solution {
     private String postOrderTraversal(TreeNode root, List<TreeNode> ans) {
         if(root == null) return "GHANA";
         String subTree = postOrderTraversal(root.left, ans) + "-" +  postOrderTraversal(root.right, ans) + "-" + root.val;
-       
-        map.put(subTree, map.getOrDefault(subTree, 0) + 1);
+         
+        map.put(subTree, map.merge(subTree, 1, Integer::sum));
         if(map.get(subTree) == 2) ans.add(root);
         return subTree;
     }
