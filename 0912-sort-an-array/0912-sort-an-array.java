@@ -1,6 +1,11 @@
 class Solution {
     public int[] sortArray(int[] nums) {
         
+        return   bucketSort(nums);
+      
+    }
+
+    private int[]  bucketSort(int[] nums) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for (int num : nums) {
@@ -18,6 +23,7 @@ class Solution {
                 bucket[i]--;
             }
         }
+        
         return nums;
     }
 }
