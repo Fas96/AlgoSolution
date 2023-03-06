@@ -1,34 +1,18 @@
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
-         long  numberOfFixedBoundSubarray=0;
-        int n=nums.length;
-        int lastMin=-1,lastMax=-1;
-        int leftInvalidIdx=-1;
-
-        for (int i = 0; i < n; i++) {
-            if(isInRange(nums[i],minK,maxK)){
-                lastMin= isMin(minK, nums[i]) ?i:lastMin;
-                lastMax= ismax(maxK, nums[i]) ?i:lastMax;
-                numberOfFixedBoundSubarray+=Math.max(0,Math.min(lastMin,lastMax)-leftInvalidIdx);
-            }else {
-                leftInvalidIdx=i;
-                lastMin=-1;
-                lastMax=-1;
-            }
-
+        if(minK>maxK)return 0;
+        int n = nums.length;
+        long res = 0;
+        int mn=-1,mx=-1,l=-1;
+        for(int i=0;i<n;i++){
+           if(nums[i]<minK||nums[i]>maxK)l=i;
+           if(nums[i]==minK)mn=i;
+           if(nums[i]==maxK)mx=i;
+           int r = Math.min(mn,mx);
+           if(r>l)res+=r-l;
         }
-        return numberOfFixedBoundSubarray;
+        return res;
     }
 
-    private  boolean isMin(int minK, int nums) {
-        return minK == nums;
-    }
-
-    private  boolean ismax(int minK, int nums) {
-        return minK == nums;
-    }
-
-    private boolean isInRange(int num, int minK, int maxK) {
-        return num>=minK && num<=maxK;
-    }
+    
 }
