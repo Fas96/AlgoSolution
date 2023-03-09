@@ -14,7 +14,7 @@ class Solution {
     private boolean checkIfCanEatAll(int[] piles, int h, int mid) {
         int sum = 0;
         for (int pile : piles) {
-            sum += pile / mid + (pile % mid == 0 ? 0 : 1);
+            sum += (pile / mid + (pile % mid == 0 ? 0 : 1));
         }
         return sum <= h;
     }
