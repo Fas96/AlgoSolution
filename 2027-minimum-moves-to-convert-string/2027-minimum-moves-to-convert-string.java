@@ -1,5 +1,6 @@
 class Solution {
     public int minimumMoves(String s) {
+       
         int nOperations = 0;
        int idx = 0;
        int N = s.length();
