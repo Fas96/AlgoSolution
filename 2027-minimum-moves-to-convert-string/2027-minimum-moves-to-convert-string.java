@@ -1,12 +1,15 @@
 class Solution {
     public int minimumMoves(String s) {
-        int count = 0;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == 'X') {
-                count++;
-                i += 2;
-            }
-        }
-        return count;
+        int nOperations = 0;
+       int idx = 0;
+       int N = s.length();
+         while (idx < N) {
+              if (s.charAt(idx) == 'X') {
+                nOperations++;
+                idx += 3;
+              } else  idx++;
+              
+         }
+    return nOperations;
     }
 }
