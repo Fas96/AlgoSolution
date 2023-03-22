@@ -1,48 +1,30 @@
 
 import java.util.*;
 class Solution {
-     public int minScore(int n, int[][] roads) {
-        UF u=new UF(n+1);
-        for (int[] road : roads) u.union(road[0],road[1],road[2]);
-        return (u.find(1)==u.find(n))?u.distance[u.find(1)]:-1;
-    }
-
-
-    public class UF {
-        private int[] group;
-        private int[] rank;
-        private int[] distance;
-        public int find(int x) {
-            return x == group[x] ? x: (group[x] = find(group[x]));
+       public int minScore(int n, int[][] roads) {
+        List<List<Pair<Integer, Integer>>> graph = new ArrayList<>();
+        for(int i = 0;i<=n;i++) graph.add(new ArrayList<Pair<Integer, Integer>>());
+        
+        for(int[] road: roads) {
+            graph.get(road[0]).add(new Pair(road[1], road[2]));
+            graph.get(road[1]).add(new Pair(road[0], road[2]));
         }
-        public void union(int x, int y, int d){
-            int rootX = find(x);
-            int rootY = find(y);
-
-            int minD = Math.min(distance[rootX], distance[rootY]);
-            minD = Math.min(minD, d);
-            distance[rootX] = distance[rootY] = minD;
-
-            if (rootX == rootY) return;
-            if (rank[rootX] < rank[rootY]){
-                group[rootX] = rootY;
-            }else{
-                group[rootY] = rootX;
-                if (rank[rootX] == rank[rootY]) rank[rootX]++;
+        
+        boolean[] vis = new boolean[n+1]; 
+        return dfs(graph, vis, 1);
+    }
+    
+    public int dfs(List<List<Pair<Integer, Integer>>> graph, boolean[] vis, int root) {
+        vis[root] = true;
+        int ans = Integer.MAX_VALUE;
+        for(Pair<Integer, Integer> edge:  graph.get(root)) {
+            ans = Math.min(ans, edge.getValue());
+            if(!vis[edge.getKey()]) {
+                ans = Math.min(ans, dfs(graph, vis, edge.getKey()));
             }
         }
-        public UF(int size) {
-            group = new int[size];
-            rank = new int[size];
-            distance = new int[size];
-            for (int i = 0; i < size; i++) {
-                group[i] = i;
-                rank[i] = 1;
-                distance[i] = Integer.MAX_VALUE;
-            }
-
-        }
+        
+        return ans;
     }
-
 }
  
