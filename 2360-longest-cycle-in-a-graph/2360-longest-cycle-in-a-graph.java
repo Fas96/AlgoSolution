@@ -1,16 +1,10 @@
 class Solution {
    public int longestCycle(int[] edges) {
-
         int n = edges.length;
-        
         int[] inDegree = new int[n]; 
-
         ArrayList <Integer>[] adjList = new ArrayList[n];
-
-        for(int i = 0; i < n; i++)
-        {
-            adjList[i] = new ArrayList <Integer>();
-        }
+        for(int i = 0; i < n; i++) adjList[i] = new ArrayList <Integer>();
+        
 
         for(int i = 0; i < n; i++)
         {
