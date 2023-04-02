@@ -4,10 +4,10 @@ class Solution {
         int m = potions.length;
         int[] ans = new int[n];
         Arrays.sort(potions);
-       
+
         for(int i=0; i<n; i++){
-           int L = 0;
-           int R = m-1;
+            int L = 0;
+            int R = m - 1;
             while (L <= R) {
                 int mid = L + (R - L) / 2;
                 long product = (long) spells[i] * potions[mid];
@@ -18,5 +18,26 @@ class Solution {
         }
 
         return ans;
+
     }
+   
+    /*TLE
+    
+    public int[] successfulPairs(int[] spells, int[] potions, long success) {
+        int n = spells.length;
+        int m = potions.length;
+        int[] ans = new int[n];
+
+        for(int i=0; i<n; i++){
+            int cnt = 0;
+            for(int j=0; j<m; j++){
+                long x = (long) spells[i] *potions[j];
+                if(x>=success)cnt++;
+            }
+            ans[i] = cnt;
+        }
+     
+        return ans;
+    }
+    */
 }
