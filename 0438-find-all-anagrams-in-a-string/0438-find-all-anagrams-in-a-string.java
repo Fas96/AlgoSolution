@@ -1,23 +1,27 @@
 class Solution {
-    public List<Integer> findAnagrams(String s, String p) {
-         int n = s.length();
-        int m = p.length();
-
-        int[] pMap = new int[26];
-        int[] sMap = new int[26]; 
-
-        for (Character c : p.toCharArray()) {
-            pMap[c - 'a']++; 
-        }
-
-        List<Integer> ans = new ArrayList<>();
-        for (int i = 0; i <= n - m; i++) { 
-            for (int j = 0; j < m; j++) {
-                sMap[s.charAt(i + j) - 'a']++; 
+    public List<Integer> findAnagrams(String str, String pattern) {
+         List<Integer> resultIndices = new ArrayList<Integer>();
+        int windowStart=0;
+        int matched=0;
+        int patternLen=pattern.length();
+        Map<Character,Integer> charFreqMap=new HashMap<>();
+        for (char c : pattern.toCharArray()) charFreqMap.merge(c,1,Integer::sum);
+        for (int windowEnd = 0; windowEnd < str.length(); windowEnd++) {
+            char rightChar = str.charAt(windowEnd);
+            if(charFreqMap.containsKey(rightChar)){
+                charFreqMap.merge(rightChar,-1,Integer::sum);
+                if(charFreqMap.get(rightChar)==0)matched++;
             }
-            if (Arrays.equals(pMap, sMap))ans.add(i);
-            Arrays.fill(sMap, 0); 
+            if(matched==charFreqMap.size())resultIndices.add(windowStart);
+            if(windowEnd-windowStart+1==patternLen){
+                char leftChar = str.charAt(windowStart);
+                if(charFreqMap.containsKey(leftChar)){
+                    if(charFreqMap.get(leftChar)==0)matched--;
+                    charFreqMap.merge(leftChar,1,Integer::sum);
+                }
+                windowStart++;
+            }
         }
-        return ans;
+        return resultIndices;
     }
 }
