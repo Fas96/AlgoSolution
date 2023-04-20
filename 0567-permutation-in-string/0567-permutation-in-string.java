@@ -1,21 +1,29 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-          int n = s1.length();
-        int m = s2.length();
-        Map<Character,Integer> s1Map = new HashMap<>();
-        Map<Character,Integer> s2Map = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            s1Map.merge(s1.charAt(i), 1, Integer::sum);
-        }
-       
-        for (int i = 0; i <= m-n; i++) {
-            String sub = s2.substring(i, i+n);
-            for (int j = 0; j < n; j++) {
-                s2Map.merge(sub.charAt(j), 1, Integer::sum);
+        String pattern=s1;
+        String str=s2;
+        int windowStart=0;
+        int matched=0;
+        Map<Character,Integer> charFrequencyMap=new HashMap<>();
+        for (char c : pattern.toCharArray()) charFrequencyMap.merge(c,1,Integer::sum);
+
+        for (int windowEnd = 0; windowEnd < str.length(); windowEnd++) {
+            char rightChar = str.charAt(windowEnd);
+            if(charFrequencyMap.containsKey(rightChar)){
+                charFrequencyMap.merge(rightChar,-1,Integer::sum);
+                if(charFrequencyMap.get(rightChar)==0)matched++;
             }
-            if(s1Map.equals(s2Map)) return true;
-            s2Map.clear();
+            if(matched==charFrequencyMap.size())return true;
+            if(windowEnd-windowStart+1==pattern.length()){
+                char leftChar = str.charAt(windowStart);
+                if(charFrequencyMap.containsKey(leftChar)){
+                    if(charFrequencyMap.get(leftChar)==0)matched--;
+                    charFrequencyMap.merge(leftChar,1,Integer::sum);
+                }
+                windowStart++;
+            }
         }
         return false;
+        
     }
 }
