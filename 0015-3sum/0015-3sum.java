@@ -3,8 +3,7 @@ class Solution {
      Arrays.sort(arr);
         List<List<Integer>> triplets = new ArrayList<>();
         for (int i = 0; i < arr.length - 2; i++) {
-            if (i > 0 && arr[i] == arr[i - 1]) 
-                continue;
+            if (i > 0 && arr[i] == arr[i - 1]) continue;
             searchPair(arr, -arr[i], i + 1, triplets);
         }
         return triplets;
@@ -18,14 +17,11 @@ class Solution {
                 triplets.add(Arrays.asList(-target, arr[left], arr[right]));
                 left++;
                 right--;
-                while (left < right && arr[left] == arr[left - 1])
-                    left++;  
-                while (left < right && arr[right] == arr[right + 1])
-                    right--;  
-            } else if (target > currentSum)
-                left++;  
-            else
-                right--;  
+                while (left < right && arr[left] == arr[left - 1])  left++;  
+                while (left < right && arr[right] == arr[right + 1])   right--;  
+                
+            } else if (target > currentSum) left++;  
+            else right--;  
         }
     }
 }
