@@ -1,9 +1,9 @@
 class Solution {
     public int numSimilarGroups(String[] strs) {
-   Map<String, List<String>> map = new HashMap<>();
-        for (String str : strs) {
-             map.put(str, null);
-        }
+        Map<String, List<String>> map = new HashMap<>();
+        
+        for (String str : strs) map.put(str, null);
+        
         int ans = 0;
         for (String str : strs) {
             if (map.get(str) == null) {
