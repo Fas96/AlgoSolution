@@ -23,6 +23,8 @@ public class Solution {
             list.add(curNode);
             curNode=curNode.next;
         }
-        return null; 
+        return null;    
     }
+
+     
 }
