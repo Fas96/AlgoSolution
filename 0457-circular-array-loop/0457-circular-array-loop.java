@@ -9,9 +9,9 @@ class Solution {
 
     }
 
-    private boolean isCycle(int[] nums, int i) {
-        boolean isForward=nums[i]>=0;
-        int slow=i,fast=i;
+    private boolean isCycle(int[] nums, int idx) {
+        boolean isForward=nums[idx]>=0;
+        int slow=idx,fast=idx;
         do{
             slow=getNextIndex(nums,isForward,slow);
             fast=getNextIndex(nums,isForward,fast);
