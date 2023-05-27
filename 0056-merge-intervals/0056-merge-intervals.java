@@ -1,6 +1,6 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-     List<InterVal> interVals=new ArrayList<>();
+        List<InterVal> interVals=new ArrayList<>();
         for(int[] interval:intervals){
             interVals.add(new InterVal(interval[0],interval[1]));
         }
