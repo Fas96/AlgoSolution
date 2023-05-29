@@ -1,6 +1,6 @@
 class ParkingSystem {
 
-   Map<Integer,Integer> parkingMap;
+        Map<Integer,Integer> parkingMap;
 
         public ParkingSystem(int big, int medium, int small) {
             parkingMap = new  HashMap<>();
