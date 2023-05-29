@@ -3,7 +3,7 @@ class ParkingSystem {
    Map<Integer,Integer> parkingMap;
 
         public ParkingSystem(int big, int medium, int small) {
-            parkingMap = new java.util.HashMap<>();
+            parkingMap = new  HashMap<>();
             
             parkingMap.put(1,big);
             parkingMap.put(2,medium);
