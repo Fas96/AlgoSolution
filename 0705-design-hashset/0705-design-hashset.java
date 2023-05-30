@@ -1,22 +1,4 @@
-class MyHashSet {
-
-    HashMap<Integer,Integer> map;
-    
-    public MyHashSet() {
-        map = new HashMap<>();
-    }
-
-    public void add(int key) {
-        map.putIfAbsent(key,1);
-    }
-
-    public void remove(int key) {
-        map.remove(key);
-    }
-
-    public boolean contains(int key) {
-        return map.containsKey(key);
-    }
+class MyHashSet extends HashSet<Integer> { 
 }
 
 /**
