@@ -6,6 +6,13 @@ class Solution {
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{0,0});
         int res = 0;
+        Integer res1 = bfs(grid, n, dirs, q, res);
+        if (res1 != null) return res1;
+        return -1;
+
+    }
+
+    private static Integer bfs(int[][] grid, int n, int[][] dirs, Queue<int[]> q, int res) {
         while(!q.isEmpty()){
             int size = q.size();
             res++;
@@ -13,14 +20,18 @@ class Solution {
                 int[] cur = q.poll();
                 int x = cur[0], y = cur[1];
                 if(x == n - 1 && y == n - 1) return res;
-                for(int[] dir : dirs){
-                    int nx = x + dir[0], ny = y + dir[1];
-                    if(nx < 0 || nx >= n || ny < 0 || ny >= n || grid[nx][ny] == 1) continue;
-                    grid[nx][ny] = 1;
-                    q.add(new int[]{nx,ny});
-                }
+                dirTraversal(grid, n, dirs, q, x, y);
             }
         }
-        return -1;
+        return null;
+    }
+
+    private static void dirTraversal(int[][] grid, int n, int[][] dirs, Queue<int[]> q, int x, int y) {
+        for(int[] dir : dirs){
+            int nx = x + dir[0], ny = y + dir[1];
+            if(nx < 0 || nx >= n || ny < 0 || ny >= n || grid[nx][ny] == 1) continue;
+            grid[nx][ny] = 1;
+            q.add(new int[]{nx,ny});
+        }
     }
 }
