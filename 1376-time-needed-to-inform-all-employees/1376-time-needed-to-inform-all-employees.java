@@ -1,8 +1,10 @@
 class Solution {
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         int ans=Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
-            if(informTime[i]==0) ans=Math.max(ans,dfs(i,manager,informTime));
+
+        for (int idx = 0; idx < n; idx++) {
+            //inform time is 0 for
+            if(informTime[idx]==0) ans=Math.max(ans,dfs(idx,manager,informTime));
         }
         return ans;
     }
