@@ -1,24 +1,13 @@
 class Solution {
     public int minFlips(int a, int b, int c) {
-         int totalFlips=0;
+         final int kMaxBit = 30;
+    int ans = 0;
 
-        while (a>0 || b>0 || c>0){
-            int Abit=1&a;
-            int Bbit=1&b;
-            int Cbit=1&c;
-
-            if((Abit | Bbit) !=Cbit){ 
-                if(Cbit==1){
-                    totalFlips++;
-                }else{
-                    if(Abit==1 && Bbit==1)totalFlips+=2;
-                    else if (Abit==1 || Bbit==1) totalFlips++;
-                }
-            }
-            a>>=1;
-            b>>=1;
-            c>>=1;
-        }
-        return totalFlips;
+    for (int i = 0; i < kMaxBit; ++i)
+      if ((c >> i & 1) == 1)
+        ans += ((a >> i & 1) == 0 && (b >> i & 1) == 0) ? 1 : 0;
+      else
+        ans += ((a >> i & 1) == 1 ? 1 : 0) + ((b >> i & 1) == 1 ? 1 : 0);
+    return ans;
     }
 }
