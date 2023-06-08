@@ -1,14 +1,18 @@
 class Solution {
     public int partitionString(String s) {
-      int max =(s.isEmpty())? 0:1;
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            if(map.containsKey(s.charAt(i))){
-                map.clear();
-                max++;
+         int idx=0;
+        int countPartition=1;
+        Set<Character> chrHolders=new HashSet<>();
+        while (idx<s.length()){
+            if(!chrHolders.contains(s.charAt(idx))){
+                chrHolders.add(s.charAt(idx));
+            }else {
+                countPartition++;
+                chrHolders=new HashSet<>();
+                chrHolders.add(s.charAt(idx));
             }
-            map.put(s.charAt(i), 1);
+            idx++;
         }
-        return max;
+        return countPartition;
     }
 }
