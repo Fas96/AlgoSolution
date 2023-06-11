@@ -4,32 +4,24 @@ class SnapshotArray {
     int snapID;
     
     public SnapshotArray(int length) {
-        snapID = 0;
+         snapID = 0;
         snapshotMap = new HashMap[length];
-        
-        for(int i=0; i<length; i++) {
-            snapshotMap[i] = new HashMap<>();
-        }
+        for(int i=0; i<length; i++) snapshotMap[i] = new HashMap<>();
     }
-    
+
     public void set(int index, int val) {
         snapshotMap[index].put(snapID, val);
     }
-    
-    public int snap() {
-        snapID += 1;
-        return snapID - 1;
+
+    public int snap() {  
+        return (++snapID) - 1;
     }
-    
+
     public int get(int index, int snap_id) {
         while(snap_id >= 0) {
-            if(snapshotMap[index].containsKey(snap_id)) {
-                return snapshotMap[index].get(snap_id);
-            }
-
+            if(snapshotMap[index].containsKey(snap_id)) return snapshotMap[index].get(snap_id);
             snap_id -= 1;
         }
-        
         return 0;
     }
 }
