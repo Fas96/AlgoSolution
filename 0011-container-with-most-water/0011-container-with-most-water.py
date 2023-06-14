@@ -3,10 +3,8 @@ class Solution:
         L, R = 0, len(height)-1
         maxWater = 0
 
-        while L < R:
-            W = R - L
-            H = min(height[L], height[R])
-            areaOfWater = W * H
+        while L < R: 
+            areaOfWater = (R - L) *min(height[L], height[R])
             maxWater = max(maxWater, areaOfWater)
             if height[L] > height[R]:
                 R -= 1
