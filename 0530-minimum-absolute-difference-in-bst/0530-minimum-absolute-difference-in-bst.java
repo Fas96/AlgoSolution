@@ -13,24 +13,32 @@
  *     }
  * }
  */
-class Solution {
+class Solution { 
+    private int minAbsDiff;
+    private TreeNode prevNode;
+
     public int getMinimumDifference(TreeNode root) {
-           if (root == null) return 0;
-         List<Integer> list = new ArrayList<>();
-         dfs(root, list);
-         int min = Integer.MAX_VALUE;
-         for (int i = 0; i < list.size() - 1; i++) {
-                min = Math.min(min, list.get(i + 1) - list.get(i));
-            }
+        minAbsDiff = Integer.MAX_VALUE;
+        prevNode = null;
 
-         return min;
+        inOrderTraversal(root);
 
+        return minAbsDiff;
     }
 
-    private void dfs(TreeNode root, List<Integer> list) {
-        if (root == null) return;
-        dfs(root.left, list);
-        list.add(root.val);
-        dfs(root.right, list);
+    private void inOrderTraversal(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+
+        inOrderTraversal(node.left);
+
+        if (prevNode != null) {
+            minAbsDiff = Math.min(minAbsDiff, node.val - prevNode.val);
+        }
+
+        prevNode = node;
+
+        inOrderTraversal(node.right);
     }
 }
