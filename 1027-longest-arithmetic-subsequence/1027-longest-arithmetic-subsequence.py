@@ -1,6 +1,6 @@
 class Solution:
     def longestArithSeqLength(self, nums: List[int]) -> int:
-        from collections import defaultdict
+         
         res = 0
         # default to have at least 2 subsequence
         memo = defaultdict(lambda: defaultdict(lambda: 2))
