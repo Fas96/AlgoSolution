@@ -1,10 +1,23 @@
 class Solution:
-    def tallestBillboard(self, rods: List[int]) -> int: 
-        dp = {0: 0}
-        for r in rods: 
-            for k, v in list(dp.items()): 
-                dp[k+r] = max(dp.get(k+r, 0), v+r) 
-                dp[k-r] = max(dp.get(k-r, 0), v)
-      
-        return dp[0]
+    def tallestBillboard(self, rods: List[int]) -> int:
+        
+        def dfs(nums,idx,diff,ans):
+            if (idx,diff) in ans:
+                return ans[(idx,diff)]
+            
+            if idx >=len(nums):
+                if diff:
+                    return float('-inf')
+                return 0
+            
+            long=dfs(nums,idx+1,diff+nums[idx],ans)
+            skip=dfs(nums,idx+1,diff,ans)
+            short=dfs(nums,idx+1,abs(nums[idx]-diff),ans)+min(diff,nums[idx])
+            
+            ans[(idx,diff)]=max(long,short,skip)
+            return ans[(idx,diff)]   
+        
+        
+        ans={}
+        return dfs(rods,0,0,ans)
         
