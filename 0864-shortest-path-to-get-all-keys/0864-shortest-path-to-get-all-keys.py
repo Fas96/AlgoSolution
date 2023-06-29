@@ -5,10 +5,10 @@ class Solution:
         total = 0
         ROWS = len(grid)
         COLS = len(grid[0])
-        visited = set() # Initiate hashset
+        visited = set()  
         
         
-		# 1. Iterate over grid and find starting position and total no. of keys.
+		 
         for i in range(len(grid)):
             for j in range(len(grid[0])):
                 if grid[i][j] == "@":
@@ -16,9 +16,8 @@ class Solution:
                 if grid[i][j] in 'abcdef':
                     total += 1
         
-        queue = [(start[0], start[1], tuple(), 0)] # Initiate queue using list of tuples, add starting position to queue (row, col, set(keys), no. of moves)
-        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)] # can either move up, down, left or right
-        
+        queue = [(start[0], start[1], tuple(), 0)]  
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]  
         while queue:
             i, j, keys, moves = queue.pop(0)   
             if (i, j, keys) not in visited: # only check if that position has not already been visited whilst we have the same collection of keys.
