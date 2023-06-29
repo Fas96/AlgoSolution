@@ -20,9 +20,9 @@ class Solution:
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]  
         while queue:
             i, j, keys, moves = queue.pop(0)   
-            if (i, j, keys) not in visited: # only check if that position has not already been visited whilst we have the same collection of keys.
-                visited.add((i, j, keys))   # add combination to set     
-                if len(set(keys)) == total: # if no of keys we have obtained is equal to total then we have found the minimum number of moves.
+            if (i, j, keys) not in visited:  
+                visited.add((i, j, keys))      
+                if len(set(keys)) == total: 
                     return moves
                 
                 for x, y in directions:
