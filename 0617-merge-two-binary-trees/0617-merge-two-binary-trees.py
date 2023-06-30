@@ -11,21 +11,19 @@ class Solution:
             return root2
         if not root2:
             return root1
-        queue = [(root1, root2)]
-        while queue:
-            node1, node2 = queue.pop(0)
-            node1.val += node2.val
-            
-            if node1.left and node2.left:
-                queue.append((node1.left, node2.left))
-                
-            elif node2.left:
-                node1.left = node2.left
-                
-            if node1.right and node2.right:
-                queue.append((node1.right, node2.right))
-                
-            elif node2.right:
-                node1.right = node2.right
+        q = [(root1, root2)]
+        while q:
+            f, s = q.pop(0)
+            f.val += s.val
+            if f.left and s.left:
+                q.append((f.left, s.left))
+            elif s.left:
+                f.left = s.left
+            if f.right and s.right:
+                q.append((f.right, s.right))
+            elif s.right:
+                f.right = s.right
+
         return root1
+         
         
