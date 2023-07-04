@@ -1,11 +1,10 @@
 class Solution:
-    def singleNumber(self, nums: List[int]) -> int:
+    def singleNumber(self, nums: List[int]) -> int: 
         
-        ans = temp = 0
-        
-        for n in nums:
-            ans=(ans ^ n)&  ~temp
-            temp=(temp ^ n)& ~ans
-        
-        return ans
+        d = defaultdict(dict)
+        for num in nums: d[num] = d.get(num, 0) + 1
+        for k, v in d.items():
+            if v == 1:
+                return k
+        return -1
         
