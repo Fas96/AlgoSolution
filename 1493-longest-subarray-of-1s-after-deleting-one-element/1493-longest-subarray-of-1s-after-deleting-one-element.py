@@ -6,8 +6,7 @@ class Solution:
         l = 0
         ans = 0
         for r in range(n):
-            dd[nums[r]] += 1
-            print(dd)
+            dd[nums[r]] += 1 
             while dd[0] > 1:
                 dd[nums[l]] -= 1
                 l += 1
