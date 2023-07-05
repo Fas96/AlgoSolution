@@ -8,9 +8,11 @@ class Solution:
                 return
             if total > target or idx >= len(candidates):
                 return
+            dfs(idx + 1, cur, total)
             cur.append(candidates[idx])
             dfs(idx, cur, total + candidates[idx])
             cur.pop()
-            dfs(idx + 1, cur, total)
+
         dfs(0, [], 0)
         return res
+        
