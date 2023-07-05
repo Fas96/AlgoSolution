@@ -1,10 +1,8 @@
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         
-        n = len(nums)
-        dd = defaultdict(int)
-        l = 0
-        ans = 0
+        l,ans,n ,dd= 0,0,len(nums),defaultdict(int)
+         
         for r in range(n):
             dd[nums[r]] += 1 
             while dd[0] > 1:
