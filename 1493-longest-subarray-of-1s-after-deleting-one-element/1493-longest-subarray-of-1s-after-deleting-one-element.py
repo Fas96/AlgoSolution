@@ -2,13 +2,14 @@ class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         
         n = len(nums)
-        defauldict = defaultdict(int)
+        dd = defaultdict(int)
         l = 0
         ans = 0
         for r in range(n):
-            defauldict[nums[r]] += 1
-            while defauldict[0] > 1:
-                defauldict[nums[l]] -= 1
+            dd[nums[r]] += 1
+            print(dd)
+            while dd[0] > 1:
+                dd[nums[l]] -= 1
                 l += 1
             ans = max(ans, r - l)
         return ans
