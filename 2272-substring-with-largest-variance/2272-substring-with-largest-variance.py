@@ -1,19 +1,22 @@
 class Solution:
     def largestVariance(self, s: str) -> int:
-        ans = 0
-        for x in "abcdefghijklmnopqrstuvwxyz":
-            for y in "abcdefghijklmnopqrstuvwxyz":
-                if x != y:
-                    prefix = 0
-                    buff = 0
-                    m = 10000
-                    for ch in s:
-                        if ch == x:
-                            prefix += 1
-                        elif ch == y:
-                            m = min(m, buff)
-                            prefix-=1
-                            buff = prefix
-                        ans = max(ans, prefix - m)
+        ans, freq,N = 0, Counter(s),len(s)
+         
+         
+        for x, y in permutations(set(s), 2): 
+            if freq[x]==1: 
+                continue
+            xy, d = 0,- N
+            for c in s:
+                if c==x:
+                    xy += 1
+                    d += 1
+                elif c==y:
+                    xy -= 1
+                    d = xy 
+                    if xy<0: 
+                        xy = 0
+                if ans<d:
+                    ans = d
         return ans
         
