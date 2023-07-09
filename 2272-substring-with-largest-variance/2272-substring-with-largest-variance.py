@@ -14,9 +14,16 @@ class Solution:
                 elif c==y:
                     xy -= 1
                     d = xy 
-                    if xy<0: 
-                        xy = 0
-                if ans<d:
-                    ans = d
+                    xy=max(xy,0)
+                ans=max(d,ans) 
         return ans
         
+'''
+BR
+For each pair of chars (x, y),  We need two variables xy and d to record values of 'x-y' for "x>=y"
+xy : current difference of x and y 
+d : possible difference of x and y with "at least one y"
+If we meet x, xy and d will increase 1
+If we meet y, xy will decrease 1 and d will used to record current xy.
+Note "x>=y" is needed, so we will be reset xy as 0 if xy < 0
+'''
