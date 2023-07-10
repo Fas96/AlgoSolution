@@ -7,26 +7,27 @@
 class Solution:
     def minDepth(self, root: Optional[TreeNode]) -> int: 
         
-        if root is None: return 0
-        
-        q=[root]
-        cnt =1
-        
-        while q:
-            L = len(q)
-            for node in range(L):
-                curNode=q.pop(0)
-                
-                if curNode is None:
+        def recursive_bfs(queue, depth):
+            if not queue:
+                return depth
+
+            nextLevel = []
+            for node in queue:
+                if node is None:
                     continue
-                if not (curNode.left or curNode.right):
-                    return cnt
+                if not (node.left or node.right):
+                    return depth
                 else:
-                    q.append(curNode.left)
-                    q.append(curNode.right)
-                
-            cnt+=1
-        return cnt
+                    nextLevel.append(node.left)
+                    nextLevel.append(node.right)
+
+            return recursive_bfs(nextLevel, depth + 1)
+
+        if root is None:
+            return 0
+
+        return recursive_bfs([root], 1)
+        
                 
                 
         
