@@ -1,16 +1,16 @@
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
+        
         N = len(graph)
-        visited = [0] * N
-        def dfs(node):
-            if visited[node] == 1:
-                return True
-            if visited[node] == 2:
-                return False
-            visited[node] = 2
-            for nei in graph[node]:
+        safeNode = {}
+
+        def dfs(idx):
+            if idx in safeNode:
+                return safeNode[idx]
+            safeNode[idx] = False
+            for nei in graph[idx]:
                 if not dfs(nei):
-                    return False
-            visited[node] = 1
+                    return safeNode[idx]
+            safeNode[idx] = True
             return True
         return [i for i in range(N) if dfs(i)]
