@@ -1,15 +1,26 @@
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
-        def manD(p1, p2):
-            return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
-
+        g = collections.defaultdict(list)
         n = len(points)
-        g= {(x,y): float('inf') if i else 0 for i,(x,y) in enumerate(points)}
+        
+        for i in range(n):
+            for j in range(n):
+                if i != j:
+                    g[i].append((abs(points[j][0]-points[i][0])+abs(points[j][1]-points[i][1]), j))
+    
+        heap = [(0,0)]
         ans = 0
-        while g:
-            x,y = min(g, key=g.get)
-            ans += g.pop((x,y))
-            for (i,j) in g:
-                g[(i,j)] = min(g[(i,j)], manD((x,y), (i,j)))
+        visited = set()
+        while heap:
+            weight, to = heapq.heappop(heap)
+            if to in visited:
+                continue
+            ans += weight
+            visited.add(to)
+    
+            for cost, nei in g[to]:
+                if nei not in visited:
+                    heapq.heappush(heap, (cost, nei))
+    
         return ans
         
