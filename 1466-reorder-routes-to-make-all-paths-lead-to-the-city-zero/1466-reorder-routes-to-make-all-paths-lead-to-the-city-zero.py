@@ -4,16 +4,16 @@ class Solution:
         for u, v in connections:
             adjList[u].append((v, 1))
             adjList[v].append((u, 0))
-        print(adjList)
+        
         visited = set()
-        res = 0
+        changeEdges = 0
         queue = collections.deque([0])
         while queue:
             node = queue.popleft()
             visited.add(node)
             for neighbor, direction in adjList[node]:
                 if neighbor not in visited:
-                    res += direction
+                    changeEdges += direction
                     queue.append(neighbor)
-        return res
+        return changeEdges
         
