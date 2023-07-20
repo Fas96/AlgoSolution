@@ -9,6 +9,7 @@ class Solution:
             s+=(word1[i])
             s+=(word2[i])
             cnt+=1
+            
         for i in range(cnt,w1):
             s+=(word1[i])
         for i in range(cnt,w2):
