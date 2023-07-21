@@ -4,7 +4,7 @@ class Solution:
         if len(set(nums)) == 1: return n
         dp = [1] * n
         cnt = [1] * n
-        for i in range(n):
+        for i in range(n): 
             for j in range(i):
                 if nums[j] < nums[i]:
                     if dp[j] + 1 > dp[i]:
