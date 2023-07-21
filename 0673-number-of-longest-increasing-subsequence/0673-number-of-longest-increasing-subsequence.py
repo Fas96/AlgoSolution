@@ -1,25 +1,13 @@
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
-        cache = {}
-        def lis(i): 
-            if i < 0:  return (0, 0) 
-            
-            if i in cache: return cache[i]
- 
-            subseqences = [(0,1)]
-
-            for j in range(i - 1, -1, -1):
-                if nums[j] < nums[i]: subseqences.append(lis(j))
- 
-            longest = max(subseqences)[0]
- 
-            count = sum(i[1] for i in subseqences if i[0] == longest)
- 
-            cache[i] = (longest + 1, count)
-
-            return (longest + 1, count)
- 
-        subseqences = [lis(i) for i in range(len(nums) - 1, -1, -1)]
- 
-        return sum(i[1] for i in subseqences if i[0] == max(subseqences)[0])
+        sub,nums_max,nums_dict=[],[],collections.defaultdict(list)
+        for num in nums:
+            index=bisect.bisect_left(sub,num)
+            if index==len(sub):
+                sub.append(num)
+            else:
+                sub[index]=num
+            nums_max.append(index)
+            nums_dict[index].append((sum([lens if max_<num else 0  for lens,max_ in nums_dict[index-1]]) or 1,num))
+        return sum([i for i,_ in nums_dict[len(sub)-1]])
         
