@@ -1,14 +1,11 @@
 class Solution:
     def maxRunTime(self, n: int, batteries: List[int]) -> int:
-        def check(mid):
-            return sum(min(mid, v) for v in batteries) >= n * mid
+        batteries.sort()
+        extra = sum(batteries[:-n])
+        batteries = batteries[-n:]
         
-        low, high = 0, sum(batteries)//n
-        while low < high:
-            mid = (low + high) // 2
-            if check(mid):
-                low = mid + 1
-            else:
-                high = mid
-        
-        return low if check(low) else low-1
+        ans = prefix = 0 
+        for i, x in enumerate(batteries): 
+            prefix += x 
+            if i+1 < len(batteries) and batteries[i+1]*(i+1) - prefix > extra: return (prefix + extra) // (i+1)
+        return (prefix + extra) // n
