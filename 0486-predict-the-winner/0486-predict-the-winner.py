@@ -6,12 +6,8 @@ class Solution:
         def op(nums: List, left: int, right: int):
             if (left, right) not in tb:
                 
-                if left == right:  return nums[left]
-               
-                p_left = nums[left] - op(nums, left + 1, right)
-                p_right = nums[right] - op(nums, left, right - 1)
-
-                tb[(left, right)] = max(p_left, p_right)
+                if left == right:  return nums[left] 
+                tb[(left, right)] = max(nums[left] - op(nums, left + 1, right), nums[right] - op(nums, left, right - 1))
             else:
                 return tb[(left, right)]
                 
