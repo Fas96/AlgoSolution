@@ -1,13 +1,19 @@
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
-        n = len(nums)
-        dp = [[0] * n for _ in range(n)]
+         
+        self.tb = defaultdict(int)
 
-        for i in range(n):
-            dp[i][i] = nums[i]
+        def op(nums: List, left: int, right: int):
 
-        for i in range(n - 2, -1, -1):
-            for j in range(i + 1, n):
-                dp[i][j] = max(nums[i] - dp[i + 1][j], nums[j] - dp[i][j - 1])
+            if left == right:
+                return nums[left]
 
-        return dp[0][n - 1] >= 0
+            if (left, right) in self.tb:
+                return self.tb[(left, right)]
+            choose_left = nums[left] - op(nums, left + 1, right)
+            choose_right = nums[right] - op(nums, left, right - 1)
+
+            self.tb[(left, right)] = max(choose_left, choose_right)
+            return self.tb[(left, right)] 
+        
+        return op(nums, left=0, right=len(nums) - 1) >= 0
