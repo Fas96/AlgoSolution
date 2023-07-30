@@ -1,20 +1,14 @@
 class Solution:
     def soupServings(self, n: int) -> float:
-        if n>4275:
-            return 1
-        n/=25    
-        @cache
-        def dfs(a,b):
-            if a<=0 and b>0:
-                return 1
+        if n >= 4276: return 1.0
 
-            elif a<=0 and b<=0:
-                return 0.5
+        @lru_cache(None)
+        def dfs(a: int, b: int)->float:
 
-            elif a>0 and b<=0:
-                return 0
+            if a <= 0 and b <= 0: return 0.5
+            if a <= 0 or b <= 0: return a <= 0
 
-            return (dfs(a-4,b)+dfs(a-3,b-1)+dfs(a-2,b-2)+dfs(a-1,b-3))*0.25
-
+            return (dfs(a-100,b)   + dfs(a-75,b-25) + 
+                    dfs(a-50,b-50) + dfs(a-25,b-75))*.25
         
-        return dfs(n,n) 
+        return dfs(n,n)
