@@ -8,5 +8,6 @@ class Solution:
                     mp[i,j]=mp[i-1,j-1]+ord(s1[i])
                 else:
                     mp[i,j]=max(mp[i-1,j],mp[i,j-1])
+        
         t_ascii=sum(map(ord,s1))+sum(map(ord,s2))
         return t_ascii-2*mp[m-1,n-1]
