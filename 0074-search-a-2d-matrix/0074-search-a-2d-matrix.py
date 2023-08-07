@@ -4,8 +4,9 @@ class Solution:
         if len(matrix[0]) == 0: return False
         m, n = len(matrix), len(matrix[0])
         l, r = 0, m * n - 1
-        while l <= r:
-            mid = (l + r) // 2
+        while l <= r: 
+            # mid=l + ((r - l) //2)
+            mid= (l + r) >> 1; 
             if matrix[mid // n][mid % n] == target:
                 return True
             elif matrix[mid // n][mid % n] < target:
