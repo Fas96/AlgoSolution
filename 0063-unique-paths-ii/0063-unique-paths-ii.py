@@ -3,25 +3,25 @@ class Solution:
         
         row = len(obstacleGrid)
         col = len(obstacleGrid[0])
-
-        dp = [[0 for i in range(col)] for j in range(row)]
-
-        for i in range(row):
-            if obstacleGrid[i][0] == 0:
-                dp[i][0] = 1
-            else:
-                break
-
-        for j in range(col):
-            if obstacleGrid[0][j] == 0:
-                dp[0][j] = 1
-            else:
-                break
-
-        for i in range(1, row):
-            for j in range(1, col):
-                if obstacleGrid[i][j] == 0:
-                    dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
-
-        return dp[row - 1][col - 1]
+        isCachede=[[False]*col for _ in range(row)]
+        cache=[[None]*col for _ in range(row)]
+        
+        def pathCount(x,y):
+            if obstacleGrid[x][y]== 1:
+                return 0
+            if x==0 and y==0:
+                return 1
+            if isCachede[x][y]:
+                return cache[x][y]
+            path=0
+            if x-1>=0:
+                path+=pathCount(x-1,y)
+            if y-1>=0:
+                path+=pathCount(x,y-1)
+            isCachede[x][y]=True
+            cache[x][y]=path
+            return path
+        return pathCount(row-1,col-1)
+                
+        
         
