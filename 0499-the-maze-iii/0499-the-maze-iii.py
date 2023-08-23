@@ -7,12 +7,13 @@ class Solution:
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
         Maps = {(0, 1): "r", (0, -1): "l", (1, 0): "d", (-1, 0): "u"}
 
-        pQ = [(0, ball[0], ball[1], "")]
-        while pQ:
-            cost, row, col, path = heapq.heappop(pQ)
-            if (row, col) in visit:
-                continue
+        minHeap = [(0, ball[0], ball[1], "")]
+        while minHeap:
+            cost, row, col, path = heapq.heappop(minHeap)
+            
+            if (row, col) in visit:continue
             visit.add((row, col))
+            
             if [row, col] == hole:
                 return path
 
@@ -28,7 +29,7 @@ class Solution:
                     C = C + dCol
                 if (R, C) not in visit:
                     p = Maps[(dRow, dCol)]
-                    heapq.heappush(pQ, (cost + k, R, C, path + p))
+                    heapq.heappush(minHeap, (cost + k, R, C, path + p))
 
         return "impossible"
         
