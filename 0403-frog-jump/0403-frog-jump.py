@@ -15,9 +15,7 @@ class Solution:
             
             while nextIdx<len(ss) and ss[nextIdx]<=ss[curIdx]+lastJump+1:
                 nextJump=ss[nextIdx]-ss[curIdx]
-                jump=nextJump-lastJump
-                
-                
+                jump=nextJump-lastJump 
                 if jump>=-1 and jump<=1:
                     if recurJump(ss,curIdx,nextIdx):
                         return True
