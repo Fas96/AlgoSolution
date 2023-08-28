@@ -1,7 +1,3 @@
-import math
-import operator as op
-from functools import reduce
-
 
 class Solution:
     def numTrees(self, n: int) -> int:
