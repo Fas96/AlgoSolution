@@ -8,4 +8,4 @@ class Node:
 
 class Solution:
     def cloneTree(self, root: 'Node') -> 'Node':
-        return deepcopy(root)
+        return root and Node(root.val, list(map(self.cloneTree, root.children)))
