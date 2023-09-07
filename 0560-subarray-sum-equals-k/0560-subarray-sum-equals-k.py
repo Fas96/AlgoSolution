@@ -1,15 +1,14 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         
-        running_sum = 0
+        ps = 0
         count = 0
         sum_freq = {0: 1} 
         for num in nums:
-            running_sum += num
-            if running_sum - k in sum_freq:
-                count += sum_freq[running_sum - k]
-            sum_freq[running_sum] = sum_freq.get(running_sum, 0) + 1
-
+            ps += num
+            if ps - k in sum_freq:
+                count += sum_freq[ps - k]
+            sum_freq[ps] = sum_freq.get(ps, 0) + 1
         return count
 #         c={}
 #         @cache
