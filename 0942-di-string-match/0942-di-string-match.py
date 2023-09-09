@@ -8,7 +8,7 @@ class Solution:
             if c=='I':
                 perm.append(L)
                 L+=1
-            elif c=='D':
+            else:
                 perm.append(R)
                 R-=1
         perm.append(L)
