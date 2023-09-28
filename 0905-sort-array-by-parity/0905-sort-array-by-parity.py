@@ -1,13 +1,11 @@
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
-    
-        evn=[]
+        even=[]
         odd=[]
-        for i,v in enumerate(nums):
-            if v&1:
-                odd.append(v)
+        for x in nums:
+            if x&1==1:
+                odd.append(x)
             else:
-                evn.append(v)
-    
-        return evn+odd
+                even.append(x)
+        return even+odd
         
