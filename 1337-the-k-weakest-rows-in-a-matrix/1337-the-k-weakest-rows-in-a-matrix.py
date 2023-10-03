@@ -7,12 +7,6 @@ class Solution:
             ll.append([idx, mat[idx].count(1)])
             
         ll.sort(key=lambda x: x[1])
-   
-        
-        ans=[]
-        for i in ll:
-            ans.append(i[0])
-            if len(ans)==k:
-                break
-        return ans
+ 
+        return [v[0] for v in ll[:k]]
             
