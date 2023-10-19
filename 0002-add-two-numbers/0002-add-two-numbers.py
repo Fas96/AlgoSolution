@@ -14,6 +14,7 @@ class Solution:
                 
         listNodeToVal(l1, l1Val)
         listNodeToVal(l2, l2Val)
+        # reverse
         
         l1Val.reverse()
         l2Val.reverse()
