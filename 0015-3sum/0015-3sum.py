@@ -6,6 +6,9 @@ class Solution:
             if I > 0 and nums[I] == nums[I-1]:
                 continue
             L = I + 1
+            
+            
+            
             R = len(nums)-1
             while L < R:
                 threeSum = nums[I] + nums[L] + nums[R]
