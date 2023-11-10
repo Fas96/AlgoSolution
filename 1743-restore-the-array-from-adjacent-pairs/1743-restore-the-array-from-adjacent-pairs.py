@@ -8,6 +8,7 @@ class Solution:
         ans = []
         seen = set()
         stack = [next(x for x in graph if len(graph[x]) == 1)]
+         
         while stack: 
             n = stack.pop()
             ans.append(n)
