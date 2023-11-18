@@ -1,25 +1,19 @@
-class Solution(object):
-    def numMusicPlaylists(self, n, goal, k):
-        songComb={}
-        MOD=10**9+7
-        
-        def songc(idx,jdx):
-            
-            if (idx,jdx) in songComb:
-                return songComb[idx,jdx]
-            
-            if idx == 0:
-                songComb[idx,jdx]=(jdx==0)
-                return songComb[idx,jdx]
-            
-            
-            curRepeats=songc(idx-1, jdx) * ( jdx - k ) if jdx > k else 0 
-            curUnique=songc(idx-1, jdx-1)*(n-(jdx-1))
-             
-            songComb[idx,jdx]=(curRepeats+curUnique)%(MOD)
-            
-            return songComb[idx,jdx]
-            
-        return songc(goal,n)
-        
+class Solution:
+    def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:
+        mod=10**9+7
+        @cache
+        def fn(i,x):
+            if i==goal:
+                return x==n
+
+            ans=0
+            if x<n:
+                ans+=(n-x)*fn(i+1,x+1)
+
+            if k<x:
+                ans+=(x-k)*fn(i+1,x)
+
+            return ans%mod
+
+        return fn(0,0)
         
