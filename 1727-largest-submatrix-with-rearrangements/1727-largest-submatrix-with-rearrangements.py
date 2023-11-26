@@ -1,6 +1,15 @@
 class Solution:
     def largestSubmatrix(self, matrix: List[List[int]]) -> int:
-        def prefix_sum(row_s, row):
-            return list(map(lambda s, n: (s+n)*n, row_s, row))
-        return max(max(map(mul, sorted(row, reverse = True), count(1))) for row in accumulate(matrix, prefix_sum))
+        row=len(matrix)
+        col=len(matrix[0])
+        ans=0
+        for r in range(1,row):
+            for c in range(col):
+                matrix[r][c]+=matrix[r-1][c] if matrix[r][c] else 0
+
+        for r in range(row):
+            matrix[r].sort(reverse=True)
+            for c in range(col):
+                ans=max(ans,(c+1)*matrix[r][c])
+        return ans
         
