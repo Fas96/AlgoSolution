@@ -1,18 +1,12 @@
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
-        n = len(nums)
-        ans = 0
-        cnt = [defaultdict(int) for _ in range(n)]
-
+        n=len(nums)
+        dp=[defaultdict(int) for _ in range(n)]
+        res=0
         for i in range(n):
             for j in range(i):
-                delta = nums[i] - nums[j]
-                if delta < -2**31 or delta > 2**31 - 1:
-                    continue
-                diff = int(delta)
-                sum_val = cnt[j][diff]
-                origin = cnt[i][diff]
-                cnt[i][diff] = origin + sum_val + 1
-                ans += sum_val
+                diff=nums[i]-nums[j]
+                dp[i][diff]+=(1+dp[j][diff])
+                res+=dp[j][diff]
 
-        return int(ans)
+        return res
