@@ -1,9 +1,4 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        rob1,rob2 = 0,0
-        for b in nums:
-            temp = max(rob1 + b, rob2)
-            rob1 = rob2
-            rob2 = temp
-        return rob2
+         return reduce(lambda a, x: (a[1], max(a[1], a[0] + x)), nums, (0, 0))[1]
         
