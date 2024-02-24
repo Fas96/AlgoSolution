@@ -1,6 +1,6 @@
 class Solution:
     def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:
-        L,res,n=0,0,len(nums) 
+        L,ANS,n=0,0,len(nums) 
         R=L
         while R<n:
             while R < n and nums[L]%2==0 and nums[R]<=threshold:
@@ -11,6 +11,6 @@ class Solution:
                 if R==n: 
                     R-= 1
                 if nums[R]<=threshold: 
-                    res = max(res , R-L+1)
+                    ANS = max(ANS , R-L+1)
             R+=1;L=R
-        return res
+        return ANS
