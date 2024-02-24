@@ -9,16 +9,16 @@ class Solution:
         if k > 0:
           
             for i in range(N):
-                sum = 0
+                sm = 0
                 for j in range(1, k + 1): 
-                    sum += code[(i + j) % N] 
-                ans[i] = sum
+                    sm += code[(i + j) % N] 
+                ans[i] = sm
         else:
             for i in range(N):
-                sum = 0
+                sm = 0
                 for j in range(1, -k + 1): 
-                    sum += code[(i - j) % N] 
-                ans[i] = sum
+                    sm += code[(i - j) % N] 
+                ans[i] = sm
         return ans
             
             
