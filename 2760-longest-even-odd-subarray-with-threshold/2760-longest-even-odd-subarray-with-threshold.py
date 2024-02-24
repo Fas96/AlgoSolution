@@ -1,5 +1,5 @@
 class Solution:
-    def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:
+    def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int: 
         L,ANS,n=0,0,len(nums) 
         R=L
         while R<n:
@@ -14,3 +14,4 @@ class Solution:
                     ANS = max(ANS , R-L+1)
             R+=1;L=R
         return ANS
+            
