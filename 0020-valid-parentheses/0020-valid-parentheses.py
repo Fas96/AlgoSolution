@@ -1,8 +1,12 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        while "()" in s or "{}" in s or "[]" in s:
-            s = s.replace("{}","").replace("[]","").replace("()","")
-
-        return(len(s) == 0)
+        mp = {'(':')', '{':'}','[':']'}
+        stk = []
+        for i in s:
+            if i in mp:
+                stk.append(i)
+            elif len(stk) == 0 or mp[stk.pop()] != i:
+                return False
+        return len(stk) == 0
                     
         
