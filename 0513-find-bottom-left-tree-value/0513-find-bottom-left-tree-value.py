@@ -8,15 +8,13 @@ class Solution:
     val = float('inf')
     height = 0
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
-        def dfs(root: Optional[TreeNode],height: int):
+        def dfs(root,h):
+            if not root: return None
 
-            if not root:
-                return None
-
-            left, right = dfs(root.left,height + 1), dfs(root.right, height + 1)
+            left, right = dfs(root.left,h + 1), dfs(root.right, h + 1)
                 
-            if root and height > self.height and not (root.left or root.right):
-                self.height = height
+            if root and h > self.height and not (root.left or root.right):
+                self.height = h
                 self.val = root.val
 
             return root
