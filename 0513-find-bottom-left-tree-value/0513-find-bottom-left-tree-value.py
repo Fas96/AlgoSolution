@@ -5,21 +5,20 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    val = float('inf')
-    height = 0
+    
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
+        self.val = float('inf')
+        self.H = 0
         def dfs(root,h):
             if not root: return None
-
-            left, right = dfs(root.left,h + 1), dfs(root.right, h + 1)
-                
-            if root and h > self.height and not (root.left or root.right):
-                self.height = h
+            L, R = dfs(root.left,h + 1), dfs(root.right, h + 1)
+            if root and h > self.H and not (root.left or root.right):
+                self.H = h
                 self.val = root.val
 
             return root
         
-        dfs(root, self.height)
+        dfs(root, self.H)
 
-        return self.val if self.height > 0 else root.val 
+        return self.val if self.H > 0 else root.val 
         
