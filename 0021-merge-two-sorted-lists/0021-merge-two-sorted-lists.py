@@ -3,30 +3,26 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+class Node:
+    def __init__(self, data, next=None): 
+        self.data = data
+        self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        minH1 = []
-        minH2 = []
-        cur1 = list1
-        cur2 = list2
-        while cur1:
-            heapq.heappush(minH1, cur1.val)
-            cur1 = cur1.next
-        while cur2:
-            heapq.heappush(minH2, cur2.val)
-            cur2 = cur2.next
-        dummy = ListNode()
-        cur = dummy
-        while minH1 and minH2:
-            if minH1[0] < minH2[0]:
-                cur.next = ListNode(heapq.heappop(minH1))
-            else:
-                cur.next = ListNode(heapq.heappop(minH2))
-            cur = cur.next
-        while minH1:
-            cur.next = ListNode(heapq.heappop(minH1))
-            cur = cur.next
-        while minH2:
-            cur.next = ListNode(heapq.heappop(minH2))
-            cur = cur.next
+        self.l1=[]
+        def trace(l):
+            if not l: return self.l1
+            self.l1.append(l.val)
+            trace(l.next)
+        trace(list1)
+        trace(list2)
+        v=sorted(self.l1)
+        dummy = ListNode(0)
+        current = dummy
+        for val in v:
+            current.next = ListNode(val)
+            current = current.next   
+        
         return dummy.next
+        
+        
