@@ -7,6 +7,8 @@
 class Solution:
     
     def findBottomLeftValue(self, root: Optional[TreeNode]) -> int:
+        if not root: return 0
+        
         self.val = float('inf')
         self.H = 0
         def dfs(root,h):
