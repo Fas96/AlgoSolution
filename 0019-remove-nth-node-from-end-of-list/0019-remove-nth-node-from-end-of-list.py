@@ -12,8 +12,6 @@ class Solution:
             lis.append(d)
             d=d.next
          
-        held=[]
-        
         N = len(lis)
         skip_index = N - n
  
