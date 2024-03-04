@@ -6,9 +6,8 @@ class Solution:
                 nums[L]=nums[R]
                 L+=1
             R+=1
-        print(nums)
         return L
-                
+        
         
         
      
