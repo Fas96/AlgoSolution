@@ -1,21 +1,21 @@
 class MyHashMap:
 
     def __init__(self):
-        self.map={}
+        self.mp={}
         
 
     def put(self, key: int, value: int) -> None:
-        self.map[key]=value
-        return None
+        self.mp[key]=(key,value)
         
 
     def get(self, key: int) -> int:
-        val=self.map.get(key) 
-        return val if val is not None else -1
+        if key not in self.mp:return -1
+        return self.mp[key][1]
+        
 
     def remove(self, key: int) -> None:
-        if key in self.map:
-            del self.map[key]
+        if key in self.mp:
+            del self.mp[key]
         
 
 
