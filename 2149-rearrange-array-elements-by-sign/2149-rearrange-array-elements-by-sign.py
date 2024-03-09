@@ -1,9 +1,20 @@
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
-        li,li1,res=[],[],[]
-        for i in nums:
-            if i>0:   li.append(i)
-            else:   li1.append(i)
-        for i in range(len(li)):
-            res.extend([li[i],li1[i]])
-        return res
+        pos,neg=[],[]
+        for x in nums:
+            if x>0:
+                pos.append(x)
+            if x<0:
+                neg.append(x)
+        pl,nl=len(pos),len(neg)
+        
+        ans=[]
+        
+        for i in range(max(pl,nl)):
+            if i<pl:
+                ans.append(pos[i])
+            if i<nl:
+                ans.append(neg[i])
+        
+        return ans
+        
