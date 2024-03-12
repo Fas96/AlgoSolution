@@ -5,21 +5,24 @@
 #         self.next = next
 class Solution:
     def removeZeroSumSublists(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        dummyHead, acc = ListNode(next=head), 0
-        nodeBySum = {
-            acc: dummyHead,
-        }
+        dummy = ListNode(0)
+        dummy.next = head
+        prefixSum = 0
+        sumTable = {0: dummy} 
         while head:
-            acc += head.val
-            if acc in nodeBySum:
-                cursor, temp = nodeBySum[acc].next, acc
-                while cursor is not head:
-                    temp += cursor.val
-                    cursor = nodeBySum.pop(temp).next
-                nodeBySum[acc].next = cursor.next
-            else:
-                nodeBySum[acc] = head
+            prefixSum += head.val
+            sumTable[prefixSum] = head
             head = head.next
 
-        return dummyHead.next
+         
+        head = dummy
+        prefixSum = 0
+ 
+        while head:
+            prefixSum += head.val 
+            head.next = sumTable[prefixSum].next
+            head = head.next
+
+        return dummy.next
+        
         
