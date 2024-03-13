@@ -9,6 +9,7 @@ class Solution:
             elif n <= s:
                 s = n 
             elif n > s:
+                print(f,s,n)
                 return True 
         return False
         
