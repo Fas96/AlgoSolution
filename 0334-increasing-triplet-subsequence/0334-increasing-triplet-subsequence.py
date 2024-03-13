@@ -8,8 +8,7 @@ class Solution:
                 f = n 
             elif n <= s:
                 s = n 
-            elif n > s:
-                print(f,s,n)
+            elif n > s: 
                 return True 
         return False
         
