@@ -4,20 +4,22 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:  
-    ans=0
+class Solution:
+ 
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        if not root: return 0
-        
-        def dfs(node,target):
-            if not node: return 0
-            if (node.val==target):self.ans+=1
-            dfs(node.left,target-node.val)
-            dfs(node.right,target-node.val)
-        
+        self.count = 0
+        def sum(node, targetSum):
+            if node is None:
+                return 
+            elif node.val==targetSum:
+                self.count+=1
+            sum(node.left, targetSum-node.val)
+            sum(node.right, targetSum-node.val)
+        def dfs(node, target):
+            if node is None:
+                return 
+            sum(node, target)
+            dfs(node.left, target)
+            dfs(node.right,target)
         dfs(root, targetSum)
-        self.pathSum(root.left, targetSum)
-        self.pathSum(root.right, targetSum)
-        return self.ans
-        
-        
+        return self.count
