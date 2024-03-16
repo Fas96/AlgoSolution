@@ -1,19 +1,19 @@
 class Solution:
     def findMaxLength(self, nums: List[int]) -> int:
-        mp=defaultdict(int)
-        mp[0]=-1
+        ones=0
+        zeros=0
         ans=0
-        curs=0
+        mp={0:-1}
         for i,x in enumerate(nums):
-            if x==1:
-                curs+=1
+            if x == 1:
+                ones+=1
+            if x == 0:
+                zeros+=1
+            d=zeros-ones
+            if d in mp:
+                ans=max(ans,i-mp[d])
             else:
-                curs-=1
-    
-            if curs in mp:
-                ans=max(ans,i-mp[curs])
-            else:
-                mp[curs]=i
-
+                mp[d]=i
+                
         return ans
         
