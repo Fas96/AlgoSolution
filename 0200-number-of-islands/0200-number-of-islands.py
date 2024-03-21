@@ -24,16 +24,16 @@ class Solution:
         m, n = len(grid), len(grid[0])
         uf = UnionFind(m*n)
         
-        component = 0
+        T = 0
         for r in range(m):
             for c in range(n):
                 if grid[r][c] == "0": continue
-                component += 1
+                T += 1
                 curId = r * n + c
                 for i in range(4):
                     nr, nc = r + DIR[i], c + DIR[i+1]
                     if nr < 0 or nr == m or nc < 0 or nc == n or grid[nr][nc] == "0": continue
                     neiId = nr * n + nc
                     if uf.union(curId, neiId):
-                        component -= 1
-        return component
+                        T -= 1
+        return T
