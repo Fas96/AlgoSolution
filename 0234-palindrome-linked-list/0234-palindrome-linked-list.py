@@ -10,5 +10,5 @@ class Solution:
         while x:
             arr.append(x.val)
             x=x.next
-        arr=arr[::-1] 
+        
         return  arr==arr[::-1] 
