@@ -2,6 +2,7 @@ class UF:
     def __init__(self, size):
         self.root=[i for i in range(size)]
         self.rank=[1]*(size)
+        self.count=size
     def find(self,x):
         if x==self.root[x]:    
             return x
@@ -20,6 +21,8 @@ class UF:
             self.rank[rootY]+=1
     def connected(self,x,y):
         return self.find(x)==self.find(y)
+    def getCount(self):
+        return self.count
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
       
