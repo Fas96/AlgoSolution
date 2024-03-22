@@ -31,13 +31,13 @@ class Solution:
         uf=UF(n)
         x=len(edges)
      
-        num_trees = n
+        N = n
         for a, b in edges: 
             parent_a, parent_b = uf.find(a), uf.find(b) 
             if parent_a == parent_b:
                 return False 
-            num_trees -= 1
+            N -= 1
             uf.union(parent_a, parent_b) 
-        return num_trees == 1
+        return N == 1
     
         
