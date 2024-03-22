@@ -19,24 +19,23 @@ class UF:
         else:
             self.root[rootX]=self.root[rootY]
             self.rank[rootY]+=1
+        self.count -= 1
     def connected(self,x,y):
         return self.find(x)==self.find(y)
     def getCount(self):
         return self.count
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
-      
-        uf=UF(len(isConnected))
+        if not isConnected or len(isConnected)==0:
+            return 0
         n=len(isConnected)
+        uf=UF(n)
+        
         for i in range(n):
             for j in range(i+1, n):
                 if isConnected[i][j] == 1:
                     uf.union(i, j) 
-        ans=[]
-        for i in range(len(isConnected)):
-            ans.append(uf.find(i))
-            
-        return len(set(ans))
+        return uf.getCount()
             
                     
 
