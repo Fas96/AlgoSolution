@@ -1,6 +1,6 @@
 class UF:
     def __init__(self, size):
-        self.root=list(range(size))
+        self.root=[i for i in range(size)]
         self.rank=[1]*(size)
         self.count=size
     def find(self,x):
