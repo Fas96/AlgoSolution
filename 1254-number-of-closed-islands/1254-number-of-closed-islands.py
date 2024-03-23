@@ -37,7 +37,7 @@ class Solution:
                 if grid[r][c] == 0:
                     zerosLocation[r, c] = len(zerosLocation)
         uf = UF(len(zerosLocation))
-
+     
         for r, c in zerosLocation:
             if (r-1, c) in zerosLocation:
                 uf.union(zerosLocation[r, c], zerosLocation[r-1, c])
@@ -45,9 +45,8 @@ class Solution:
                 uf.union(zerosLocation[r, c], zerosLocation[r, c-1])
        
         S = {uf.find(x) for x in range(len(zerosLocation))}
-        
+    
         for r, c in zerosLocation:
             if r in {0, m-1} or c in {0, n-1}:
                 S.discard(uf.find(zerosLocation[r, c]))
-
         return len(S)
