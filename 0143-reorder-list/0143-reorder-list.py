@@ -5,22 +5,19 @@
 #         self.next = next
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
-        """
-        Do not return anything, modify head in-place instead.
-        """
-        if not head:
-            return 
+        if not head: return None
+        dq = deque()
+        cur = head
+        while cur:
+            dq.append(cur)
+            cur = cur.next
+        dq.popleft()
+        cur = head
+        while dq:
+            cur.next = dq.pop()
+            cur = cur.next
+            if dq:
+                cur.next = dq.popleft()
+                cur = cur.next
 
-        slow = fast = head
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next 
-        
-        prev, curr = None, slow
-        while curr:
-            curr.next, prev, curr = prev, curr, curr.next       
-        print(prev)
-        first, second = head, prev
-        while second.next:
-            first.next, first = second, first.next
-            second.next, second = first, second.next
+        cur.next = None
