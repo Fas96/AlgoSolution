@@ -3,15 +3,15 @@ class Solution:
         def dfs(node):
             path.append(node)
             if node == len(graph) - 1:
-                paths.append(path.copy())
+                ans.append(path.copy())
                 return
             for nrb in graph[node]:
                 dfs(nrb)
                 path.pop()
 
-        paths = []
+        ans = []
         path = []
         if not graph or len(graph) == 0:
-            return paths
+            return ans
         dfs(0)
-        return paths
+        return ans
