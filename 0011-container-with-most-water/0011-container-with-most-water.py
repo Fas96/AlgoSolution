@@ -1,13 +1,14 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        L, R = 0, len(height)-1
-        maxWater = 0
-
-        while L < R: 
-            areaOfWater = (R - L) *min(height[L], height[R])
-            maxWater = max(maxWater, areaOfWater)
-            if height[L] > height[R]:
-                R -= 1
-            else:
-                L += 1
-        return maxWater
+        mxAr=0
+        l,r=0,len(height)-1
+        
+        while l<r:
+            H=min(height[l],height[r])
+            mxAr=max(mxAr,H*(r-l))
+            while height[l]<=H and  l<r :
+                l+=1 
+            while  height[r]<=H and  l<r :
+                r-=1 
+        return mxAr
+        
