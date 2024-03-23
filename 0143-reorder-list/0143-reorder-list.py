@@ -11,7 +11,7 @@ class Solution:
         while cur:
             dq.append(cur)
             cur = cur.next
-        dq.popleft()
+        dq.popleft() 
         cur = head
         while dq:
             cur.next = dq.pop()
