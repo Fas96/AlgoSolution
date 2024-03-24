@@ -1,15 +1,24 @@
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-        g=defaultdict(list)
-         
-        for s,d in sorted(tickets, reverse=True):
-            g[s].append(d)
-        seen=[] 
-        def dfs(loc):
-            while g[loc]:
-                dfs(g[loc].pop())
-            seen.append(loc)
+        adj = {src: [] for src, dst in tickets}
+        for src, dst in tickets:adj[src].append(dst)
+        for key in adj: adj[key].sort()
+        res = []
         
-        dfs("JFK")
-        return seen[::-1]
-        
+
+       
+        def dfs(adj, result, src):
+            if src in adj:
+                destinations = adj[src][:]
+                while destinations:
+                    dest = destinations[0]
+                    adj[src].pop(0)
+                    dfs(adj, res, dest)
+                    destinations = adj[src][:]
+            res.append(src)
+
+       
+        dfs(adj, res, "JFK")
+        res.reverse()
+        if len(res) != len(tickets) + 1: return []
+        return res
