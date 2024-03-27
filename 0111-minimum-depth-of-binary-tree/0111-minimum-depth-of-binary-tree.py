@@ -5,30 +5,15 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def minDepth(self, root: Optional[TreeNode]) -> int: 
-        
-        def recursive_bfs(queue, depth):
-            if not queue:
-                return depth
-
-            nextLevel = []
-            for node in queue:
-                if node is None:
-                    continue
-                if not (node.left or node.right):
-                    return depth
-                else:
-                    nextLevel.append(node.left)
-                    nextLevel.append(node.right)
-
-            return recursive_bfs(nextLevel, depth + 1)
-
-        if root is None:
-            return 0
-
-        return recursive_bfs([root], 1)
-        
-                
-                
-        
+    def minDepth(self, root: Optional[TreeNode]) -> int:
+        if not root: return 0
+        if not root.left and not root.right:
+            return 1
+        mn= 10**5
+        if root.left:
+            mn=min(self.minDepth(root.left),mn)
+        if root.right:
+            mn=min(self.minDepth(root.right),mn)
+       
+        return mn + 1;
         
