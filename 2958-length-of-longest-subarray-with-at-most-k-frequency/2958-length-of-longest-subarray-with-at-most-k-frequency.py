@@ -1,7 +1,7 @@
 class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
-        f=defaultdict(int)
-        w,ans=0,0 
+        f,w,ans=defaultdict(int),0,0 
+         
         for i,n in enumerate(nums):
             f[n]+=1 
             while f[n]>k:
