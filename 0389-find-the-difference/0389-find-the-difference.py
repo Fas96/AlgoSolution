@@ -1,18 +1,13 @@
 class Solution:
-    def findTheDifference(self, s: str, t: str) -> str: 
-        mt={}
-        for c in t:
-            if c in mt:
-                mt[c]+=1
+    def findTheDifference(self, s: str, t: str) -> str:
+        sf=Counter(t)
+        for x in s:
+            if x in sf:
+                sf[x]-=1
             else:
-                mt[c]=1
-        for c in s:
-            mt[c]-=1
+                sf[x]=1
+       
+        for x in t:
+            if sf[x]>0: return x
+        return ""
         
-        ans=""
-        for k,v in mt.items():
-            if v>0:
-                ans+=k
-        
-            
-        return ans
