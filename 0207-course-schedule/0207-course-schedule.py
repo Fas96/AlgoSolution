@@ -1,24 +1,20 @@
-
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        g = defaultdict(list)
-        for x, y in prerequisites: g[x].append(y)
-        canFinishAt = [0]*numCourses
-         
-        def dfs(idx):
-            if canFinishAt[idx] == -1:
-                return False
-            if canFinishAt[idx] == 1:
-                return True
-            canFinishAt[idx] = -1
-            for nei in g[idx]:
-                if not dfs(nei):
-                    return False
-            canFinishAt[idx] = 1
+        mp={cu:[] for cu in range(numCourses)}
+        for c,p in prerequisites:
+            mp[c].append(p)
+        v=set()
+        @cache
+        def dfs(cur):
+            if cur in v: return False
+            if mp[cur]==[]:return True
+            v.add(cur)
+            for n in mp[cur]:
+                if not dfs(n):return False
+            v.remove(cur)
+            mp[cur]==[]
             return True
-
         for i in range(numCourses):
-            if not dfs(i):
-                return False
+            if not dfs(i):return False
         return True
         
