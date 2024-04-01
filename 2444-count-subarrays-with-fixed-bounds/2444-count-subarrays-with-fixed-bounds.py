@@ -1,9 +1,7 @@
 class Solution:
     def countSubarrays(self, nums: List[int], minK: int, maxK: int) -> int:
-        answer = 0
-        invalid = -1
-        mnVal = -1
-        mxVal = -1
+        ans,invalid,mnVal,mxVal = 0,-1,-1,-1
+         
 
         for i in range(len(nums)):
             if nums[i] < minK or nums[i] > maxK:
@@ -13,6 +11,6 @@ class Solution:
             mxVal = i if nums[i] == maxK else mxVal
 
             if invalid < mnVal and invalid < mxVal:
-                answer += min(mnVal, mxVal) - invalid
+                ans += min(mnVal, mxVal) - invalid
 
-        return answer
+        return ans
