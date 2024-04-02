@@ -1,53 +1,65 @@
-def mhtdist(p1: List[int], p2: List[int]) -> int:
-    return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
-class UF:
-    def __init__(self, n):
-        self.parent = [i for i in range(n)]
-        self.rank = [0 for _ in range(n)]
-        
-    def find(self, u):
-        if self.parent[u] == u:
-            return u
-        self.parent[u] = self.find(self.parent[u])
-        return self.parent[u]
-    
-    def union(self, u, v):
-        u = self.find(u)
-        v = self.find(v)
-        
-        if u == v:
-            return False
-        
-        if self.rank[u] > self.rank[v]:
-            u, v = v, u
-            
-        self.parent[u] = v
-        
-        if self.rank[u] == self.rank[v]:
-            self.rank[v] += 1
-        
-        return True
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
-        n = len(points)
-        uf = UF(n)
+        if not points or len(points) == 0:
+            return 0
+        size = len(points)
+        pq = []
+        uf = UnionFind(size)
+
+        for i in range(size):
+            x1, y1 = points[i]
+            for j in range(i + 1, size):
+                x2, y2 = points[j]
+                # Calculate the distance between two coordinates.
+                cost = abs(x1 - x2) + abs(y1 - y2)
+                edge = Edge(i, j, cost)
+                pq.append(edge)
         
-        edges = []
-        
-        for i in range(n):
-            for j in range(i+1, n):
-                mtnd = mhtdist(points[i], points[j])
-                heappush(edges, (mtnd, i, j))
-        minW = 0
-        mstEd = 0
-        
-        while edges:
-            w, u, v = heappop(edges)
-            if uf.union(u, v):
-                minW += w
-                mstEd += 1
-                if mstEd == n - 1:
-                    break
-                    
-        return minW
-        
+        # Convert pq into a heap.
+        heapq.heapify(pq)
+
+        result = 0
+        count = size - 1
+        while pq and count > 0:
+            edge = heapq.heappop(pq)
+            if not uf.connected(edge.point1, edge.point2):
+                uf.union(edge.point1, edge.point2)
+                result += edge.cost
+                count -= 1
+        return result
+
+class Edge:
+    def __init__(self, point1, point2, cost):
+        self.point1 = point1
+        self.point2 = point2
+        self.cost = cost
+
+    def __lt__(self, other):
+        return self.cost < other.cost
+
+class UnionFind:
+    def __init__(self, size):
+        self.root = [i for i in range(size)]
+        self.rank = [1] * size
+
+    def find(self, x):
+        if x == self.root[x]:
+            return x
+        self.root[x] = self.find(self.root[x])
+        return self.root[x]
+
+    def union(self, x, y):
+        rootX = self.find(x)
+        rootY = self.find(y)
+        if rootX != rootY:
+            if self.rank[rootX] > self.rank[rootY]:
+                self.root[rootY] = rootX
+            elif self.rank[rootX] < self.rank[rootY]:
+                self.root[rootX] = rootY
+            else:
+                self.root[rootY] = rootX
+                self.rank[rootX] += 1
+
+    def connected(self, x, y):
+        return self.find(x) == self.find(y)
+  
