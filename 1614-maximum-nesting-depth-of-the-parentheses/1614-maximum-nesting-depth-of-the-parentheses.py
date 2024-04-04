@@ -1,12 +1,12 @@
 class Solution:
     def maxDepth(self, s: str) -> int:
-        stk=[]
+        dep=0
         mx=float('-inf')
         for x in s:
             if x=="(":
-                stk.append("(")
+                dep+=1
             elif x==")":
-                mx=max(len(stk),mx)
-                stk.pop()
+                dep-=1
+            mx=max(dep,mx) 
         return mx if mx!=float('-inf') else 0
         
