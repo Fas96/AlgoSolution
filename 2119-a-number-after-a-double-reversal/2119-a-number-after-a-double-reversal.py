@@ -1,9 +1,5 @@
 class Solution:
     def isSameAfterReversals(self, num: int) -> bool:
-        if len(str(num))==1 or len(set(str(num)))==1:
-            return True
-        n =len(str(num))
-        
-        return False if str(num)[-1] == "0" else True
-        
+        if num==0:return True
+        return not (str(num).startswith('0') or  str(num).endswith('0'))
         
