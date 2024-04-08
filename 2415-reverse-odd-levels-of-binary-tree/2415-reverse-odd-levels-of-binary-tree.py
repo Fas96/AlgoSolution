@@ -5,21 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    val=0
     def reverseOddLevels(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        if not root.left and not root.right:
-            return root
-        q =  [(root.left, root.right)]
-        flag = True
-        while q:
-            level_len = len(q)
-            for _ in range(level_len):
-                left, right = q.pop(0) 
-                if flag:
-                    left.val, right.val = right.val, left.val
-                if left.left: 
-                    q.extend([(left.left, right.right), (left.right, right.left)])
-         
-            flag = True-flag
-                        
+        def n(n1,n2, level):
+            if (not n1) or (not n2): return
+            if (level % 2) == 1: 
+                n1.val, n2.val = n2.val, n1.val
+            n(n1.left,n2.right, level + 1)
+            n(n1.right,n2.left, level + 1)
+
+        n(root.left,root.right, 1)
         return root
-        
