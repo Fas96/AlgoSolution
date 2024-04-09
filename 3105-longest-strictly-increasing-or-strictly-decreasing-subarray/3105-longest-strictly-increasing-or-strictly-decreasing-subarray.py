@@ -1,4 +1,5 @@
 class Solution:
+    # N * (N + 1) / 2
     def longestMonotonicSubarray(self, nums: List[int]) -> int:
         n=len(nums)
         ans=float('-inf')
