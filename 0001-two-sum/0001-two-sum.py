@@ -8,6 +8,4 @@ class Solution:
                     return [L,go]
                 go+=1
             L+=1
-            
-            
         return [-1,-1]
