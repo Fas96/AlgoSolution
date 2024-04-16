@@ -6,8 +6,7 @@
 #         self.right = right
 class Solution:
     def addOneRow(self, root: Optional[TreeNode], val: int, D: int) -> Optional[TreeNode]: 
-        if D==1:
-            return TreeNode(val,root,None) 
+        if D==1: return TreeNode(val,root,None) 
         def dfs(node,H):
             if H==D-1:
                 node.left=TreeNode(val,node.left,None)
