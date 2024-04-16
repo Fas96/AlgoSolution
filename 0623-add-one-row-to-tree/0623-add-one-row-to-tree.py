@@ -5,20 +5,14 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def addOneRow(self, root: Optional[TreeNode], val: int, D: int) -> Optional[TreeNode]:
-        def createBase(node):
-            node=TreeNode(val)
-            node.left=root
-            return node
+    def addOneRow(self, root: Optional[TreeNode], val: int, D: int) -> Optional[TreeNode]: 
         if D==1:
-            return createBase(root) 
-        def createNode(node,H): 
-            node.left=TreeNode(val,node.left,None)
-            node.right=TreeNode(val,None,node.right)
-            
+            return TreeNode(val,root,None)
+      
         def dfs(node,H):
             if H==D-1:
-                createNode(node,H) 
+                node.left=TreeNode(val,node.left,None)
+                node.right=TreeNode(val,None,node.right)
             if node.left:
                 dfs(node.left,H+1)
             if node.right:
