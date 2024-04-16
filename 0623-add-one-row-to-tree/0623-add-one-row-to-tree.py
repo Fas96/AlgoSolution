@@ -12,13 +12,9 @@ class Solution:
             return node
         if D==1:
             return createBase(root) 
-        def createNode(node,H):
-            c1=TreeNode(val)
-            c2=TreeNode(val)
-            c1.left=node.left
-            c2.right=node.right
-            node.left=c1 
-            node.right=c2
+        def createNode(node,H): 
+            node.left=TreeNode(val,node.left,None)
+            node.right=TreeNode(val,None,node.right)
             
         def dfs(node,H):
             if H==D-1:
