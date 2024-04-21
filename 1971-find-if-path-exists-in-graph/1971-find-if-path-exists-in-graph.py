@@ -1,21 +1,21 @@
-class Solution(object):
-    def validPath(self, n, edges, source, destination):
-        d = {i: [] for i in range(n)}
-       
-        for i in edges:
-            d[i[0]].append(i[1])
-            d[i[1]].append(i[0])
-        seen = set()
-
-        def dfs(node, end, seen):
-            if node == end:
+class Solution:
+    def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        mp=defaultdict(list)
+        for u,v in edges:
+            mp[u].append(v)
+            mp[v].append(u)
+        q=collections.deque([source])
+        vst=set()
+        while q:
+            cur=q.popleft()
+            if cur==destination:
                 return True
-            if node in seen:
-                return False
-            seen.add(node)
-            for n in d[node]:
-                if dfs(n, end, seen):
-                    return True
-            return False
-
-        return dfs(source, destination, seen)
+            
+            for n in mp[cur]:
+                if n in vst:
+                    continue
+                vst.add(n)
+                q.append(n)
+        return False
+                    
+            
