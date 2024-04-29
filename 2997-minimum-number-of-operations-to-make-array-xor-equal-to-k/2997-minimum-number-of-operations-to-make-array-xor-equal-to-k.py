@@ -6,10 +6,6 @@ class Solution:
         target_xor = total_xor ^ k
         
         # Count the number of set bits in target_xor
-        operations_count = 0
-        while target_xor:
-            operations_count += target_xor & 1
-            target_xor >>= 1
-        
-        return operations_count
+       
+        return bin(target_xor).count('1')
         
