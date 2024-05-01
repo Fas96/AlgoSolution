@@ -1,6 +1,4 @@
 class Solution:
-    def reversePrefix(self, word: str, ch: str) -> str:
-        if ch not in word: return word 
-        idx= word.index(ch) 
-        return word[:idx+1][::-1]+word[idx+1:]
+    def reversePrefix(self, word: str, ch: str) -> str: 
+        return word if ch not in word else word[:word.index(ch) +1][::-1]+word[word.index(ch) +1:]
         
