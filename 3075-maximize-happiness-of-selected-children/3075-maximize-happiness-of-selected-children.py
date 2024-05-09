@@ -3,7 +3,7 @@ class Solution:
         
         happiness.sort()
         times,keep,ans=0,0,float('-inf') 
-        while k>0:
+        while k:
             cur=happiness.pop() 
             keep+=(cur-times)
             ans=max(ans,keep)
