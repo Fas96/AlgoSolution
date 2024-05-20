@@ -1,27 +1,20 @@
 from functools import reduce
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
-        def backtrack(arr, index, current, all_subsets):
+        def backtrack(arr, index, current):
             if index == len(arr):
-                all_subsets.append(current[:])
-                return
+                return [current[:]]
             current.append(arr[index])
-            backtrack(arr, index + 1, current, all_subsets)
+            subsets_with_current = backtrack(arr, index + 1, current)
             current.pop()
-            backtrack(arr, index + 1, current, all_subsets)
-
-        def generateSubsets(arr):
-            all_subsets = []
-            backtrack(arr, 0, [], all_subsets)
-            return all_subsets
-        def findXOR(arr):
-            return reduce(lambda x, y: x ^ y, arr)
+            subsets_without_current = backtrack(arr, index + 1, current)
+            return subsets_with_current + subsets_without_current
+ 
         ans=0
-         
-        for x in generateSubsets(nums):
+        for x in backtrack(nums, 0, []):
             if len(x)<=0:
                 continue
-            ans+=(findXOR(x))
+            ans+=(reduce(lambda x, y: x ^ y,x))
         return ans
         
                 
