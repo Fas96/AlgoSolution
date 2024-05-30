@@ -1,12 +1,5 @@
 class Solution:
     def countTriplets(self, arr: List[int]) -> int: 
-        n=len(arr)
-        ans=0
-        for i in range(n):
-            value=arr[i]
-            for j in range(i+1,n):
-                value=value^arr[j]
-                if value==0: ans+=(j-i)
-                    
-        return ans
+        return sum((j - i) for i in range(len(arr)) for j in range(i + 1, len(arr)) if not reduce(lambda x, y: x ^ y, arr[i:j + 1]))
+
         
