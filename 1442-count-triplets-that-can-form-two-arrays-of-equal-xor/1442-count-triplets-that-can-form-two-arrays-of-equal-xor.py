@@ -6,8 +6,7 @@ class Solution:
             value=arr[i]
             for j in range(i+1,n):
                 value=value^arr[j]
-                if value==0:
-                    ans+=(j-i)
+                if value==0: ans+=(j-i)
                     
         return ans
         
