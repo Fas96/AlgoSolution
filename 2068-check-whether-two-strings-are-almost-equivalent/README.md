@@ -5,7 +5,7 @@
 <p>The <strong>frequency</strong> of a letter <code>x</code> is the number of times it occurs in the string.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> word1 = "aaaa", word2 = "bccb"
 <strong>Output:</strong> false
@@ -13,7 +13,7 @@
 The difference is 4, which is more than the allowed 3.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> word1 = "abcdeef", word2 = "abaaacc"
 <strong>Output:</strong> true
@@ -26,7 +26,7 @@ The difference is 4, which is more than the allowed 3.
 - 'f' appears 1 time in word1 and 0 times in word2. The difference is 1.
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> word1 = "cccddabba", word2 = "babababab"
 <strong>Output:</strong> true
