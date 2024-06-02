@@ -1,13 +1,9 @@
-class Solution(object):
-    def checkAlmostEquivalent(self, word1, word2):
-        w1 = {chr(97 + i): 0 for i in range(0, 26)}
-        w2 = {chr(97 + i): 0 for i in range(0, 26)}
- 
-        for i in word1:
-            w1[i] += 1
-        for i in word2:
-            w2[i] += 1
-        for i in w1:
-            if abs(w1[i] - w2[i]) > 3:
-                return False
+class Solution:
+    def checkAlmostEquivalent(self, word1: str, word2: str) -> bool:
+        fa,fb=Counter(word1),Counter(word2)
+        for k,v in fa.items():
+            if  abs(v-fb[k])>3:return False 
+        for k,v in fb.items():
+            if abs(v-fa[k])>3:return False 
         return True
+        
