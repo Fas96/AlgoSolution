@@ -1,10 +1,7 @@
 class Solution:
     def reverseString(self, s: List[str]) -> None:
-        """
-        Do not return anything, modify s in-place instead.
-        """
-        n=len(s)
+        n=len(s)-1
         for i in range(n):
-            if i<=n-i-1:
-                s[i],s[n-i-1]=s[n-i-1],s[i]
+            if i>n-i:break
+            s[i],s[n-i]=s[n-i],s[i]
         
