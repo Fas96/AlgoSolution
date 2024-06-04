@@ -9,4 +9,3 @@ class Solution:
             if v%2==1: t=True
                 
         return ans+1 if t else ans
-            
