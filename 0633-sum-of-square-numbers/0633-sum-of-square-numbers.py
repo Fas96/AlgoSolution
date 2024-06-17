@@ -1,6 +1,6 @@
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
-        if c<=2:return True
+        # if c<=2:return True
         
         hashmap={}
         for i,x in enumerate([i*i for i in range(int(sqrt(c))+1)]):
