@@ -1,18 +1,16 @@
 class Solution:
-    def maxDistance(self, position: List[int], m: int) -> int:
-        position.sort()
-        n=len(position)
+    def maxDistance(self, pos: List[int], m: int) -> int:
+        pos.sort()
+        n=len(pos)
         low=1
-        high=position[-1]-position[0]
+        high=pos[-1]-pos[0]
         while low<=high:
-            mid=(low+high)//2
-            balls_placed=1
-            prev_position=position[0]
+            mid,balls_loc,prev_pos=(low+high)//2,1,pos[0] 
             for i in range(1,n):
-                if position[i]-prev_position>=mid:
-                    balls_placed+=1
-                    prev_position=position[i]
-            if balls_placed>=m:
+                if pos[i]-prev_pos>=mid:
+                    balls_loc+=1
+                    prev_pos=pos[i]
+            if balls_loc>=m:
                 low=mid+1
                 highest_force=mid
             else:
