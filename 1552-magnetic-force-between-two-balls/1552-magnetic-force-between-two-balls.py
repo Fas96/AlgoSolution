@@ -12,7 +12,7 @@ class Solution:
                     prev_pos=pos[i]
             if balls_loc>=m:
                 low=mid+1
-                highest_force=mid
+                maxForce=mid
             else:
                 high=mid-1
-        return highest_force
+        return maxForce
