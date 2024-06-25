@@ -8,12 +8,12 @@ class Solution:
     sum=0
     def bstToGst(self, root: TreeNode) -> TreeNode:
          
-        def modifyBSTUtil(root): 
+        def gst(root): 
             if root == None: return 
-            modifyBSTUtil(root.right)  
+            gst(root.right)  
             self.sum = self.sum + root.val 
             root.val = self.sum
-            modifyBSTUtil(root.left) 
+            gst(root.left) 
       
-        modifyBSTUtil(root)  
+        gst(root)  
         return root
