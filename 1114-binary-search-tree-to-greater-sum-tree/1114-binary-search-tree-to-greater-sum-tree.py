@@ -5,14 +5,15 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    sum=0
     def bstToGst(self, root: TreeNode) -> TreeNode:
-        def modifyBSTUtil(root, Sum): 
-            if root == None:
-                return 
-            modifyBSTUtil(root.right, Sum)  
-            Sum[0] = Sum[0] + root.val 
-            root.val = Sum[0] 
-            modifyBSTUtil(root.left, Sum) 
+         
+        def modifyBSTUtil(root): 
+            if root == None: return 
+            modifyBSTUtil(root.right)  
+            self.sum = self.sum + root.val 
+            root.val = self.sum
+            modifyBSTUtil(root.left) 
       
-        modifyBSTUtil(root,[0])  
+        modifyBSTUtil(root)  
         return root
