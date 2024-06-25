@@ -13,8 +13,6 @@ class Solution:
             Sum[0] = Sum[0] + root.val 
             root.val = Sum[0] 
             modifyBSTUtil(root.left, Sum) 
-        def modifyBST(root):
-            Sum = [0]
-            modifyBSTUtil(root, Sum)
-        modifyBST(root)  
+      
+        modifyBSTUtil(root,[0])  
         return root
