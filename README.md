@@ -14,6 +14,7 @@
 # Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Fas96/AlgoSolution/tree/master/0029-divide-two-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/1370-count-number-of-nice-subarrays) |
 # Sliding Window
 |  |
@@ -41,6 +42,7 @@
 # Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Fas96/AlgoSolution/tree/master/0029-divide-two-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Fas96/AlgoSolution/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 # Prefix Sum
 |  |
