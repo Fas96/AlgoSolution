@@ -31,6 +31,7 @@
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Fas96/AlgoSolution/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Fas96/AlgoSolution/tree/master/2379-maximum-total-importance-of-roads) |
 # Ordered Set
 |  |
 | ------- |
@@ -80,7 +81,13 @@
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/Fas96/AlgoSolution/tree/master/1285-balance-a-binary-search-tree) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Fas96/AlgoSolution/tree/master/2379-maximum-total-importance-of-roads) |
 # Graph
 |  |
 | ------- |
 | [1916-find-center-of-star-graph](https://github.com/Fas96/AlgoSolution/tree/master/1916-find-center-of-star-graph) |
+| [2379-maximum-total-importance-of-roads](https://github.com/Fas96/AlgoSolution/tree/master/2379-maximum-total-importance-of-roads) |
+# Sorting
+|  |
+| ------- |
+| [2379-maximum-total-importance-of-roads](https://github.com/Fas96/AlgoSolution/tree/master/2379-maximum-total-importance-of-roads) |
