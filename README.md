@@ -97,14 +97,17 @@
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 ## Topological Sort
 |  |
 | ------- |
