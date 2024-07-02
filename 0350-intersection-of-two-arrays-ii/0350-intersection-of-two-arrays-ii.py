@@ -1,11 +1,10 @@
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        f=Counter(nums2)
+        f1=Counter(nums1)
+        f2=Counter(nums2)
         ans=[]
-        for val in nums1:
-            if (val in f) and (f[val]):
-                ans+=[val]
-                f[val]-=1
+        for k,v in (f1&f2).items():
+            ans+=([k]*v)
         return ans
 
         
