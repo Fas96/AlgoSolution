@@ -8,17 +8,16 @@ class Solution:
         nLst=[]
         cur=head
         cs=0
+        tail = dum = ListNode(-1)
         while head:
             if head.val==0 and cs>0:
                 nLst.append(cs)
+                tail.next = ListNode(cs)
+                tail = tail.next
                 cs=0
             else:
                 cs+=head.val
             head=head.next
-         
-        tail = head = ListNode(nLst[0])
-        for x in nLst[1:]:
-            tail.next = ListNode(x)  
-            tail = tail.next
-        return head
+    
+        return dum.next
         
