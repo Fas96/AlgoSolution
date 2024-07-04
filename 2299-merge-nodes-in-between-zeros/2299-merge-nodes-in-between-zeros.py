@@ -15,8 +15,7 @@ class Solution:
                 tail.next = ListNode(cs)
                 tail = tail.next
                 cs=0
-            else:
-                cs+=head.val
+            cs+=head.val
             head=head.next
     
         return dum.next
