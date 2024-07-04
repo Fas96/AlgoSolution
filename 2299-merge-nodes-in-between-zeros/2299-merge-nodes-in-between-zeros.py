@@ -17,8 +17,7 @@ class Solution:
                 cur = cur.next
                 csum = 0
             head=head.next
-        if csum != 0:
-            cur.next = ListNode(sum_val)
+ 
         
         return res.next
         
