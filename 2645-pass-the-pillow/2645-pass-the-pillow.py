@@ -1,7 +1,10 @@
 class Solution:
     def passThePillow(self, n: int, time: int) -> int:
-        div=time//(n-1)
-        if div& 1==0:
-            return (time % (n - 1) + 1) 
-        return (n - time % (n - 1))
+        cycle_length = 2 * (n - 1) 
+        effective_time = time % cycle_length
+         
+        if effective_time < n: 
+            return effective_time + 1
+        else: 
+            return n - (effective_time - (n - 1))
         
