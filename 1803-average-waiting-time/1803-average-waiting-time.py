@@ -1,6 +1,6 @@
 class Solution:
     def averageWaitingTime(self, customers: List[List[int]]) -> float:
-        n=len(customers)
+       
         w=0
         ans=0.0
         for a,b in customers:
@@ -11,5 +11,5 @@ class Solution:
                 w+=b
                 ans=ans+(w-a)
 
-        return ans/n
+        return ans/len(customers)
         
