@@ -3,10 +3,8 @@ class Solution:
         ans=0
         for p in logs:
             if p=='../':
-                if ans>0:
-                    ans-=1
-            elif p!='./':
-                ans+=1
+                if ans>0: ans-=1
+            elif p!='./': ans+=1
         
         return ans
 
