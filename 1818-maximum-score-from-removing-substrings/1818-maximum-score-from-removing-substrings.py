@@ -4,14 +4,14 @@ class Solution:
         high_priority_pair = "ab" if x > y else "ba"
         low_priority_pair = "ba" if high_priority_pair == "ab" else "ab"
 
-        # First pass: remove high priority pair
+       
         string_after_first_pass = self.remove_substring(s, high_priority_pair)
         removed_pairs_count = (len(s) - len(string_after_first_pass)) // 2
 
-        # Calculate score from first pass
+        
         total_score += removed_pairs_count * max(x, y)
 
-        # Second pass: remove low priority pair
+        
         string_after_second_pass = self.remove_substring(
             string_after_first_pass, low_priority_pair
         )
@@ -19,7 +19,7 @@ class Solution:
             len(string_after_first_pass) - len(string_after_second_pass)
         ) // 2
 
-        # Calculate score from second pass
+ 
         total_score += removed_pairs_count * min(x, y)
 
         return total_score
