@@ -10,11 +10,10 @@ class Solution:
         res = []
         def dfs(n, flag):
             if not n: return None
-            toDelete = n.val in dl
-            n.left = dfs(n.left, toDelete)
-            n.right = dfs(n.right, toDelete)
-            if not toDelete and flag: res.append(n)
-            return None if toDelete else n
+            delete = n.val in dl
+            n.left ,n.right= dfs(n.left, delete),dfs(n.right, delete) 
+            if not delete and flag: res.append(n)
+            return None if delete else n
         dfs(root, True)
         return res
         
