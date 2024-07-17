@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def delNodes(self, root: Optional[TreeNode], to_delete: List[int]) -> List[TreeNode]:
-        s = set(to_delete)
+        s = to_delete
         res = []
         def dfs(root, flag):
             if not root: return None
