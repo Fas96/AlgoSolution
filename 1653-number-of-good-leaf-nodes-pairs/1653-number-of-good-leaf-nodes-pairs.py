@@ -11,9 +11,10 @@ class Solution:
             if not n.left and not n.right:return [1]
             ld=depSearch(n.left)
             rd=depSearch(n.right)
-            self.ans += sum(1 for l in ld for r in rd if l + r <= distance)
+            nonlocal ans
+            ans += sum(1 for l in ld for r in rd if l + r <= distance)
             return [d+1 for d in ld+rd if d+1<=distance]
-        self.ans=0
+        ans=0
         depSearch(root)
-        return self.ans
+        return ans
         
