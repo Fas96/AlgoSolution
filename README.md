@@ -125,6 +125,7 @@
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
@@ -152,6 +153,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
