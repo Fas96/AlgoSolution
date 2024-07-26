@@ -128,6 +128,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
+| [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
@@ -201,6 +202,7 @@
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [1642-water-bottles](https://github.com/Fas96/AlgoSolution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
@@ -294,4 +296,12 @@
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
