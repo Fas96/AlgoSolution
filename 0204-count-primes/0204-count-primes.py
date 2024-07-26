@@ -1,6 +1,6 @@
 class Solution:
     def countPrimes(self, n: int) -> int:
-        def sieve_of_eratosthenes(n): 
+        def soe(n): 
             is_prime = [True] * (n + 1) 
             if n >= 0: is_prime[0] = False
             if n >= 1: is_prime[1] = False 
@@ -9,6 +9,6 @@ class Solution:
                     for j in range(i * i, n + 1, i):
                         is_prime[j] = False
             return is_prime 
-        prime_flags = sieve_of_eratosthenes(n)
+        flg = soe(n)
          
-        return len([i for i, prime in enumerate(prime_flags[:len(prime_flags)-1]) if prime]) 
+        return len([b for b in flg[:len(flg)-1] if b]) 
