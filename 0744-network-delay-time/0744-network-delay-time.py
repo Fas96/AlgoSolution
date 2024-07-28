@@ -14,19 +14,14 @@ class Solution:
         pq = [(0, start)]
         min_time = {i: float('inf') for i in range(1, n+1)}
         min_time[start] = 0
-        
         while pq:
             current_time, node = heapq.heappop(pq)
-            
-            if current_time > min_time[node]:
-                continue
-            
+            if current_time > min_time[node]:continue
             for neighbor, time in graph[node]:
                 new_time = current_time + time
                 if new_time < min_time[neighbor]:
                     min_time[neighbor] = new_time
                     heapq.heappush(pq, (new_time, neighbor))
-        
         return min_time
     
     def calculate_max_time(self, min_time: dict, n: int) -> int:
