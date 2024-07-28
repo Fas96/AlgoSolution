@@ -23,10 +23,10 @@ class Solution:
 
         count = [0] * n
         res = 0
-        for c in range(n):
-            distance = dijksta(c) 
-            count[c] = sum(1 if dis <= distanceThreshold else 0 for dis in distance)
-            res = c if count[c] <= count[res]  else  res
+        for idx in range(n):
+            distance = dijksta(idx) 
+            count[idx] = sum(1 if dis <= distanceThreshold else 0 for dis in distance)
+            res = idx if count[idx] <= count[res]  else  res
    
         return res
 
