@@ -22,6 +22,7 @@ class Solution:
                 if new_time < min_time[neighbor]:
                     min_time[neighbor] = new_time
                     heapq.heappush(pq, (new_time, neighbor))
+        print(min_time)
         return min_time
     
     def calculate_max_time(self, min_time: dict, n: int) -> int:
