@@ -96,6 +96,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -104,12 +105,14 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -274,6 +277,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 ## Merge Sort
@@ -299,6 +303,7 @@
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
