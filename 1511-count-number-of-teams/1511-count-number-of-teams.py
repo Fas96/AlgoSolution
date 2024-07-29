@@ -1,11 +1,11 @@
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
-
+        n=len(rating)
         res = 0
-        for i in range(1, len(rating) - 1):
+        for i in range(1, n - 1):
             less = [0, 0]
             greater = [0, 0]
-            for j in range(len(rating)):
+            for j in range(n):
                 if rating[i] < rating[j]:
                     less[1 if j > i else 0] += 1
                 if rating[i] > rating[j]:
