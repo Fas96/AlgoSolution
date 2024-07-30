@@ -3,9 +3,6 @@ class Solution:
         ans,b=0,0
       
         for v in s:
-            if v=='a':
-                ans=min(ans+1,b)
-            else:
-                b+=1
-             
+            if v=='a': ans=min(ans+1,b)
+            else: b+=1
         return ans
