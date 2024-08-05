@@ -139,6 +139,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
+| [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
@@ -247,6 +248,7 @@
 ## String
 |  |
 | ------- |
+| [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -291,6 +293,7 @@
 ## Design
 |  |
 | ------- |
+| [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 ## Trie
 |  |
