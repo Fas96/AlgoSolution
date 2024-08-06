@@ -137,6 +137,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
+| [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
@@ -170,6 +171,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
@@ -291,6 +293,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
