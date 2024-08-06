@@ -1,4 +1,8 @@
 class Solution:
     def minimumPushes(self, word: str) -> int:
-        return sum(f*(i//8+1) for i, f in enumerate(sorted(Counter(word).values(), reverse=True)))
+        cnt = Counter(word)
+        ans = 0
+        for i, x in enumerate(sorted(cnt.values(), reverse=True)):
+            ans += (i // 8 + 1) * x
+        return ans
         
