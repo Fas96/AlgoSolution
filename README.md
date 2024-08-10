@@ -98,6 +98,7 @@
 | ------- |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -108,6 +109,7 @@
 | ------- |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
@@ -132,6 +134,7 @@
 ## Union Find
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Fas96/AlgoSolution/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Array
 |  |
@@ -147,6 +150,7 @@
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1196-filling-bookcase-shelves](https://github.com/Fas96/AlgoSolution/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Fas96/AlgoSolution/tree/master/1293-three-consecutive-odds) |
@@ -179,6 +183,7 @@
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Fas96/AlgoSolution/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -304,6 +309,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
+| [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
