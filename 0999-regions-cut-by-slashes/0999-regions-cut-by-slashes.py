@@ -1,48 +1,45 @@
 class Solution:
     def regionsBySlashes(self, grid: List[str]) -> int:
-        n = len(grid)
-        parent = {}
+        memo = {}
+        def find(node: List[int]) -> List[int]:
+            if node not in memo:
+                memo[node] = node
+                return node
+            if memo[node] != node: 
+                memo[node] = find(memo[node])
+            return memo[node]
+
+        def union(node1, node2):
+            root1, root2 = find(node1), find(node2)
+            memo[root1] = root2
         
-        # Initialize the union-find parent for each triangle
-        def find(x):
-            if parent[x] != x:
-                parent[x] = find(parent[x])
-            return parent[x]
-        
-        def union(x, y):
-            rootX = find(x)
-            rootY = find(y)
-            if rootX != rootY:
-                parent[rootX] = rootY
-        
-        # Each cell is represented by 4 triangles: 0 (top-left), 1 (top-right), 2 (bottom-right), 3 (bottom-left)
-        def get_index(i, j, k):
-            return (i * n + j) * 4 + k
-        
-        # Initialize all triangles
-        for i in range(n):
-            for j in range(n):
-                for k in range(4):
-                    parent[get_index(i, j, k)] = get_index(i, j, k)
-                        
-        for i in range(n):
-            for j in range(n):
-                if grid[i][j] == '/':
-                    union(get_index(i, j, 0), get_index(i, j, 3))
-                    union(get_index(i, j, 1), get_index(i, j, 2))
-                elif grid[i][j] == '\\':
-                    union(get_index(i, j, 0), get_index(i, j, 1))
-                    union(get_index(i, j, 2), get_index(i, j, 3))
+        rows, cols = len(grid), len(grid[0])
+
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == "/" :
+                    union((row,col,0), (row,col,1))
+                    union((row,col,2), (row,col,3))
+                elif grid[row][col] == "\\":
+                    union((row,col,0), (row,col,3))
+                    union((row,col,2), (row,col,1))
                 else:
-                    union(get_index(i, j, 0), get_index(i, j, 1))
-                    union(get_index(i, j, 1), get_index(i, j, 2))
-                    union(get_index(i, j, 2), get_index(i, j, 3))
-                
-                # Union with right and bottom cells if possible
-                if j + 1 < n:
-                    union(get_index(i, j, 1), get_index(i, j + 1, 3))
-                if i + 1 < n:
-                    union(get_index(i, j, 2), get_index(i + 1, j, 0))
+                    union((row,col,0), (row,col,1))
+                    union((row,col,1), (row,col,2))
+                    union((row,col,2), (row,col,3))
         
-        # Count the number of distinct roots
-        return sum(find(x) == x for x in parent)
+        for row in range(rows):
+            for col in range(cols):
+                if col+1 < cols:
+                    union((row,col,3),(row,col+1,1))
+                if row+1 < rows:
+                    union((row,col,2),(row+1,col,0))
+        
+        roots = set()
+        for row in range(rows):
+            for col in range(cols):
+                roots.add(find((row,col,0)))
+                roots.add(find((row,col,1)))
+                roots.add(find((row,col,2)))
+                roots.add(find((row,col,3)))
+        return len(roots)
