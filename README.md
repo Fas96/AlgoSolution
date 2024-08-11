@@ -260,6 +260,7 @@
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
+| [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
@@ -271,6 +272,7 @@
 | ------- |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
+| [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -286,6 +288,7 @@
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
