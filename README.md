@@ -175,6 +175,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/Fas96/AlgoSolution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
+| [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2727-number-of-senior-citizens](https://github.com/Fas96/AlgoSolution/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -195,6 +196,7 @@
 | [2163-kth-distinct-string-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Fas96/AlgoSolution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
+| [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Two Pointers
 |  |
@@ -246,6 +248,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Fas96/AlgoSolution/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
+| [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## Math
@@ -259,6 +262,7 @@
 | [1642-water-bottles](https://github.com/Fas96/AlgoSolution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
+| [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## Recursion
 |  |
