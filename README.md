@@ -251,6 +251,7 @@
 ## Math
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
@@ -302,6 +303,7 @@
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -310,6 +312,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -371,6 +374,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [1196-filling-bookcase-shelves](https://github.com/Fas96/AlgoSolution/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -415,6 +419,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 ## Memoization
 |  |
