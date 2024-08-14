@@ -151,6 +151,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
@@ -204,6 +205,7 @@
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Binary Search
 |  |
@@ -211,12 +213,14 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Sorting
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
