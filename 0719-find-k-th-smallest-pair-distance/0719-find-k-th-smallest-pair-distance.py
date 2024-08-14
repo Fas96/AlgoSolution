@@ -8,11 +8,11 @@ class Solution:
         n=len(nums)
         for i in range(n):
             for j in range(i+1,n):
-                heappush(pq,(-abs(nums[i]-nums[j]),(nums[i],nums[j])))
+                heappush(pq,-abs(nums[i]-nums[j]))
                 if len(pq)>k:
                     heappop(pq)
          
         print(pq)
-        ans=-heappop(pq)[0]
+        ans=-heappop(pq)
         return ans
         
