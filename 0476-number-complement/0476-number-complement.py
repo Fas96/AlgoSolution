@@ -6,8 +6,6 @@ class Solution:
             if c=='1':
                 an+='0'
             else:
-                an+='1'
-        print(an)
-
+                an+='1' 
         return int( eval('0b' + an))
         
