@@ -4,6 +4,7 @@ class Solution:
         cands = {str(c:=pow(10,k)+1), str((c-1)//10-1)}         # The two edge-case candidates
                                                                 # (e.g: "10001" and "999" 
                                                                 #       for any 4-digit n)
+        print(cands)
 
         pref = (str(int(n[:(k + 1)//2])+i) for i in (-1,0,1))   # left sides of the remaining
                                                                 # three candidates 
