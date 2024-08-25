@@ -7,16 +7,12 @@
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:return root
-        
-        head=root
         ans=[]
         def go(va):
-            
-            if va and va.left:
-                go(va.left)
-            if va and va.right:
-                go(va.right)
-            if va:
-                ans.append(va.val)
-        go(root)
-        return ans
+            if not va:return ans 
+            go(va.left)
+            go(va.right)
+            ans.append(va.val)
+            return ans
+        
+        return go(root)
