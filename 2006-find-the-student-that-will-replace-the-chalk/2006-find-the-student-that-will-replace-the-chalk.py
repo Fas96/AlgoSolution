@@ -1,5 +1,14 @@
 class Solution:
     def chalkReplacer(self, chalk: List[int], k: int) -> int:
-        ac=list(accumulate(chalk)) 
-        return bisect_right(ac, k%ac[-1])
+        idx=0
+        n=len(chalk)
+        k=k%(sum(chalk))
+        while True:
+            if idx==n:
+                idx=idx%n
+            if chalk[idx]>k:
+                return idx 
+            k-=chalk[idx]
+            idx+=1
+        return -1 
         
