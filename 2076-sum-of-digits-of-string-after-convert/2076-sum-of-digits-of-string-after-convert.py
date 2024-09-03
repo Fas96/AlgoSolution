@@ -3,7 +3,7 @@ class Solution:
         nSVal=""
         for c in s:
             nSVal+=str(ord(c)-ord('a')+1)
-        print(nSVal)
+       
         while k:
             temp=0
             for c in nSVal:
