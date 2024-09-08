@@ -5,33 +5,24 @@
 #         self.next = next
 class Solution:
     def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
-        cur = head
-        sz = 0 
-        while cur:
-            sz += 1
-            cur = cur.next
+        sizer=head
+        idx=0
+        while sizer:
+            idx+=1
+            sizer=sizer.next
+        part_size, extra_nodes = divmod(idx, k)
 
-        each = sz // k
-        remainder = sz % k
-
+        current = head
         result = []
-        cur = head
-
         for i in range(k):
-            sublist_size = each + 1 if i < remainder else each
-
-            if sublist_size == 0:
-                result.append(None)
-            else:
-                result.append(cur)
-
-                for j in range(sublist_size - 1):
-                    cur = cur.next
-
-                next_node = cur.next
-                cur.next = None
-                cur = next_node
-
-        return result
-            
+            part_head = current
+            for j in range(part_size - 1 + (i < extra_nodes)):
+                if current:
+                    current = current.next
+            if current:
+                next_node = current.next
+                current.next = None
+                current = next_node
+            result.append(part_head)
         
+        return result
