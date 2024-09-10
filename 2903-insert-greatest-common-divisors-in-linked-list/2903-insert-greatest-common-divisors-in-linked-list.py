@@ -4,8 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        print(math.gcd(2,4))
+    def insertGreatestCommonDivisors(self, head: Optional[ListNode]) -> Optional[ListNode]: 
         l=[]
         h=head
         while h:
