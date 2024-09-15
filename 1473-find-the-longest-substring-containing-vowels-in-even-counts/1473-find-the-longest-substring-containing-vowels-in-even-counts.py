@@ -7,6 +7,7 @@ class Solution:
         ans = 0
         
         for i, char in enumerate(s):
+            print(cur_bmk)
             if char in mp:
                 cur_bmk ^= (1 << mp[char])  
             if cur_bmk in bmk_idx: 
