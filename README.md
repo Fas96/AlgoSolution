@@ -342,6 +342,7 @@
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0293-flip-game](https://github.com/Fas96/AlgoSolution/tree/master/0293-flip-game) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
+| [0551-student-attendance-record-i](https://github.com/Fas96/AlgoSolution/tree/master/0551-student-attendance-record-i) |
 | [0564-find-the-closest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0564-find-the-closest-palindrome) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
