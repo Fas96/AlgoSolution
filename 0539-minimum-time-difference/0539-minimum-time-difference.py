@@ -1,14 +1,9 @@
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
-        minArr=[]
-        for x in  timePoints:
-            h,m= map(int, x.split(":"))
-            minArr.append(h*60+m)
-        minArr.sort()
-        ans=float('inf')
-        for i in range(1,len(minArr)):
-            ans=min(ans,minArr[i]-minArr[i-1])
-            
-        ans=min(ans,minArr[0]+1440-minArr[-1])
+        def convert(time):
+            return int(time[:2]) * 60 + int(time[3:])
+        minutes = list(map(convert, timePoints))
+        print(minutes)
+        minutes.sort()
         
-        return ans
+        return min( (y - x) % (24 * 60) for x, y in zip(minutes, minutes[1:] + minutes[:1]) )
