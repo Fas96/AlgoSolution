@@ -1,6 +1,5 @@
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
-      
         minArr=[]
         for x in  timePoints:
             h,m= map(int, x.split(":"))
