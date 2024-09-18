@@ -157,6 +157,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
@@ -254,6 +255,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
@@ -272,6 +274,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/Fas96/AlgoSolution/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/Fas96/AlgoSolution/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Fas96/AlgoSolution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -342,6 +345,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
+| [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0293-flip-game](https://github.com/Fas96/AlgoSolution/tree/master/0293-flip-game) |
