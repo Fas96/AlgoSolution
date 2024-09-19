@@ -316,6 +316,7 @@
 | [0062-unique-paths](https://github.com/Fas96/AlgoSolution/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
@@ -333,6 +334,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
@@ -346,6 +348,7 @@
 | ------- |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0293-flip-game](https://github.com/Fas96/AlgoSolution/tree/master/0293-flip-game) |
@@ -477,6 +480,7 @@
 | [0062-unique-paths](https://github.com/Fas96/AlgoSolution/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
@@ -536,6 +540,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 ## Combinatorics
 |  |
 | ------- |
