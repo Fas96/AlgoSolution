@@ -97,6 +97,7 @@
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
@@ -436,6 +437,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
+| [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 ## Divide and Conquer
 |  |
