@@ -210,6 +210,7 @@
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Fas96/AlgoSolution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Hash Table
 |  |
@@ -238,6 +239,7 @@
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Fas96/AlgoSolution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
 |  |
@@ -378,6 +380,7 @@
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Stack
 |  |
 | ------- |
@@ -444,6 +447,7 @@
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Fas96/AlgoSolution/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Divide and Conquer
 |  |
 | ------- |
