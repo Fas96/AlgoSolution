@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/my-calendar-ii/">731. My Calendar II</a></h2><h3>Medium</h3><hr><div><p>You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a <strong>triple booking</strong>.</p>
+<h2><a href="https://leetcode.com/problems/my-calendar-ii">731. My Calendar II</a></h2><h3>Medium</h3><hr><p>You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a <strong>triple booking</strong>.</p>
 
 <p>A <strong>triple booking</strong> happens when three events have some non-empty intersection (i.e., some moment is common to all the three events.).</p>
 
@@ -14,8 +14,9 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input</strong>
-["MyCalendarTwo", "book", "book", "book", "book", "book", "book"]
+<pre>
+<strong>Input</strong>
+[&quot;MyCalendarTwo&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;, &quot;book&quot;]
 [[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]]
 <strong>Output</strong>
 [null, true, true, true, false, true, true]
@@ -37,4 +38,3 @@ myCalendarTwo.book(25, 55); // return True, The event can be booked, as the time
 	<li><code>0 &lt;= start &lt; end &lt;= 10<sup>9</sup></code></li>
 	<li>At most <code>1000</code> calls will be made to <code>book</code>.</li>
 </ul>
-</div>
