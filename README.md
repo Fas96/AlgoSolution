@@ -224,6 +224,7 @@
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0432-all-oone-data-structure](https://github.com/Fas96/AlgoSolution/tree/master/0432-all-oone-data-structure) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
@@ -295,6 +296,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/Fas96/AlgoSolution/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Fas96/AlgoSolution/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Fas96/AlgoSolution/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1484-linked-list-in-binary-tree) |
@@ -446,6 +448,7 @@
 |  |
 | ------- |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
+| [0432-all-oone-data-structure](https://github.com/Fas96/AlgoSolution/tree/master/0432-all-oone-data-structure) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
@@ -623,4 +626,8 @@
 | ------- |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/Fas96/AlgoSolution/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
