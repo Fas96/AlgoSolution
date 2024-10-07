@@ -338,6 +338,7 @@
 | [2411-spiral-matrix-iv](https://github.com/Fas96/AlgoSolution/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 ## Math
@@ -407,6 +408,7 @@
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Fas96/AlgoSolution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -423,6 +425,7 @@
 | [1720-crawler-log-folder](https://github.com/Fas96/AlgoSolution/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 ## Tree
 |  |
