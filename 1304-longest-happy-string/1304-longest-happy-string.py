@@ -1,6 +1,6 @@
 class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:
-        count = collections.Counter({'a':a, 'b':b, 'c':c})
+        count = Counter({'a':a, 'b':b, 'c':c})
         res = ['#']
         while True:
             (a1, _), (a2, _) = count.most_common(2) 
