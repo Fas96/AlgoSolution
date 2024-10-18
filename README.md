@@ -210,6 +210,7 @@
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Fas96/AlgoSolution/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Fas96/AlgoSolution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Fas96/AlgoSolution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Fas96/AlgoSolution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2411-spiral-matrix-iv](https://github.com/Fas96/AlgoSolution/tree/master/2411-spiral-matrix-iv) |
@@ -590,6 +591,7 @@
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Fas96/AlgoSolution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Number Theory
 |  |
 | ------- |
@@ -600,6 +602,7 @@
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0040-combination-sum-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Fas96/AlgoSolution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -659,6 +662,7 @@
 | [1435-xor-queries-of-a-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Fas96/AlgoSolution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Fas96/AlgoSolution/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Fas96/AlgoSolution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/Fas96/AlgoSolution/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Fas96/AlgoSolution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Brainteaser
