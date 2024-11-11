@@ -711,4 +711,8 @@
 |  |
 | ------- |
 | [1002-maximum-width-ramp](https://github.com/Fas96/AlgoSolution/tree/master/1002-maximum-width-ramp) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/Fas96/AlgoSolution/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
