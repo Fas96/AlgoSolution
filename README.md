@@ -161,6 +161,7 @@
 | [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0215-kth-largest-element-in-an-array) |
+| [0238-product-of-array-except-self](https://github.com/Fas96/AlgoSolution/tree/master/0238-product-of-array-except-self) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -673,6 +674,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Fas96/AlgoSolution/tree/master/0238-product-of-array-except-self) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
 | [1240-stone-game-ii](https://github.com/Fas96/AlgoSolution/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1435-xor-queries-of-a-subarray) |
