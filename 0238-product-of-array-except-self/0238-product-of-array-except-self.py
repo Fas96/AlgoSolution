@@ -1,14 +1,11 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        
         pf=[1]+list(accumulate(nums, operator.mul))
-        n=len(nums)
-        sf=[1]*n
-        for i in range(n-2,-1,-1):
-            sf[i]=sf[i+1]*nums[i+1]
-        
+        sf=list(accumulate([1]+nums[::-1], operator.mul))[::-1] 
         ans=[]
-        for i in range(len(sf)):
+        sf=sf[1:]
+        pf=pf[:-1]
+        for i in range(len(pf)):
             ans.append(pf[i]*sf[i])
         return ans
 
