@@ -241,6 +241,7 @@
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Fas96/AlgoSolution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -401,6 +402,7 @@
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Math
 |  |
 | ------- |
@@ -423,6 +425,7 @@
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Fas96/AlgoSolution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
 |  |
 | ------- |
@@ -593,6 +596,7 @@
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2803-modify-graph-edge-weights](https://github.com/Fas96/AlgoSolution/tree/master/2803-modify-graph-edge-weights) |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Merge Sort
 |  |
 | ------- |
