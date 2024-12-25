@@ -98,6 +98,7 @@
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
@@ -115,6 +116,7 @@
 ## Breadth-First Search
 |  |
 | ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
@@ -520,6 +522,7 @@
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
@@ -534,6 +537,7 @@
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
