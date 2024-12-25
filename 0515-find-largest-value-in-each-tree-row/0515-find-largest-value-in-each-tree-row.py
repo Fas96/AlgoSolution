@@ -22,5 +22,5 @@ class Solution:
                     nodes.append(node.val)
              
             ans += [max(nodes)]
-        
+    
         return ans
