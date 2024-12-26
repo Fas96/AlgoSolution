@@ -1,12 +1,14 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
-        dp={}
-        def rec(idx,curSum):
+        hsh={}
+        def recursive(idx,cs):
             if idx==len(nums):
-                return 1 if curSum==target else 0
-            if (idx,curSum) in dp:
-                return dp[(idx,curSum)] 
-            dp[(idx,curSum)]=rec(idx+1,curSum+nums[idx])+rec(idx+1,curSum-nums[idx])
-            return dp[(idx,curSum)]
-        return rec(0,0)
-        
+                return 1 if cs==target else 0
+            if (idx,cs) in hsh:
+                return hsh[(idx,cs)]
+            hsh[(idx,cs)]=recursive(idx+1,cs+nums[idx])+recursive(idx+1,cs-nums[idx])
+            return hsh[(idx,cs)]
+
+
+
+        return recursive(0,0)
