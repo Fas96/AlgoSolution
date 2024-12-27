@@ -1,8 +1,8 @@
 class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:
         n=len(values)
-        dp,score=0,0
+        maxIScore,score=0,0
         for i,x in enumerate(values):
-            score=max(score,dp+x-i)
-            dp=max(dp,x+i)
+            score=max(score,maxIScore+x-i)
+            maxIScore=max(maxIScore,x+i)
         return score
