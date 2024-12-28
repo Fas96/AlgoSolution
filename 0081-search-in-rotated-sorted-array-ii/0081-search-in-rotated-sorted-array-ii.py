@@ -1,17 +1,23 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
-         
-        NN= list(set(nums))
-        NN.sort()
-        L,R=0,len(NN)-1
-    
-        while L<=R: 
-            M = L+((R-L)//2)
-            if NN[M] ==target:
-                return True  
-            if target > NN[M]:
-                L = M + 1
+        start,end=0,len(nums)-1
+
+        while start<=end:
+            m=(end+start)//2
+            if nums[m]==target:return True
+            if nums[start]==nums[m] and nums[m]==nums[end]:
+                start+=1
+                end+=-1
+                continue
+            if nums[start]<=nums[m]:
+                if nums[start]<=target<nums[m]:
+                    end=m-1
+                else:
+                    start=m+1
             else:
-                 R = M-1
+                if nums[m]<target<=nums[end]:
+                    start=m+1
+                else:
+                    end=m-1
         return False
         
