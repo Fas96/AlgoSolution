@@ -1,24 +1,19 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        L,R=0,len(nums)-1
-        res=-1
-        
-        while L<=R: 
-            M = L+((R-L)//2)
-            if nums[M] ==target:
-                return M
-            # left sorted portion
-            if nums[L] <= nums[M]:
-                if target > nums[M] or target < nums[L]:
-                    L = M + 1
+        start,end=0,len(nums)-1
+
+        while start<=end:
+            m=(end+start)//2
+            if nums[m]==target:return m
+            if nums[start]<=nums[m]:
+                if nums[start]<=target<nums[m]:
+                    end=m-1
                 else:
-                    R = M-1
+                    start=m+1
             else:
-                if target < nums[M] or target > nums[R]:
-                    R= M-1
+                if nums[m]<target<=nums[end]:
+                    start=m+1
                 else:
-                    L = M+1
-                    
+                    end=m-1
         return -1
-            
         
