@@ -8,6 +8,5 @@ class Solution:
             if ln in dp: return dp[ln]
             dp[ln]=1 if ln>=low else 0
             dp[ln]+=dfs(ln+zero)+dfs(ln+one)
-            return dp[ln]%MOD
-    
+            return dp[ln]%MOD 
         return dfs(0)
