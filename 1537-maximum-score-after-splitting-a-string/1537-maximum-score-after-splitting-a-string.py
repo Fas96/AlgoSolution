@@ -7,5 +7,5 @@ class Solution:
                 bs+=s[:i].count("0") 
                 bs+=s[i:].count("1")
             ans=max(ans,bs)
-        return ans
+        return max([s[:i].count("0")+s[i:].count("1") for i in range(len(s)) if len(s[:i])>0 and len(s[i:])>0])
         
