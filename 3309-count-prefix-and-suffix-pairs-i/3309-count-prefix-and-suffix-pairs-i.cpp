@@ -1,19 +1,17 @@
 class Solution {
 public:
     int countPrefixSuffixPairs(vector<string>& words) {
-         int n = words.size();
-        int ans = 0;
-
-        auto isPrefixAndSuffix = [](const std::string& a, const std::string& b) -> bool {
-            return b.compare(0, a.size(), a) == 0 && b.compare(b.size() - a.size(), a.size(), a) == 0;
-        };
-
-        for (int i = 0; i < n; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                if (isPrefixAndSuffix(words[i], words[j])) {
-                    ans++;
+          int ans = 0;
+        std::unordered_map<std::string, int> prefixSuffixCount;
+        
+        for (const auto& word : words) {
+            int n = word.size();
+            for (int i = 0, j = n - 1; i < n; ++i, --j) {
+                if (word.substr(0, i + 1) == word.substr(j, i + 1)) {
+                    ans += prefixSuffixCount[word.substr(0, i + 1)];
                 }
             }
+            prefixSuffixCount[word]++;
         }
         return ans;
     }
