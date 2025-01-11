@@ -186,6 +186,7 @@
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
+| [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Fas96/AlgoSolution/tree/master/1002-maximum-width-ramp) |
 | [1025-minimum-cost-for-tickets](https://github.com/Fas96/AlgoSolution/tree/master/1025-minimum-cost-for-tickets) |
@@ -309,6 +310,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Fas96/AlgoSolution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -356,6 +358,7 @@
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
+| [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
