@@ -122,6 +122,7 @@
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1484-linked-list-in-binary-tree) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Fas96/AlgoSolution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2035-count-sub-islands](https://github.com/Fas96/AlgoSolution/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -135,6 +136,7 @@
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Fas96/AlgoSolution/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
@@ -200,6 +202,7 @@
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1435-xor-queries-of-a-subarray) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Fas96/AlgoSolution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/Fas96/AlgoSolution/tree/master/1511-count-number-of-teams) |
@@ -593,6 +596,7 @@
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Fas96/AlgoSolution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -642,6 +646,7 @@
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [1304-longest-happy-string](https://github.com/Fas96/AlgoSolution/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/Fas96/AlgoSolution/tree/master/1917-maximum-average-pass-ratio) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Fas96/AlgoSolution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/Fas96/AlgoSolution/tree/master/2164-two-best-non-overlapping-events) |
@@ -710,6 +715,7 @@
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Fas96/AlgoSolution/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Fas96/AlgoSolution/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2803-modify-graph-edge-weights](https://github.com/Fas96/AlgoSolution/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
