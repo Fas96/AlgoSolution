@@ -231,6 +231,7 @@
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Fas96/AlgoSolution/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Fas96/AlgoSolution/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/Fas96/AlgoSolution/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/Fas96/AlgoSolution/tree/master/2164-two-best-non-overlapping-events) |
@@ -607,6 +608,7 @@
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/Fas96/AlgoSolution/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
 | [2411-spiral-matrix-iv](https://github.com/Fas96/AlgoSolution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
@@ -799,6 +801,7 @@
 | [1694-make-sum-divisible-by-p](https://github.com/Fas96/AlgoSolution/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/Fas96/AlgoSolution/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/Fas96/AlgoSolution/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
