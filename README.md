@@ -258,6 +258,7 @@
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Fas96/AlgoSolution/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/Fas96/AlgoSolution/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/Fas96/AlgoSolution/tree/master/1923-sentence-similarity-iii) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/Fas96/AlgoSolution/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Fas96/AlgoSolution/tree/master/2035-count-sub-islands) |
