@@ -4,7 +4,6 @@ class Solution:
         def isSumofIntegersSubstringEqualsI(s, target, start=0, current_sum=0):
             if start == len(s):
                 return current_sum == target
-            
             for end in range(start + 1, len(s) + 1):
                 num = int(s[start:end])
                 if isSumofIntegersSubstringEqualsI(s, target, end, current_sum + num):
