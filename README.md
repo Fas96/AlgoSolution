@@ -521,6 +521,7 @@
 | [2448-count-number-of-bad-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Fas96/AlgoSolution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Fas96/AlgoSolution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -822,6 +823,7 @@
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Fas96/AlgoSolution/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/Fas96/AlgoSolution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Binary Indexed Tree
 |  |
 | ------- |
