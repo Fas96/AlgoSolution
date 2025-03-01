@@ -300,6 +300,7 @@
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Fas96/AlgoSolution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Fas96/AlgoSolution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2551-apply-operations-to-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Fas96/AlgoSolution/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -398,6 +399,7 @@
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2232-adding-spaces-to-a-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2551-apply-operations-to-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2551-apply-operations-to-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Fas96/AlgoSolution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -509,6 +511,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2232-adding-spaces-to-a-string) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Fas96/AlgoSolution/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2411-spiral-matrix-iv](https://github.com/Fas96/AlgoSolution/tree/master/2411-spiral-matrix-iv) |
+| [2551-apply-operations-to-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2551-apply-operations-to-an-array) |
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
