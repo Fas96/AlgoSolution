@@ -308,6 +308,7 @@
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Fas96/AlgoSolution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2727-number-of-senior-citizens](https://github.com/Fas96/AlgoSolution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -376,6 +377,7 @@
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Fas96/AlgoSolution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Fas96/AlgoSolution/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -402,6 +404,7 @@
 | [2551-apply-operations-to-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2551-apply-operations-to-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Fas96/AlgoSolution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Fas96/AlgoSolution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3195-separate-black-and-white-balls](https://github.com/Fas96/AlgoSolution/tree/master/3195-separate-black-and-white-balls) |
 ## Binary Search
