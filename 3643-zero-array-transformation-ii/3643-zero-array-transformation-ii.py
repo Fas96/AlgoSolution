@@ -21,8 +21,7 @@ class Solution:
         n, q = len(nums), len(que)
 
         if all(x == 0 for x in nums):
-            return 0  # No query required because all are already zero
-
+            return 0
         l, h, ans = 0, q - 1, -1
         while l <= h:
             mid = (l + h) // 2
