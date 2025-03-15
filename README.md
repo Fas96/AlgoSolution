@@ -429,6 +429,7 @@
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -612,6 +613,7 @@
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Fas96/AlgoSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [1160-letter-tile-possibilities](https://github.com/Fas96/AlgoSolution/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/Fas96/AlgoSolution/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/Fas96/AlgoSolution/tree/master/1197-parsing-a-boolean-expression) |
@@ -918,6 +920,7 @@
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Fas96/AlgoSolution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Fas96/AlgoSolution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Fas96/AlgoSolution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Fas96/AlgoSolution/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1006,6 +1009,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0214-shortest-palindrome) |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String Matching
 |  |
@@ -1019,6 +1023,7 @@
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0214-shortest-palindrome) |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Segment Tree
 |  |
@@ -1051,4 +1056,8 @@
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
+## Suffix Array
+|  |
+| ------- |
+| [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 <!---LeetCode Topics End-->
