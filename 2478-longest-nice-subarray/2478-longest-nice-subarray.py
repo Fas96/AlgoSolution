@@ -6,13 +6,12 @@ class Solution:
         i, e, n = 0, 0, len(nums)
         used_bits = 0   
 
-        while e < n:
+        for e in range(n):
             while (used_bits & nums[e]) != 0:  
                 used_bits ^= nums[i]  
                 i += 1  
             
             used_bits |= nums[e]  
-            ans = max(ans, e - i + 1)
-            e += 1
+            ans = max(ans, e - i + 1) 
         
         return ans
