@@ -18,9 +18,4 @@ class Solution:
             return -1
         
         return c
-
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
         
