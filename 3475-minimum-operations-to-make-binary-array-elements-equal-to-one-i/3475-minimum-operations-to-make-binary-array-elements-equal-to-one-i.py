@@ -1,8 +1,6 @@
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
-        c=0
-        i=0
-        ln=len(nums)
+        c,i,ln=0,0,len(nums)
         while i<ln-2:
 
             if nums[i]==0:
@@ -13,7 +11,7 @@ class Solution:
                         nums[j]=1
                     else:
                         nums[j]=0
-            i=i+1
+            i+=1
         if 0 in nums[ln-2:]:
             return -1
         
