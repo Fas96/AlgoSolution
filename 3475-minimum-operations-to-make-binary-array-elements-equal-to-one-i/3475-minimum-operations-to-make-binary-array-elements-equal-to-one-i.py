@@ -1,11 +1,9 @@
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
         c,i,ln=0,0,len(nums)
-        while i<ln-2:
-
+        for i in range(ln-2):
             if nums[i]==0:
-                c+=1
-
+                c+=1 
                 for j in range(i,i+3):
                     if nums[j]==0:
                         nums[j]=1
