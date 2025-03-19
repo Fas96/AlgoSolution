@@ -9,7 +9,7 @@ class Solution:
                         nums[j]=1
                     else:
                         nums[j]=0
-            i+=1
+            
         if 0 in nums[ln-2:]:
             return -1
         
