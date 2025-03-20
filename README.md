@@ -196,6 +196,7 @@
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0040-combination-sum-ii) |
+| [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
@@ -527,6 +528,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0906-walking-robot-simulation](https://github.com/Fas96/AlgoSolution/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
@@ -744,6 +746,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
