@@ -1,6 +1,5 @@
 class Solution:
-    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-        
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]: 
         sorted_nums = sorted(nums)   
         rank = {}  
         for i, num in enumerate(sorted_nums):
