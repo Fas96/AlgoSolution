@@ -1,20 +1,20 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        def spiral(m):
-            ans=[]
+        def s(m):
+            a=[]
             while m:
-                ans+=m.pop(0)
-
+                a+=m.pop(0)
                 if m and m[0]:
                     for r in m:
-                        ans.append(r.pop())
+                        a.append(r.pop())
                 if m:
-                    ans+=(m.pop()[::-1])
+                    a+=(m.pop()[::-1])
                 if m and m[0]:
                     for r in m[::-1]:
-                        ans.append(r.pop(0))
-            return ans
-        return spiral(matrix)
+                        a.append(r.pop(0))
+            return a
+        return s(matrix)
+
 
 
         
