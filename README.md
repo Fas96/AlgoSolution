@@ -280,6 +280,7 @@
 | [2067-maximum-number-of-points-with-cost](https://github.com/Fas96/AlgoSolution/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2107-find-unique-binary-string](https://github.com/Fas96/AlgoSolution/tree/master/2107-find-unique-binary-string) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Fas96/AlgoSolution/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/Fas96/AlgoSolution/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -533,6 +534,7 @@
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Fas96/AlgoSolution/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Fas96/AlgoSolution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Fas96/AlgoSolution/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2155-find-missing-observations](https://github.com/Fas96/AlgoSolution/tree/master/2155-find-missing-observations) |
 | [2232-adding-spaces-to-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Fas96/AlgoSolution/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -647,6 +649,7 @@
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Fas96/AlgoSolution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2107-find-unique-binary-string](https://github.com/Fas96/AlgoSolution/tree/master/2107-find-unique-binary-string) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/Fas96/AlgoSolution/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Fas96/AlgoSolution/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Fas96/AlgoSolution/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
