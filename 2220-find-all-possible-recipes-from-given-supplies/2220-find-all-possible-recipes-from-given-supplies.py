@@ -1,26 +1,18 @@
 class Solution:
     def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]:
-        supplies = set(supplies)
-        dic = {recipes[i] : ingredients[i] for i in range(len(ingredients))}
-        to_add, res = [], []
-
-        start = True
-        while to_add or start:
-            start = False
-
-            
-            for i in to_add:
-                del dic[i]
-                supplies.add(i)
-                res.append(i)
- 
-            to_add = []
-            for key, val in dic.items():
-                can_make = True
-                for i in val:
-                    if i not in supplies:
-                        can_make = False
-                        break
-                if can_make:
-                    to_add.append(key)
-        return res
+        indeg = defaultdict(int)
+        graph = defaultdict(list)
+        for r, ing in zip(recipes, ingredients): 
+            indeg[r] = len(ing)
+            for i in ing: graph[i].append(r)
+        
+        ans = []
+        queue = deque(supplies)
+        recipes = set(recipes)
+        while queue: 
+            x = queue.popleft()
+            if x in recipes: ans.append(x)
+            for xx in graph[x]: 
+                indeg[xx] -= 1
+                if indeg[xx] == 0: queue.append(xx)
+        return ans 
