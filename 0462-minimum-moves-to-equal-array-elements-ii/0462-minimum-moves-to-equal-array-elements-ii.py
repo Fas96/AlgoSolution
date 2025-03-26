@@ -1,6 +1,7 @@
 class Solution:
-    def minMoves2(self, nums: List[int]) -> int: 
-        mid=len(nums)//2
+    def minMoves2(self, nums: List[int]) -> int:
+     
         nums.sort()
-        return sum(abs(nums[mid] - i) for i in nums)
+        median = nums[len(nums) // 2]   
         
+        return sum(abs(num - median) for num in nums)
