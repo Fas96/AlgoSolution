@@ -326,6 +326,7 @@
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Fas96/AlgoSolution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
+| [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/Fas96/AlgoSolution/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -506,6 +507,7 @@
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Fas96/AlgoSolution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Fas96/AlgoSolution/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -535,6 +537,7 @@
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2509-minimize-xor](https://github.com/Fas96/AlgoSolution/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [3195-separate-black-and-white-balls](https://github.com/Fas96/AlgoSolution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
@@ -855,6 +858,7 @@
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Fas96/AlgoSolution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [2803-modify-graph-edge-weights](https://github.com/Fas96/AlgoSolution/tree/master/2803-modify-graph-edge-weights) |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Fas96/AlgoSolution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
