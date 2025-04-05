@@ -1,18 +1,14 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        def backtrack(arr, index, current, all_subsets):
-            if index == len(arr):
-                all_subsets.append(current[:])
-                return
-            current.append(arr[index])
-            backtrack(arr, index + 1, current, all_subsets)
-            current.pop()
-            backtrack(arr, index + 1, current, all_subsets)
-
-        def generateSubsets(arr):
-            all_subsets = []
-            backtrack(arr, 0, [], all_subsets)
-            return all_subsets
-     
-        return generateSubsets(nums)
-        
+        def bk(nums, index, subset, res): 
+            if index == len(nums):
+                res.append(subset[:])
+                return 
+            subset.append(nums[index])
+            bk(nums, index + 1, subset, res)
+            subset.pop() 
+            bk(nums, index + 1, subset, res)
+ 
+        res = []
+        bk(nums, 0, [], res)
+        return res
