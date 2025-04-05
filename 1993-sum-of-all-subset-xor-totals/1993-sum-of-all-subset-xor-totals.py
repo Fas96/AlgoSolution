@@ -1,21 +1,21 @@
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
-        def bk(nums, index, subset, subsets): 
+        def bk(nums, index, subset, res): 
             if index == len(nums):
-                subsets.append(subset[:])
+                res.append(subset[:])
                 return 
             subset.append(nums[index])
-            bk(nums, index + 1, subset, subsets)
+            bk(nums, index + 1, subset, res)
             subset.pop() 
-            bk(nums, index + 1, subset, subsets)
+            bk(nums, index + 1, subset, res)
  
-        subsets = []
-        bk(nums, 0, [], subsets)
+        res = []
+        bk(nums, 0, [], res)
         result = 0
-        for subset in subsets:
-            subset_XOR_total = 0
-            for num in subset:
-                subset_XOR_total ^= num
-            result += subset_XOR_total
+        for s in res:
+            st = 0
+            for num in s:
+                st ^= num
+            result += st
 
         return result 
