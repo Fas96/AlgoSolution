@@ -8,14 +8,7 @@ class Solution:
         for indices in num_to_indices.values():
             freq = defaultdict(int)
             for i in indices:
-                gcd_i_k = math.gcd(i, k)
-                required = k // gcd_i_k
-                # We need to find j in indices where gcd(j, k) is divisible by required
-                # Which simplifies to finding j where (j * gcd_i_k) % k == 0
-                # So, j must be such that (j % (k / gcd_i_k)) == 0
-                # So, j must be divisible by (k / gcd(gcd_i_k, k / gcd_i_k)) ... ?
-                # Alternatively, we can iterate through possible divisors.
-                # For now, let's proceed with checking all previous j's.
+                gcd_i_k = math.gcd(i, k) 
                 for j_gcd, count in freq.items():
                     if (i * j_gcd) % k == 0:
                         ans += count
