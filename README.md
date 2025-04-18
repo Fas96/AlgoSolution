@@ -662,6 +662,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0038-count-and-say](https://github.com/Fas96/AlgoSolution/tree/master/0038-count-and-say) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/Fas96/AlgoSolution/tree/master/0208-implement-trie-prefix-tree) |
