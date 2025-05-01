@@ -209,6 +209,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0136-single-number](https://github.com/Fas96/AlgoSolution/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
@@ -1108,6 +1109,7 @@
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/Fas96/AlgoSolution/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/Fas96/AlgoSolution/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/Fas96/AlgoSolution/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/Fas96/AlgoSolution/tree/master/0338-counting-bits) |
