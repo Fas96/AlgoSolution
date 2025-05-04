@@ -253,6 +253,7 @@
 | [1063-best-sightseeing-pair](https://github.com/Fas96/AlgoSolution/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/Fas96/AlgoSolution/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1240-stone-game-ii](https://github.com/Fas96/AlgoSolution/tree/master/1240-stone-game-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/Fas96/AlgoSolution/tree/master/1293-three-consecutive-odds) |
@@ -409,6 +410,7 @@
 | [1160-letter-tile-possibilities](https://github.com/Fas96/AlgoSolution/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Fas96/AlgoSolution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -939,6 +941,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/Fas96/AlgoSolution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [1160-letter-tile-possibilities](https://github.com/Fas96/AlgoSolution/tree/master/1160-letter-tile-possibilities) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Fas96/AlgoSolution/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
