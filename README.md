@@ -364,6 +364,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/Fas96/AlgoSolution/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Fas96/AlgoSolution/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Fas96/AlgoSolution/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Fas96/AlgoSolution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Fas96/AlgoSolution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/Fas96/AlgoSolution/tree/master/3227-find-missing-and-repeated-values) |
@@ -582,6 +583,7 @@
 | [2509-minimize-xor](https://github.com/Fas96/AlgoSolution/tree/master/2509-minimize-xor) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/Fas96/AlgoSolution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
