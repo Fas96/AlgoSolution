@@ -5,6 +5,6 @@ class Solution:
         """
         idx,count=0,Counter(nums)
         for color in range(3):
-            freq = count.get(color, 0)
+            freq = count[color]
             nums[idx : idx + freq] = [color] * freq
             idx += freq
