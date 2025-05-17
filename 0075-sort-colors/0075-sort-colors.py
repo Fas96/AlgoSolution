@@ -3,4 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        nums.sort()
+        idx,count=0,Counter(nums)
+        for color in range(3):
+            freq = count.get(color, 0)
+            nums[idx : idx + freq] = [color] * freq
+            idx += freq
