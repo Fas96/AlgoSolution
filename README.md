@@ -372,6 +372,7 @@
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Fas96/AlgoSolution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/Fas96/AlgoSolution/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Fas96/AlgoSolution/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -566,6 +567,7 @@
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Fas96/AlgoSolution/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Fas96/AlgoSolution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Fas96/AlgoSolution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Greedy
 |  |
@@ -596,6 +598,7 @@
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/Fas96/AlgoSolution/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 ## Linked List
 |  |
 | ------- |
@@ -833,6 +836,7 @@
 | [2306-create-binary-tree-from-descriptions](https://github.com/Fas96/AlgoSolution/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Fas96/AlgoSolution/tree/master/2564-most-profitable-path-in-a-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/Fas96/AlgoSolution/tree/master/3058-maximum-number-of-k-divisible-components) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 ## Binary Tree
 |  |
 | ------- |
@@ -1022,6 +1026,7 @@
 | [2562-count-ways-to-build-good-strings](https://github.com/Fas96/AlgoSolution/tree/master/2562-count-ways-to-build-good-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Fas96/AlgoSolution/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Fas96/AlgoSolution/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Fas96/AlgoSolution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Shortest Path
@@ -1179,6 +1184,7 @@
 | [2509-minimize-xor](https://github.com/Fas96/AlgoSolution/tree/master/2509-minimize-xor) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Fas96/AlgoSolution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Fas96/AlgoSolution/tree/master/2792-neighboring-bitwise-xor) |
+| [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Fas96/AlgoSolution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Brainteaser
 |  |
