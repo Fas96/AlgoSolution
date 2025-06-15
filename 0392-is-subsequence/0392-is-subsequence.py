@@ -1,4 +1,10 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        iter_t = iter(t)
-        return all(c in iter_t for c in s)
+        if not s:
+            return True
+        if not t:
+            return False
+        if s[0] == t[0]:
+            return self.isSubsequence(s[1:], t[1:])
+        else:
+            return self.isSubsequence(s, t[1:])
