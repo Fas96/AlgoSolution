@@ -486,6 +486,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0768-partition-labels](https://github.com/Fas96/AlgoSolution/tree/master/0768-partition-labels) |
@@ -733,6 +734,7 @@
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
 | [0293-flip-game](https://github.com/Fas96/AlgoSolution/tree/master/0293-flip-game) |
+| [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
 | [0551-student-attendance-record-i](https://github.com/Fas96/AlgoSolution/tree/master/0551-student-attendance-record-i) |
@@ -1020,6 +1022,7 @@
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0338-counting-bits](https://github.com/Fas96/AlgoSolution/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Fas96/AlgoSolution/tree/master/0368-largest-divisible-subset) |
+| [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
