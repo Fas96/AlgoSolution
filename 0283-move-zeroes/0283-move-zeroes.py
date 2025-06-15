@@ -1,13 +1,11 @@
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        idx = 0
-        
-        for num in nums:
-            if num != 0:
-                nums[idx] = num
-                idx += 1
-        
-        while idx < len(nums):
-            nums[idx] = 0
-            idx += 1
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        zeroIndex=0
+        for i in range(len(nums)):
+            if nums[i]!=0:
+                nums[zeroIndex],nums[i]=nums[i],nums[zeroIndex]
+                zeroIndex+=1
         
