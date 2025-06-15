@@ -245,6 +245,7 @@
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/Fas96/AlgoSolution/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
@@ -419,6 +420,7 @@
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0768-partition-labels](https://github.com/Fas96/AlgoSolution/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/Fas96/AlgoSolution/tree/master/0906-walking-robot-simulation) |
@@ -517,6 +519,7 @@
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -553,6 +556,7 @@
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Fas96/AlgoSolution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
@@ -744,6 +748,7 @@
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0768-partition-labels](https://github.com/Fas96/AlgoSolution/tree/master/0768-partition-labels) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Fas96/AlgoSolution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Fas96/AlgoSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -926,6 +931,7 @@
 | [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Fas96/AlgoSolution/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Fas96/AlgoSolution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1028,6 +1034,7 @@
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0806-domino-and-tromino-tiling](https://github.com/Fas96/AlgoSolution/tree/master/0806-domino-and-tromino-tiling) |
+| [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1025-minimum-cost-for-tickets](https://github.com/Fas96/AlgoSolution/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/Fas96/AlgoSolution/tree/master/1063-best-sightseeing-pair) |
