@@ -99,6 +99,7 @@
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/Fas96/AlgoSolution/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/Fas96/AlgoSolution/tree/master/0744-network-delay-time) |
@@ -845,6 +846,7 @@
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -869,6 +871,7 @@
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
