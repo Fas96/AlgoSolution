@@ -8,7 +8,7 @@ class Solution:
             if x <= first:
                 first = x
                 second = float('inf')  
-            elif x < second:
+            elif x <= second:
                 second = x   
             mx = max(mx, x - first)  
         
