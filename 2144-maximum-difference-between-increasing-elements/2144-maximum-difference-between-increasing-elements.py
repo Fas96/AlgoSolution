@@ -2,7 +2,7 @@
 
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
-        first =second= float('inf')
+        first = float('inf')
         mx = -1   
         for x in nums:
             if x <= first:
