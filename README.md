@@ -228,6 +228,7 @@
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/Fas96/AlgoSolution/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
 | [0238-product-of-array-except-self](https://github.com/Fas96/AlgoSolution/tree/master/0238-product-of-array-except-self) |
 | [0271-encode-and-decode-strings](https://github.com/Fas96/AlgoSolution/tree/master/0271-encode-and-decode-strings) |
 | [0283-move-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0283-move-zeroes) |
@@ -551,6 +552,7 @@
 | [0075-sort-colors](https://github.com/Fas96/AlgoSolution/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Fas96/AlgoSolution/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0215-kth-largest-element-in-an-array) |
+| [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/Fas96/AlgoSolution/tree/master/0368-largest-divisible-subset) |
@@ -991,6 +993,7 @@
 ## Bucket Sort
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 ## Radix Sort
@@ -1123,6 +1126,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/Fas96/AlgoSolution/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Fas96/AlgoSolution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -1262,6 +1266,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2280-count-good-triplets-in-an-array) |
