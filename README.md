@@ -707,6 +707,7 @@
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Fas96/AlgoSolution/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Fas96/AlgoSolution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Fas96/AlgoSolution/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Recursion
 |  |
 | ------- |
@@ -1164,6 +1165,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Fas96/AlgoSolution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Fas96/AlgoSolution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Fas96/AlgoSolution/tree/master/3548-find-the-count-of-good-integers) |
+| [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Fas96/AlgoSolution/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Data Stream
 |  |
 | ------- |
