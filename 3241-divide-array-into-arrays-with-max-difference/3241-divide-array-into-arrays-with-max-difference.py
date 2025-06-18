@@ -8,7 +8,7 @@ class Solution:
             st=nums[i:i+3]
             if st[2] - st[0] > k:
                 return []
-            ans.append(st)
+            ans+=[st]
             i+=3 
         return ans
         
