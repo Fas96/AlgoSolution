@@ -5,9 +5,10 @@ class Solution:
         n=len(nums)
         i=0
         while i<n:
-            if nums[i:i+3][2] - nums[i:i+3][0] > k:
+            st=nums[i:i+3]
+            if st[2] - st[0] > k:
                 return []
-            ans.append(nums[i:i+3])
+            ans.append(st)
             i+=3 
         return ans
         
