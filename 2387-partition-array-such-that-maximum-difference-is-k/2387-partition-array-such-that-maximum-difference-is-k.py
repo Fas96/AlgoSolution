@@ -1,10 +1,12 @@
 class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:
         nums.sort()
-        n=len(nums)
-        numOfSubSeq=startIndex=0
-        while startIndex<n:
-            endOfGroup=nums[startIndex]+k
-            startIndex=bisect_right(nums,endOfGroup,startIndex)
-            numOfSubSeq+=1
-        return numOfSubSeq
+        ans = 1
+        x = nums[0]
+
+        for i in range(1, len(nums)):
+            if nums[i] - x > k:
+                x = nums[i]
+                ans += 1
+        
+        return ans
