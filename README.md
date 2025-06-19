@@ -97,6 +97,7 @@
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0386-lexicographical-numbers](https://github.com/Fas96/AlgoSolution/tree/master/0386-lexicographical-numbers) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
@@ -863,6 +864,7 @@
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
@@ -888,6 +890,7 @@
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Fas96/AlgoSolution/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/0543-diameter-of-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
