@@ -17,8 +17,8 @@ class Solution:
             return best
  
         return max(
-            best_for({'N', 'E'}),   # x + y
-            best_for({'N', 'W'}),   # -x + y
-            best_for({'S', 'E'}),   # x - y
-            best_for({'S', 'W'})    # -x - y
+            best_for({'N', 'E'}),   
+            best_for({'N', 'W'}),  
+            best_for({'S', 'E'}),  
+            best_for({'S', 'W'})   
         )
