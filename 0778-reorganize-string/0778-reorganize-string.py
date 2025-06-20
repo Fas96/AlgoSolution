@@ -1,6 +1,5 @@
 class Solution:
     def reorganizeString(self, s: str) -> str:
-        
         freq = Counter(s)
         maxHeap = [(-count, char) for char, count in freq.items()]
         heapq.heapify(maxHeap)
