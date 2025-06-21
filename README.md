@@ -489,6 +489,7 @@
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Fas96/AlgoSolution/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Fas96/AlgoSolution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Fas96/AlgoSolution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Fas96/AlgoSolution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -610,6 +611,7 @@
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Fas96/AlgoSolution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Fas96/AlgoSolution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Greedy
 |  |
@@ -645,6 +647,7 @@
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Fas96/AlgoSolution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Linked List
 |  |
 | ------- |
@@ -839,6 +842,7 @@
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3447-clear-digits](https://github.com/Fas96/AlgoSolution/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Fas96/AlgoSolution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Fas96/AlgoSolution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1056,6 +1060,7 @@
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Fas96/AlgoSolution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Fas96/AlgoSolution/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Fas96/AlgoSolution/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Fas96/AlgoSolution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/Fas96/AlgoSolution/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Fas96/AlgoSolution/tree/master/3630-total-characters-in-string-after-transformations-ii) |
