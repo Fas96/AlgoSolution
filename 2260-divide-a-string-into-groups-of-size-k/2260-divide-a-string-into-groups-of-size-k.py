@@ -1,11 +1,5 @@
 class Solution:
     def divideString(self, s: str, k: int, fill: str) -> List[str]:
-        n=len(s)
-        ans=[]
-        for i in range(0,n,k):
-            f=s[i:i+k]
-            if len(f)<k:
-                f+=((k-len(f))*fill)
-            ans.append(f)
-        return ans
+        n=len(s) 
+        return [(s[i:i+k]+(k-len(s[i:i+k]))*fill) if (len(s[i:i+k])<k) else s[i:i+k] for i in range(0,n,k)]
         
