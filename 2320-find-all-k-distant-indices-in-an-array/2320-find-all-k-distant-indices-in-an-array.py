@@ -3,8 +3,8 @@ class Solution:
         ans=[]
         n=len(nums)
         right=0
-        for i in range(n):
-            if nums[i]==key:
+        for i, num in enumerate(nums):
+            if num==key:
                 left=max(right,i-k)
                 right=min(n,i+k+1)
                 ans.extend(range(left,right))
