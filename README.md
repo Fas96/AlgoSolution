@@ -430,6 +430,7 @@
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0432-all-oone-data-structure](https://github.com/Fas96/AlgoSolution/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
@@ -781,6 +782,7 @@
 | [0293-flip-game](https://github.com/Fas96/AlgoSolution/tree/master/0293-flip-game) |
 | [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
 | [0551-student-attendance-record-i](https://github.com/Fas96/AlgoSolution/tree/master/0551-student-attendance-record-i) |
 | [0564-find-the-closest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0564-find-the-closest-palindrome) |
@@ -996,6 +998,7 @@
 | [0191-number-of-1-bits](https://github.com/Fas96/AlgoSolution/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Fas96/AlgoSolution/tree/master/0347-top-k-frequent-elements) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2280-count-good-triplets-in-an-array) |
@@ -1180,6 +1183,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/Fas96/AlgoSolution/tree/master/0219-contains-duplicate-ii) |
 | [0220-contains-duplicate-iii](https://github.com/Fas96/AlgoSolution/tree/master/0220-contains-duplicate-iii) |
+| [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Fas96/AlgoSolution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
