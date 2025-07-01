@@ -702,6 +702,7 @@
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
+| [2886-faulty-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/2886-faulty-keyboard) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Fas96/AlgoSolution/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Fas96/AlgoSolution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Fas96/AlgoSolution/tree/master/3447-clear-digits) |
@@ -853,6 +854,7 @@
 | [2727-number-of-senior-citizens](https://github.com/Fas96/AlgoSolution/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [2886-faulty-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/2886-faulty-keyboard) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Fas96/AlgoSolution/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Fas96/AlgoSolution/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/Fas96/AlgoSolution/tree/master/3194-find-words-containing-character) |
