@@ -11,12 +11,12 @@ class Solution:
                 if price[i] >= diff:
                     diff = price[i] + num
                     cnt += 1 
-            return cnt
+            return cnt>= k
         low,high = 0,max(price) - min(price)
         ans = -1
         while low <= high:
             mid = (low + high) >> 1
-            if isValid(mid) >= k:
+            if isValid(mid):
                 ans = mid
                 low = mid + 1
             else:
