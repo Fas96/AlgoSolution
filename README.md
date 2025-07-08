@@ -314,6 +314,7 @@
 | [1803-average-waiting-time](https://github.com/Fas96/AlgoSolution/tree/master/1803-average-waiting-time) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Fas96/AlgoSolution/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Fas96/AlgoSolution/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1876-map-of-highest-peak](https://github.com/Fas96/AlgoSolution/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Fas96/AlgoSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Fas96/AlgoSolution/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -562,6 +563,7 @@
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Fas96/AlgoSolution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Fas96/AlgoSolution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Fas96/AlgoSolution/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Fas96/AlgoSolution/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/Fas96/AlgoSolution/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
@@ -611,6 +613,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Fas96/AlgoSolution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Fas96/AlgoSolution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Fas96/AlgoSolution/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Fas96/AlgoSolution/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Fas96/AlgoSolution/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Fas96/AlgoSolution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2164-two-best-non-overlapping-events](https://github.com/Fas96/AlgoSolution/tree/master/2164-two-best-non-overlapping-events) |
@@ -1143,6 +1146,7 @@
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Fas96/AlgoSolution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Fas96/AlgoSolution/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Fas96/AlgoSolution/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/Fas96/AlgoSolution/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Fas96/AlgoSolution/tree/master/2067-maximum-number-of-points-with-cost) |
