@@ -2,14 +2,12 @@ class Solution:
     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
         trainers.sort()
         players.sort()
-        i=0
-        ans=0
-        n=len(trainers)
+        ipx,matchCount,N=0,0,len(trainers)
         for p in players:
-            while i<n and  p>trainers[i]:
-                i+=1
-            if i<n:
-                i+=1
-                ans+=1
-        return ans
+            while ipx<N and  p>trainers[ipx]:
+                ipx+=1
+            if ipx<N:
+                ipx+=1
+                matchCount+=1
+        return matchCount
         
