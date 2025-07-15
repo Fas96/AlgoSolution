@@ -901,6 +901,7 @@
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3396-valid-word](https://github.com/Fas96/AlgoSolution/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Fas96/AlgoSolution/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Fas96/AlgoSolution/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Fas96/AlgoSolution/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
