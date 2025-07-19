@@ -115,6 +115,7 @@
 | [1207-delete-nodes-and-return-forest](https://github.com/Fas96/AlgoSolution/tree/master/1207-delete-nodes-and-return-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Fas96/AlgoSolution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1300-critical-connections-in-a-network](https://github.com/Fas96/AlgoSolution/tree/master/1300-critical-connections-in-a-network) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Fas96/AlgoSolution/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -282,6 +283,7 @@
 | [1325-path-with-maximum-probability](https://github.com/Fas96/AlgoSolution/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
@@ -851,6 +853,7 @@
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Fas96/AlgoSolution/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Fas96/AlgoSolution/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Fas96/AlgoSolution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Fas96/AlgoSolution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/Fas96/AlgoSolution/tree/master/1502-construct-k-palindrome-strings) |
@@ -1039,6 +1042,7 @@
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Fas96/AlgoSolution/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Fas96/AlgoSolution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Fas96/AlgoSolution/tree/master/3309-count-prefix-and-suffix-pairs-i) |
