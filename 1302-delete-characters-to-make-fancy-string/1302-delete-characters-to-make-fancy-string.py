@@ -1,7 +1,12 @@
 class Solution:
-    def makeFancyString(self, s: str) -> str: 
-        for c in set(s):
-            while s.find(c*3) != -1: 
-                s = s.replace(c*3, c*2)
-        return s
+    def makeFancyString(self, s: str) -> str:
+        if len(s) < 3:
+            return s
+        result = []
+        for char in s:
+            if len(result) >= 2 and result[-1] == result[-2] == char:
+                continue
+            result.append(char)
+        
+        return ''.join(result)
         
