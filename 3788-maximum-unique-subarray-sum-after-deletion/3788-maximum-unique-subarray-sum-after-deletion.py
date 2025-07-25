@@ -1,10 +1,6 @@
 class Solution:
     def maxSum(self, nums: List[int]) -> int:
-        val=set() 
-        for v in nums:
-            if v in val:
-                continue
-            val.add(v) 
+        val=set(nums)  
         
         pos,neg=[],[]
         for g in val:
