@@ -4,7 +4,7 @@ class Solution:
         if nums == sorted(nums, reverse=True) or nums == sorted(nums):
             return 0
 
-        hv, i = 0, 1  # Start from 1 to compare with previous
+        hv, i = 0, 1  
         while i < n - 1:
             left = i - 1
             right = i + 1 
