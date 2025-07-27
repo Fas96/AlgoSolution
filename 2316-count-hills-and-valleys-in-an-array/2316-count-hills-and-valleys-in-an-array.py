@@ -1,28 +1,30 @@
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:
         n = len(nums)
-        if nums == sorted(nums, reverse=True) or nums == sorted(nums):
+        if nums == sorted(nums, reverse=True) or nums == sorted(nums) or n < 3:
             return 0
-
-        hv, i = 0, 1  
-        while i < n - 1:
-            left = i - 1
-            right = i + 1 
-            #move left i until wedont have same value as current num
-            while left >= 0 and nums[left] == nums[i]:
+            
+        hillOrValley = 0
+        idx = 1  
+        while idx < n - 1:
+            left = idx - 1
+            right = idx + 1
+             
+            while left >= 0 and nums[left] == nums[idx]:
                 left -= 1
-            if left < 0:
-                i += 1
-                continue 
-            # Understand we move until no nums are same with right
-            while right < n and nums[right] == nums[i]:
-                right += 1
-            if right >= n:
-                i += 1
+            if left < 0:   
+                idx += 1
                 continue
-            #We check from left or right if we have hill or Valley
-            if (nums[left] < nums[i] and nums[right] < nums[i]) or (nums[left] > nums[i] and nums[right] > nums[i]):
-                hv += 1
                  
-            i = right
-        return hv
+            while right < n and nums[right] == nums[idx]:
+                right += 1
+            if right >= n:   
+                idx += 1
+                continue
+                 
+            if (nums[left] < nums[idx] and nums[idx] > nums[right]) or (nums[left] > nums[idx] and nums[idx] < nums[right]):
+                hillOrValley += 1
+                 
+            idx = right if right > idx + 1 else idx + 1
+            
+        return hillOrValley
