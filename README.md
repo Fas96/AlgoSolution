@@ -229,6 +229,7 @@
 | [0075-sort-colors](https://github.com/Fas96/AlgoSolution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0118-pascals-triangle](https://github.com/Fas96/AlgoSolution/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/Fas96/AlgoSolution/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Fas96/AlgoSolution/tree/master/0162-find-peak-element) |
@@ -1163,6 +1164,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/Fas96/AlgoSolution/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
+| [0118-pascals-triangle](https://github.com/Fas96/AlgoSolution/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
