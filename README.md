@@ -397,6 +397,7 @@
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
+| [2689-rearranging-fruits](https://github.com/Fas96/AlgoSolution/tree/master/2689-rearranging-fruits) |
 | [2690-house-robber-iv](https://github.com/Fas96/AlgoSolution/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -517,6 +518,7 @@
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Fas96/AlgoSolution/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
+| [2689-rearranging-fruits](https://github.com/Fas96/AlgoSolution/tree/master/2689-rearranging-fruits) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Fas96/AlgoSolution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -656,6 +658,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Fas96/AlgoSolution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Fas96/AlgoSolution/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
+| [2689-rearranging-fruits](https://github.com/Fas96/AlgoSolution/tree/master/2689-rearranging-fruits) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/Fas96/AlgoSolution/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -701,6 +704,7 @@
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Fas96/AlgoSolution/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
+| [2689-rearranging-fruits](https://github.com/Fas96/AlgoSolution/tree/master/2689-rearranging-fruits) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/Fas96/AlgoSolution/tree/master/3195-separate-black-and-white-balls) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Fas96/AlgoSolution/tree/master/3241-divide-array-into-arrays-with-max-difference) |
