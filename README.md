@@ -353,6 +353,7 @@
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Fas96/AlgoSolution/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/Fas96/AlgoSolution/tree/master/2215-finding-3-digit-even-numbers) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Fas96/AlgoSolution/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Fas96/AlgoSolution/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2232-adding-spaces-to-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2232-adding-spaces-to-a-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Fas96/AlgoSolution/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2249-count-the-hidden-sequences](https://github.com/Fas96/AlgoSolution/tree/master/2249-count-the-hidden-sequences) |
@@ -596,6 +597,7 @@
 | [2164-two-best-non-overlapping-events](https://github.com/Fas96/AlgoSolution/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Fas96/AlgoSolution/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Fas96/AlgoSolution/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Fas96/AlgoSolution/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Fas96/AlgoSolution/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Fas96/AlgoSolution/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -1284,6 +1286,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Fas96/AlgoSolution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1813-maximum-erasure-value](https://github.com/Fas96/AlgoSolution/tree/master/1813-maximum-erasure-value) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Fas96/AlgoSolution/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Fas96/AlgoSolution/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Fas96/AlgoSolution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Fas96/AlgoSolution/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Fas96/AlgoSolution/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -1349,6 +1352,7 @@
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Fas96/AlgoSolution/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2249-count-the-hidden-sequences](https://github.com/Fas96/AlgoSolution/tree/master/2249-count-the-hidden-sequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/Fas96/AlgoSolution/tree/master/2358-number-of-ways-to-split-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Fas96/AlgoSolution/tree/master/2394-count-subarrays-with-score-less-than-k) |
