@@ -2,18 +2,16 @@ from collections import Counter
 
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        frq = Counter()
-        left = 0
-        ans = 0
-        
-        for right, fruit in enumerate(fruits):
-            frq[fruit] += 1 
-            while len(frq) > 2:
-                lf = fruits[left]
-                frq[lf] -= 1
-                if frq[lf] == 0:
-                    del frq[lf]
-                left += 1
-            ans = max(ans, right - left + 1)
-        
+        left=0
+        freq=Counter()
+        ans=float("-INF")
+        for i,fr in enumerate(fruits):
+            freq[fr]+=1
+            while len(freq)>2:
+                lf=fruits[left]
+                freq[lf]-=1
+                if freq[lf]==0:
+                    del freq[lf]
+                left+=1
+            ans=max(ans,i-left+1)
         return ans
