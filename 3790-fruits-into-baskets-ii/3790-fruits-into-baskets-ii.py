@@ -4,8 +4,7 @@ class Solution:
         placed=[False]*N 
         for j in range(N):
             for b in range(N):
-                if fruits[j]<=baskets[b] and not placed[b]:
-                    print(fruits[j],baskets[b])
+                if fruits[j]<=baskets[b] and not placed[b]: 
                     placed[b]=True
                     break
          
