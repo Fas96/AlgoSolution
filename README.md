@@ -789,6 +789,7 @@
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/Fas96/AlgoSolution/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
+| [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Fas96/AlgoSolution/tree/master/1240-stone-game-ii) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
@@ -1192,6 +1193,7 @@
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0806-domino-and-tromino-tiling](https://github.com/Fas96/AlgoSolution/tree/master/0806-domino-and-tromino-tiling) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
+| [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/Fas96/AlgoSolution/tree/master/1025-minimum-cost-for-tickets) |
@@ -1488,4 +1490,8 @@
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/Fas96/AlgoSolution/tree/master/1300-critical-connections-in-a-network) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
