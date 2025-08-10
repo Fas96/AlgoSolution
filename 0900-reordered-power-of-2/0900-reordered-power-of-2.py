@@ -6,9 +6,6 @@ class Solution:
          
         eqN=[pp for pp in pow if len(pp)==N]
        
-        for c in eqN:
-            cc=Counter(c) 
-            if cc==freqN:
-                return True
-        return False 
+        return any(Counter(c)==freqN  for c in eqN)
+        
         
