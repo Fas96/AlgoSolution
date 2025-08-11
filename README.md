@@ -387,6 +387,7 @@
 | [2502-sort-the-people](https://github.com/Fas96/AlgoSolution/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Fas96/AlgoSolution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Fas96/AlgoSolution/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2529-range-product-queries-of-powers](https://github.com/Fas96/AlgoSolution/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Fas96/AlgoSolution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Fas96/AlgoSolution/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -1378,6 +1379,7 @@
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Fas96/AlgoSolution/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2465-shifting-letters-ii](https://github.com/Fas96/AlgoSolution/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2529-range-product-queries-of-powers](https://github.com/Fas96/AlgoSolution/tree/master/2529-range-product-queries-of-powers) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Fas96/AlgoSolution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -1413,6 +1415,7 @@
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Fas96/AlgoSolution/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Fas96/AlgoSolution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2509-minimize-xor](https://github.com/Fas96/AlgoSolution/tree/master/2509-minimize-xor) |
+| [2529-range-product-queries-of-powers](https://github.com/Fas96/AlgoSolution/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Fas96/AlgoSolution/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2792-neighboring-bitwise-xor](https://github.com/Fas96/AlgoSolution/tree/master/2792-neighboring-bitwise-xor) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
