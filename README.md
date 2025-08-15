@@ -788,6 +788,7 @@
 | [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/Fas96/AlgoSolution/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
+| [0342-power-of-four](https://github.com/Fas96/AlgoSolution/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/Fas96/AlgoSolution/tree/master/0368-largest-divisible-subset) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Fas96/AlgoSolution/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
@@ -837,6 +838,7 @@
 | [0231-power-of-two](https://github.com/Fas96/AlgoSolution/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Fas96/AlgoSolution/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Fas96/AlgoSolution/tree/master/0273-integer-to-english-words) |
+| [0342-power-of-four](https://github.com/Fas96/AlgoSolution/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
 | [1197-parsing-a-boolean-expression](https://github.com/Fas96/AlgoSolution/tree/master/1197-parsing-a-boolean-expression) |
@@ -1409,6 +1411,7 @@
 | [0191-number-of-1-bits](https://github.com/Fas96/AlgoSolution/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Fas96/AlgoSolution/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/Fas96/AlgoSolution/tree/master/0338-counting-bits) |
+| [0342-power-of-four](https://github.com/Fas96/AlgoSolution/tree/master/0342-power-of-four) |
 | [0476-number-complement](https://github.com/Fas96/AlgoSolution/tree/master/0476-number-complement) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1435-xor-queries-of-a-subarray) |
