@@ -255,6 +255,7 @@
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0624-maximum-distance-in-arrays](https://github.com/Fas96/AlgoSolution/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Fas96/AlgoSolution/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0679-24-game](https://github.com/Fas96/AlgoSolution/tree/master/0679-24-game) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -796,6 +797,7 @@
 | [0564-find-the-closest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0564-find-the-closest-palindrome) |
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/Fas96/AlgoSolution/tree/master/0670-maximum-swap) |
+| [0679-24-game](https://github.com/Fas96/AlgoSolution/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/Fas96/AlgoSolution/tree/master/0867-new-21-game) |
@@ -1291,6 +1293,7 @@
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0113-path-sum-ii) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
+| [0679-24-game](https://github.com/Fas96/AlgoSolution/tree/master/0679-24-game) |
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
 | [1160-letter-tile-possibilities](https://github.com/Fas96/AlgoSolution/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Fas96/AlgoSolution/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
