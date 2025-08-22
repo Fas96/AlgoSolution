@@ -1,13 +1,14 @@
 class Solution:
     def minimumArea(self, grid: List[List[int]]) -> int:
-        iMin, iMax, jMin, jMax=1000, -1, 1000, -1
-        for i, row in enumerate(grid):
-            for j, x in enumerate(row):
-                if x==0: continue
-                iMin=min(iMin, i)
-                iMax=max(iMax, i)
-                jMin=min(jMin, j)
-                jMax=max(jMax, j)
-        return (iMax-iMin+1)*(jMax-jMin+1)
+        idxMin,idxMax,jdxMin,jdxMax=1000,-1000,1000,-1000
+        r,c=len(grid),len(grid[0])
+        for i in range(r):
+            for j in range(c):
+                if grid[i][j]==0:continue
+                idxMin=min(idxMin,i)
+                idxMax=max(idxMax,i)
+                jdxMin=min(jdxMin,j)
+                jdxMax=max(jdxMax,j)
+        return (idxMax-idxMin+1)*(jdxMax-jdxMin+1)
 
              
