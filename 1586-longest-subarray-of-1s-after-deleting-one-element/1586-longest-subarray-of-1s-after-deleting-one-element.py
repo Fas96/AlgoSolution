@@ -7,6 +7,5 @@ class Solution:
                 zeros-=(nums[l]==0)
                 l+=1
             ans=max(ans, r-l)
-        return ans
-            
+        return ans 
         
