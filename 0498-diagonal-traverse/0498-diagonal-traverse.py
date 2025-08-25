@@ -1,8 +1,6 @@
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        if not mat or not mat[0]:
-            return []
-        
+  
         r, c = len(mat), len(mat[0])
         result = [] 
         for diagonal in range(r + c - 1):
