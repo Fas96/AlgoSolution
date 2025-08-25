@@ -10,5 +10,5 @@ class Solution:
                     temp.append(mat[i][j])
             if diagonal % 2 == 0:
                 temp.reverse()
-            result.extend(temp)
+            result+=(temp)
         return result  
