@@ -251,6 +251,7 @@
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Fas96/AlgoSolution/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
 | [0594-longest-harmonious-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0594-longest-harmonious-subsequence) |
 | [0624-maximum-distance-in-arrays](https://github.com/Fas96/AlgoSolution/tree/master/0624-maximum-distance-in-arrays) |
@@ -753,6 +754,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
+| [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0906-walking-robot-simulation](https://github.com/Fas96/AlgoSolution/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
@@ -1055,6 +1057,7 @@
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
