@@ -225,6 +225,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Fas96/AlgoSolution/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Fas96/AlgoSolution/tree/master/0033-search-in-rotated-sorted-array) |
+| [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
@@ -469,6 +470,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/Fas96/AlgoSolution/tree/master/0208-implement-trie-prefix-tree) |
@@ -1059,6 +1061,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
@@ -1316,6 +1319,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0113-path-sum-ii) |
