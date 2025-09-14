@@ -1,16 +1,39 @@
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
-        capital={i.lower():i for i in wordlist[::-1]}
-        vovel={''.join([j if j not in "aeiou" else '.' for j in i.lower()]):i for i in wordlist[::-1]}
-        wordlist=set(wordlist)
-        res=[]
-        for i in queries:
-            if i in wordlist:
-                res.append(i)
-            elif i.lower() in capital:
-                res.append(capital[i.lower()])
-            elif ''.join([j if j not in "aeiou" else '.' for j in i.lower()]) in vovel:
-                res.append(vovel[''.join([j if j not in "aeiou" else '.' for j in i.lower()])])
+        def remove_vowels(s):
+            chars = list(s)
+            for i in range(len(chars)):
+                if chars[i] in 'aeiou':
+                    chars[i] = '*'
+            return ''.join(chars)
+        
+        word_set = set(wordlist)
+        
+        lowercase_map = {}
+        for word in wordlist:
+            lowercase_word = word.lower()
+            if lowercase_word not in lowercase_map:
+                lowercase_map[lowercase_word] = word
+        
+        vowels_map = {}
+        for word in wordlist:
+            vowel_word = remove_vowels(word.lower())
+            if vowel_word not in vowels_map:
+                vowels_map[vowel_word] = word
+        
+        result = []
+        for query in queries:
+            if query in word_set:
+                result.append(query)
             else:
-                res.append("")
-        return res
+                lowercase_word = query.lower()
+                if lowercase_word in lowercase_map:
+                    result.append(lowercase_map[lowercase_word])
+                else:
+                    vowel_word = remove_vowels(lowercase_word)
+                    if vowel_word in vowels_map:
+                        result.append(vowels_map[vowel_word])
+                    else:
+                        result.append("")
+        
+        return result
