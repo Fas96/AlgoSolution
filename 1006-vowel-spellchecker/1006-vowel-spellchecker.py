@@ -1,39 +1,27 @@
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
-        def remove_vowels(s):
-            chars = list(s)
-            for i in range(len(chars)):
-                if chars[i] in 'aeiou':
-                    chars[i] = '*'
-            return ''.join(chars)
-        
-        word_set = set(wordlist)
-        
-        lowercase_map = {}
-        for word in wordlist:
-            lowercase_word = word.lower()
-            if lowercase_word not in lowercase_map:
-                lowercase_map[lowercase_word] = word
-        
-        vowels_map = {}
-        for word in wordlist:
-            vowel_word = remove_vowels(word.lower())
-            if vowel_word not in vowels_map:
-                vowels_map[vowel_word] = word
-        
-        result = []
-        for query in queries:
-            if query in word_set:
-                result.append(query)
+        exact=set(wordlist)
+        case,vowel={},{}
+
+        for i in wordlist:
+            l=i.lower()
+            if l not in case:
+                case[l]=i 
+            v="".join("*" if j in "aeiou" else j for j in l)
+            if v not in vowel:
+                vowel[v]=i
+
+        r=[]
+        for i in queries:
+            if i in exact:
+                r.append(i)
             else:
-                lowercase_word = query.lower()
-                if lowercase_word in lowercase_map:
-                    result.append(lowercase_map[lowercase_word])
+                l=i.lower()
+                v="".join("*" if j in "aeiou" else j for j in l)
+                if l in case:
+                    r.append(case[l])
+                elif v in vowel:
+                    r.append(vowel[v])
                 else:
-                    vowel_word = remove_vowels(lowercase_word)
-                    if vowel_word in vowels_map:
-                        result.append(vowels_map[vowel_word])
-                    else:
-                        result.append("")
-        
-        return result
+                    r.append("")
+        return r
