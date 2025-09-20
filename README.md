@@ -472,6 +472,7 @@
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Fas96/AlgoSolution/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/Fas96/AlgoSolution/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Fas96/AlgoSolution/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 ## Hash Table
 |  |
 | ------- |
@@ -570,6 +571,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Fas96/AlgoSolution/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Fas96/AlgoSolution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Fas96/AlgoSolution/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Fas96/AlgoSolution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Two Pointers
 |  |
@@ -644,6 +646,7 @@
 | [3643-zero-array-transformation-ii](https://github.com/Fas96/AlgoSolution/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/Fas96/AlgoSolution/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Fas96/AlgoSolution/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 ## Sorting
 |  |
 | ------- |
@@ -894,6 +897,7 @@
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Fas96/AlgoSolution/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Fas96/AlgoSolution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 ## String
 |  |
 | ------- |
@@ -1131,6 +1135,7 @@
 | [1497-design-a-stack-with-increment-operation](https://github.com/Fas96/AlgoSolution/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Fas96/AlgoSolution/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/Fas96/AlgoSolution/tree/master/2434-design-a-number-container-system) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 ## Trie
 |  |
 | ------- |
@@ -1546,6 +1551,7 @@
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
 | [3790-fruits-into-baskets-ii](https://github.com/Fas96/AlgoSolution/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Fas96/AlgoSolution/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
 ## Doubly-Linked List
 |  |
 | ------- |
