@@ -294,6 +294,7 @@
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
@@ -516,6 +517,7 @@
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Fas96/AlgoSolution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/Fas96/AlgoSolution/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Fas96/AlgoSolution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -675,6 +677,7 @@
 | [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Fas96/AlgoSolution/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Fas96/AlgoSolution/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -943,6 +946,7 @@
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Fas96/AlgoSolution/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/Fas96/AlgoSolution/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Fas96/AlgoSolution/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Fas96/AlgoSolution/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/Fas96/AlgoSolution/tree/master/1502-construct-k-palindrome-strings) |
