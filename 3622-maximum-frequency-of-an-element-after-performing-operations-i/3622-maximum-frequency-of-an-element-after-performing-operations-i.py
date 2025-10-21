@@ -1,40 +1,25 @@
-from collections import Counter
-
-class Solution(object):
-    def maxFrequency(self, nums, k, numOperations):
-        """
-        :type nums: List[int]
-        :type k: int
-        :type numOperations: int
-        :rtype: int
-        """
+class Solution:
+    def maxFrequency(self, nums: List[int], k: int, numOperations: int) -> int:
         nums.sort()
-        n = len(nums)
-        r = i = j = 0
-        h = Counter()
-        
-        # Strategy 1: Target existing values
-        for a in nums:
-            # Expand j to include all reachable values
-            while j < n and nums[j] <= a + k:
-                h[nums[j]] += 1
-                j += 1
-            
-            # Contract i to exclude unreachable values
-            while i < n and nums[i] < a - k:
-                h[nums[i]] += 1
-                i += 1
-            
-            # Calculate max frequency for target value 'a'
-            c = min(j - i, h[a] + numOperations)
-            r = max(r, c)
-        
-        # Strategy 2: Target gap values
-        i = 0
-        for j in range(n):
-            # Find window where all can converge
-            while nums[i] + k + k < nums[j]:
-                i += 1
-            r = max(r, min(j - i + 1, numOperations))
-        
-        return r
+        ans = 0
+        num_count = {}
+        last_num_index = 0
+        for i in range(len(nums)):
+            if nums[i] != nums[last_num_index]:
+                num_count[nums[last_num_index]] = i - last_num_index
+                ans = max(ans, i - last_num_index)
+                last_num_index = i
+
+        num_count[nums[last_num_index]] = len(nums) - last_num_index
+        ans = max(ans, len(nums) - last_num_index)
+
+        for i in range(nums[0], nums[-1] + 1):
+            l = bisect.bisect_left(nums, i - k)
+            r = bisect.bisect_right(nums, i + k) - 1
+            if i in num_count:
+                temp_ans = min(r - l + 1, num_count[i] + numOperations)
+            else:
+                temp_ans = min(r - l + 1, numOperations)
+            ans = max(ans, temp_ans)
+
+        return ans
