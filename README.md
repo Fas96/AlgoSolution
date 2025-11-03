@@ -323,6 +323,7 @@
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Fas96/AlgoSolution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Fas96/AlgoSolution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1694-make-sum-divisible-by-p](https://github.com/Fas96/AlgoSolution/tree/master/1694-make-sum-divisible-by-p) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Fas96/AlgoSolution/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/Fas96/AlgoSolution/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Fas96/AlgoSolution/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -746,6 +747,7 @@
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Fas96/AlgoSolution/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/Fas96/AlgoSolution/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Fas96/AlgoSolution/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Fas96/AlgoSolution/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Fas96/AlgoSolution/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -966,6 +968,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Fas96/AlgoSolution/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Fas96/AlgoSolution/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Fas96/AlgoSolution/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Fas96/AlgoSolution/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1720-crawler-log-folder](https://github.com/Fas96/AlgoSolution/tree/master/1720-crawler-log-folder) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Fas96/AlgoSolution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -1306,6 +1309,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Fas96/AlgoSolution/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Fas96/AlgoSolution/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Fas96/AlgoSolution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/Fas96/AlgoSolution/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Fas96/AlgoSolution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Fas96/AlgoSolution/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
