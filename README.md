@@ -135,6 +135,7 @@
 | [3058-maximum-number-of-k-divisible-components](https://github.com/Fas96/AlgoSolution/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Fas96/AlgoSolution/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Fas96/AlgoSolution/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -166,6 +167,7 @@
 | [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Fas96/AlgoSolution/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Fas96/AlgoSolution/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Graph
 |  |
 | ------- |
@@ -194,6 +196,7 @@
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Fas96/AlgoSolution/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Fas96/AlgoSolution/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Fas96/AlgoSolution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Topological Sort
 |  |
 | ------- |
@@ -220,6 +223,7 @@
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Fas96/AlgoSolution/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Fas96/AlgoSolution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Array
 |  |
 | ------- |
@@ -485,6 +489,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/Fas96/AlgoSolution/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Fas96/AlgoSolution/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
 |  |
 | ------- |
@@ -588,6 +593,7 @@
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Fas96/AlgoSolution/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Fas96/AlgoSolution/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Fas96/AlgoSolution/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Two Pointers
 |  |
@@ -1232,6 +1238,7 @@
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Fas96/AlgoSolution/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/Fas96/AlgoSolution/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Fas96/AlgoSolution/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Merge Sort
 |  |
 | ------- |
@@ -1595,6 +1602,7 @@
 | [3790-fruits-into-baskets-ii](https://github.com/Fas96/AlgoSolution/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/Fas96/AlgoSolution/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/Fas96/AlgoSolution/tree/master/3863-power-grid-maintenance) |
 ## Doubly-Linked List
 |  |
 | ------- |
