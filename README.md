@@ -418,6 +418,7 @@
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Fas96/AlgoSolution/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Fas96/AlgoSolution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Fas96/AlgoSolution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
@@ -658,6 +659,7 @@
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Fas96/AlgoSolution/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Fas96/AlgoSolution/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Fas96/AlgoSolution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Fas96/AlgoSolution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/Fas96/AlgoSolution/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -775,6 +777,7 @@
 | [2509-minimize-xor](https://github.com/Fas96/AlgoSolution/tree/master/2509-minimize-xor) |
 | [2600-maximum-tastiness-of-candy-basket](https://github.com/Fas96/AlgoSolution/tree/master/2600-maximum-tastiness-of-candy-basket) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/Fas96/AlgoSolution/tree/master/2689-rearranging-fruits) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -927,6 +930,7 @@
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Fas96/AlgoSolution/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Fas96/AlgoSolution/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Fas96/AlgoSolution/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3827-implement-router](https://github.com/Fas96/AlgoSolution/tree/master/3827-implement-router) |
@@ -1436,6 +1440,7 @@
 | [2478-longest-nice-subarray](https://github.com/Fas96/AlgoSolution/tree/master/2478-longest-nice-subarray) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Fas96/AlgoSolution/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Fas96/AlgoSolution/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Fas96/AlgoSolution/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -1507,6 +1512,7 @@
 | [2465-shifting-letters-ii](https://github.com/Fas96/AlgoSolution/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2529-range-product-queries-of-powers](https://github.com/Fas96/AlgoSolution/tree/master/2529-range-product-queries-of-powers) |
+| [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Fas96/AlgoSolution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
