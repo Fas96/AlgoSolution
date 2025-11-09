@@ -824,6 +824,7 @@
 | [2232-adding-spaces-to-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2232-adding-spaces-to-a-string) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Fas96/AlgoSolution/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Fas96/AlgoSolution/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Fas96/AlgoSolution/tree/master/2288-count-operations-to-obtain-zero) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Fas96/AlgoSolution/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Fas96/AlgoSolution/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -882,6 +883,7 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/Fas96/AlgoSolution/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Fas96/AlgoSolution/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Fas96/AlgoSolution/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2288-count-operations-to-obtain-zero](https://github.com/Fas96/AlgoSolution/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Fas96/AlgoSolution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/2432-number-of-zero-filled-subarrays) |
