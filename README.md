@@ -255,6 +255,7 @@
 | [0368-largest-divisible-subset](https://github.com/Fas96/AlgoSolution/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Fas96/AlgoSolution/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0474-ones-and-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
@@ -955,6 +956,7 @@
 | [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/Fas96/AlgoSolution/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0474-ones-and-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0474-ones-and-zeroes) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
 | [0551-student-attendance-record-i](https://github.com/Fas96/AlgoSolution/tree/master/0551-student-attendance-record-i) |
 | [0564-find-the-closest-palindrome](https://github.com/Fas96/AlgoSolution/tree/master/0564-find-the-closest-palindrome) |
@@ -1311,6 +1313,7 @@
 | [0338-counting-bits](https://github.com/Fas96/AlgoSolution/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/Fas96/AlgoSolution/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0392-is-subsequence) |
+| [0474-ones-and-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
