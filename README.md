@@ -430,6 +430,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/Fas96/AlgoSolution/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Fas96/AlgoSolution/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2727-number-of-senior-citizens](https://github.com/Fas96/AlgoSolution/tree/master/2727-number-of-senior-citizens) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Fas96/AlgoSolution/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2755-extra-characters-in-a-string](https://github.com/Fas96/AlgoSolution/tree/master/2755-extra-characters-in-a-string) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2792-neighboring-bitwise-xor](https://github.com/Fas96/AlgoSolution/tree/master/2792-neighboring-bitwise-xor) |
@@ -896,6 +897,7 @@
 | [2645-pass-the-pillow](https://github.com/Fas96/AlgoSolution/tree/master/2645-pass-the-pillow) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Fas96/AlgoSolution/tree/master/2649-count-total-number-of-colored-cells) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Fas96/AlgoSolution/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Fas96/AlgoSolution/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Fas96/AlgoSolution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [2998-count-symmetric-integers](https://github.com/Fas96/AlgoSolution/tree/master/2998-count-symmetric-integers) |
@@ -1400,6 +1402,7 @@
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Fas96/AlgoSolution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/Fas96/AlgoSolution/tree/master/2610-closest-prime-numbers-in-range) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Fas96/AlgoSolution/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Fas96/AlgoSolution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Backtracking
 |  |
