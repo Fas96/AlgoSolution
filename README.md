@@ -420,6 +420,7 @@
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Fas96/AlgoSolution/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Fas96/AlgoSolution/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
+| [2625-increment-submatrices-by-one](https://github.com/Fas96/AlgoSolution/tree/master/2625-increment-submatrices-by-one) |
 | [2665-minimum-time-to-repair-cars](https://github.com/Fas96/AlgoSolution/tree/master/2665-minimum-time-to-repair-cars) |
 | [2679-count-distinct-numbers-on-board](https://github.com/Fas96/AlgoSolution/tree/master/2679-count-distinct-numbers-on-board) |
 | [2681-put-marbles-in-bags](https://github.com/Fas96/AlgoSolution/tree/master/2681-put-marbles-in-bags) |
@@ -1162,6 +1163,7 @@
 | [2411-spiral-matrix-iv](https://github.com/Fas96/AlgoSolution/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Fas96/AlgoSolution/tree/master/2472-build-a-matrix-with-conditions) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/Fas96/AlgoSolution/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2625-increment-submatrices-by-one](https://github.com/Fas96/AlgoSolution/tree/master/2625-increment-submatrices-by-one) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/Fas96/AlgoSolution/tree/master/3227-find-missing-and-repeated-values) |
@@ -1530,6 +1532,7 @@
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Fas96/AlgoSolution/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2529-range-product-queries-of-powers](https://github.com/Fas96/AlgoSolution/tree/master/2529-range-product-queries-of-powers) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Fas96/AlgoSolution/tree/master/2618-maximize-the-minimum-powered-city) |
+| [2625-increment-submatrices-by-one](https://github.com/Fas96/AlgoSolution/tree/master/2625-increment-submatrices-by-one) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Fas96/AlgoSolution/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Fas96/AlgoSolution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
