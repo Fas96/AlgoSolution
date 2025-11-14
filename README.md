@@ -256,6 +256,7 @@
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Fas96/AlgoSolution/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0474-ones-and-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0474-ones-and-zeroes) |
+| [0485-max-consecutive-ones](https://github.com/Fas96/AlgoSolution/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Fas96/AlgoSolution/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0539-minimum-time-difference](https://github.com/Fas96/AlgoSolution/tree/master/0539-minimum-time-difference) |
