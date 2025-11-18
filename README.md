@@ -266,6 +266,7 @@
 | [0679-24-game](https://github.com/Fas96/AlgoSolution/tree/master/0679-24-game) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/Fas96/AlgoSolution/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Fas96/AlgoSolution/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Fas96/AlgoSolution/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Fas96/AlgoSolution/tree/master/0731-my-calendar-ii) |
