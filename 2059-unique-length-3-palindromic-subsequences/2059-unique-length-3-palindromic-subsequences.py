@@ -1,8 +1,14 @@
-
-class Solution:
-    def countPalindromicSubsequence(self, s: str) -> int:
-
-        fq = defaultdict(list)
+class Solution(object):
+    def countPalindromicSubsequence(self, s):
+        char_indices = {}
         for i, char in enumerate(s):
-            fq[char]+=[i] 
-        return sum([len(set(s[min(indices)+1:max(indices)])) for indices in fq.values() if indices])
+            if char not in char_indices:
+                char_indices[char] = []
+            char_indices[char].append(i)
+
+        count = 0
+        for indices in char_indices.values():
+            if len(indices) > 1:
+                unique_chars = set(s[min(indices)+1:max(indices)])
+                count += len(unique_chars)
+        return count
