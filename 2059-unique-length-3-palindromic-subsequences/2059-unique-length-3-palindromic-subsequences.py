@@ -1,5 +1,4 @@
 
-from itertools import combinations
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
 
