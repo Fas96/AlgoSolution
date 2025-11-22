@@ -451,6 +451,7 @@
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Fas96/AlgoSolution/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Fas96/AlgoSolution/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Fas96/AlgoSolution/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Fas96/AlgoSolution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3194-find-words-containing-character](https://github.com/Fas96/AlgoSolution/tree/master/3194-find-words-containing-character) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Fas96/AlgoSolution/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/Fas96/AlgoSolution/tree/master/3227-find-missing-and-repeated-values) |
@@ -918,6 +919,7 @@
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Fas96/AlgoSolution/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [2998-count-symmetric-integers](https://github.com/Fas96/AlgoSolution/tree/master/2998-count-symmetric-integers) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Fas96/AlgoSolution/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Fas96/AlgoSolution/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Fas96/AlgoSolution/tree/master/3227-find-missing-and-repeated-values) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Fas96/AlgoSolution/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Fas96/AlgoSolution/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
