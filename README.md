@@ -486,6 +486,7 @@
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Fas96/AlgoSolution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Fas96/AlgoSolution/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Fas96/AlgoSolution/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Fas96/AlgoSolution/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3583-count-special-triplets](https://github.com/Fas96/AlgoSolution/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Fas96/AlgoSolution/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -957,6 +958,7 @@
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Fas96/AlgoSolution/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-find-the-count-of-good-integers](https://github.com/Fas96/AlgoSolution/tree/master/3548-find-the-count-of-good-integers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Fas96/AlgoSolution/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Fas96/AlgoSolution/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/Fas96/AlgoSolution/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Fas96/AlgoSolution/tree/master/3623-count-number-of-trapezoids-i) |
@@ -1566,6 +1568,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/Fas96/AlgoSolution/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Fas96/AlgoSolution/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Fas96/AlgoSolution/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Fas96/AlgoSolution/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Fas96/AlgoSolution/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 ## Data Stream
 |  |
@@ -1653,6 +1656,7 @@
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Fas96/AlgoSolution/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Fas96/AlgoSolution/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Fas96/AlgoSolution/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Rolling Hash
 |  |
 | ------- |
