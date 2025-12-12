@@ -476,6 +476,7 @@
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/Fas96/AlgoSolution/tree/master/3429-special-array-i) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Fas96/AlgoSolution/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3433-count-mentions-per-user](https://github.com/Fas96/AlgoSolution/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Fas96/AlgoSolution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Fas96/AlgoSolution/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Fas96/AlgoSolution/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -778,6 +779,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Fas96/AlgoSolution/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/Fas96/AlgoSolution/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/Fas96/AlgoSolution/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3433-count-mentions-per-user](https://github.com/Fas96/AlgoSolution/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Fas96/AlgoSolution/tree/master/3531-count-covered-buildings) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Fas96/AlgoSolution/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/Fas96/AlgoSolution/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -887,6 +889,7 @@
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [2886-faulty-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/2886-faulty-keyboard) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Fas96/AlgoSolution/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3433-count-mentions-per-user](https://github.com/Fas96/AlgoSolution/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Fas96/AlgoSolution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Fas96/AlgoSolution/tree/master/3447-clear-digits) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
@@ -957,6 +960,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Fas96/AlgoSolution/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Fas96/AlgoSolution/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/Fas96/AlgoSolution/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3433-count-mentions-per-user](https://github.com/Fas96/AlgoSolution/tree/master/3433-count-mentions-per-user) |
 | [3450-find-the-child-who-has-the-ball-after-k-seconds](https://github.com/Fas96/AlgoSolution/tree/master/3450-find-the-child-who-has-the-ball-after-k-seconds) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Fas96/AlgoSolution/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3548-find-the-count-of-good-integers](https://github.com/Fas96/AlgoSolution/tree/master/3548-find-the-count-of-good-integers) |
