@@ -1,28 +1,22 @@
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
-        se=set([0,firstPerson])
-        tm={}
-        for s,d,t in meetings:
-            if t not in tm:
-                tm[t]=defaultdict(list)
-            tm[t][s].append(d)
-            tm[t][d].append(s)
-            
-        def dfs(src,adj):
-            if src in vsted:
-                return
-            vsted.add(src)
-            se.add(src)
-            for n in adj[src]:
-                dfs(n,adj)
-            
-        
-        
-        for t in sorted(tm.keys()):
-            vsted=set()
-            for src in tm[t]:
-                if src in se:
-                    dfs(src,tm[t])
-        return list(se)
+        g = defaultdict(list)
+        for x, y, t in meetings:
+            g[x].append((y, t))
+            g[y].append((x, t))
 
-        
+        inf = 10**18
+        time = [inf] * n
+        time[0] = time[firstPerson] = 0
+        h = [(0, 0), (0, firstPerson)]
+
+        while h:
+            t, u = heapq.heappop(h)
+            if t > time[u]:
+                continue
+            for v, mt in g[u]:
+                if mt >= t and mt < time[v]:
+                    time[v] = mt
+                    heapq.heappush(h, (mt, v))
+
+        return [i for i in range(n) if time[i] < inf]
