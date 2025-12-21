@@ -292,6 +292,7 @@
 | [0944-delete-columns-to-make-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0944-delete-columns-to-make-sorted) |
 | [0948-sort-an-array](https://github.com/Fas96/AlgoSolution/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/Fas96/AlgoSolution/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Fas96/AlgoSolution/tree/master/1002-maximum-width-ramp) |
@@ -810,6 +811,7 @@
 | [0778-reorganize-string](https://github.com/Fas96/AlgoSolution/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/Fas96/AlgoSolution/tree/master/0890-lemonade-change) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/Fas96/AlgoSolution/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Fas96/AlgoSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Fas96/AlgoSolution/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Fas96/AlgoSolution/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -1047,6 +1049,7 @@
 | [0920-uncommon-words-from-two-sentences](https://github.com/Fas96/AlgoSolution/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Fas96/AlgoSolution/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/Fas96/AlgoSolution/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Fas96/AlgoSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1006-vowel-spellchecker](https://github.com/Fas96/AlgoSolution/tree/master/1006-vowel-spellchecker) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
