@@ -294,6 +294,7 @@
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Fas96/AlgoSolution/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0958-sort-array-by-parity-ii](https://github.com/Fas96/AlgoSolution/tree/master/0958-sort-array-by-parity-ii) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Fas96/AlgoSolution/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Fas96/AlgoSolution/tree/master/1002-maximum-width-ramp) |
 | [1006-vowel-spellchecker](https://github.com/Fas96/AlgoSolution/tree/master/1006-vowel-spellchecker) |
@@ -1051,6 +1052,7 @@
 | [0952-word-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0952-word-subsets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Fas96/AlgoSolution/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Fas96/AlgoSolution/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Fas96/AlgoSolution/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1006-vowel-spellchecker](https://github.com/Fas96/AlgoSolution/tree/master/1006-vowel-spellchecker) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
@@ -1418,6 +1420,7 @@
 | [0867-new-21-game](https://github.com/Fas96/AlgoSolution/tree/master/0867-new-21-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/Fas96/AlgoSolution/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1025-minimum-cost-for-tickets](https://github.com/Fas96/AlgoSolution/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/Fas96/AlgoSolution/tree/master/1063-best-sightseeing-pair) |
 | [1170-shortest-common-supersequence](https://github.com/Fas96/AlgoSolution/tree/master/1170-shortest-common-supersequence) |
