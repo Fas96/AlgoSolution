@@ -313,6 +313,7 @@
 | [1333-sort-the-jumbled-numbers](https://github.com/Fas96/AlgoSolution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Fas96/AlgoSolution/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
@@ -697,6 +698,7 @@
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [1122-longest-duplicate-substring](https://github.com/Fas96/AlgoSolution/tree/master/1122-longest-duplicate-substring) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Fas96/AlgoSolution/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/Fas96/AlgoSolution/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Fas96/AlgoSolution/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Fas96/AlgoSolution/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -1247,6 +1249,7 @@
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Fas96/AlgoSolution/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Fas96/AlgoSolution/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
