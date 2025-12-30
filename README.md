@@ -279,6 +279,7 @@
 | [0759-set-intersection-size-at-least-two](https://github.com/Fas96/AlgoSolution/tree/master/0759-set-intersection-size-at-least-two) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
+| [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
 | [0859-design-circular-deque](https://github.com/Fas96/AlgoSolution/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
@@ -561,6 +562,7 @@
 | [0778-reorganize-string](https://github.com/Fas96/AlgoSolution/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
+| [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Fas96/AlgoSolution/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -948,6 +950,7 @@
 | [0679-24-game](https://github.com/Fas96/AlgoSolution/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
+| [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
 | [0867-new-21-game](https://github.com/Fas96/AlgoSolution/tree/master/0867-new-21-game) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Fas96/AlgoSolution/tree/master/0900-reordered-power-of-2) |
@@ -1247,6 +1250,7 @@
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
+| [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Fas96/AlgoSolution/tree/master/0921-spiral-matrix-iii) |
