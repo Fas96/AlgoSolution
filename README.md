@@ -238,6 +238,7 @@
 | [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/Fas96/AlgoSolution/tree/master/0040-combination-sum-ii) |
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
+| [0066-plus-one](https://github.com/Fas96/AlgoSolution/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Fas96/AlgoSolution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
@@ -934,6 +935,7 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Fas96/AlgoSolution/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/Fas96/AlgoSolution/tree/master/0066-plus-one) |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0204-count-primes](https://github.com/Fas96/AlgoSolution/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Fas96/AlgoSolution/tree/master/0231-power-of-two) |
