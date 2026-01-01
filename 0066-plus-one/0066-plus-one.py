@@ -1,10 +1,15 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        N=len(digits)
-        pos=10
-        NUM=0
-        for x in digits:
-            NUM = (NUM*pos)+ (x) 
-        NUM+=1
-        return [int(d) for d in str(NUM)]
+        def toSre(s):
+            return str(s)
+        s="".join(map(toSre,digits))
+        sm=int(s)+1
+        def digitss(v):
+            an=[]
+            while v>0:
+                r=v%10
+                v//=10
+                an.append(r)
+            return an
+        return digitss(sm)[::-1]
         
