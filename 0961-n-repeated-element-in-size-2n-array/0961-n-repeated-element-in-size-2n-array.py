@@ -1,9 +1,7 @@
 class Solution:
-    def repeatedNTimes(self, nums: List[int]) -> int:
-        n=len(nums)//2
-        f=Counter(nums)
-        for k,v in f.items():
-            if v==n:
-                return k
-        return -1
+    def repeatedNTimes(self, A: List[int]) -> int:
+        for i in range(len(A) - 2):
+            if A[i] == A[i + 1] or A[i] == A[i + 2]:
+                return A[i]
+        return A[-1]
         
