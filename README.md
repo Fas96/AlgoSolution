@@ -319,6 +319,7 @@
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Fas96/AlgoSolution/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Fas96/AlgoSolution/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/Fas96/AlgoSolution/tree/master/1364-tuple-with-same-product) |
+| [1390-four-divisors](https://github.com/Fas96/AlgoSolution/tree/master/1390-four-divisors) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1396-count-servers-that-communicate](https://github.com/Fas96/AlgoSolution/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Fas96/AlgoSolution/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -960,6 +961,7 @@
 | [0900-reordered-power-of-2](https://github.com/Fas96/AlgoSolution/tree/master/0900-reordered-power-of-2) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Fas96/AlgoSolution/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1240-stone-game-ii](https://github.com/Fas96/AlgoSolution/tree/master/1240-stone-game-ii) |
+| [1390-four-divisors](https://github.com/Fas96/AlgoSolution/tree/master/1390-four-divisors) |
 | [1395-minimum-time-visiting-all-points](https://github.com/Fas96/AlgoSolution/tree/master/1395-minimum-time-visiting-all-points) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Fas96/AlgoSolution/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Fas96/AlgoSolution/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
