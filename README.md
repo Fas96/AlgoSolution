@@ -369,6 +369,7 @@
 | [1923-sentence-similarity-iii](https://github.com/Fas96/AlgoSolution/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Fas96/AlgoSolution/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Fas96/AlgoSolution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1975-maximum-matrix-sum](https://github.com/Fas96/AlgoSolution/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Fas96/AlgoSolution/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/Fas96/AlgoSolution/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -845,6 +846,7 @@
 | [1818-maximum-score-from-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Fas96/AlgoSolution/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/Fas96/AlgoSolution/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/Fas96/AlgoSolution/tree/master/1975-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/Fas96/AlgoSolution/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Fas96/AlgoSolution/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -1270,6 +1272,7 @@
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Fas96/AlgoSolution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1876-map-of-highest-peak](https://github.com/Fas96/AlgoSolution/tree/master/1876-map-of-highest-peak) |
+| [1975-maximum-matrix-sum](https://github.com/Fas96/AlgoSolution/tree/master/1975-maximum-matrix-sum) |
 | [2035-count-sub-islands](https://github.com/Fas96/AlgoSolution/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
