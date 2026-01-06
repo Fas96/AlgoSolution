@@ -5,34 +5,36 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxLevelSum(self, root: Optional[TreeNode]) -> int:
-        
-        levelTraversed = []
+    def maxLevelSum(self, root: Optional[TreeNode]) -> int: 
+        def bfs(root):
+            if not root:
+                return []
 
-        def bfs(Node): 
-            if not Node:
-                return
-            queueUse = deque([Node])
-            while queueUse:
-                tempLevelValues = []
-                
-                for n in range(len(queueUse)):
-                    curLement = queueUse.popleft() 
-                    if curLement:
-                        tempLevelValues.append(curLement.val)
-                        queueUse.append(curLement.left)
-                        queueUse.append(curLement.right)
-                        
-                if tempLevelValues:
-                    levelTraversed.append(tempLevelValues)
+            r = []
+            q = deque([root])   
+
+            while q:
+                ls = len(q)
+                cln = [] 
+                for _ in range(ls):
+                    node = q.popleft()
+                    cln.append(node.val) 
+                    if node.left:
+                        q.append(node.left)
+                    if node.right:
+                        q.append(node.right) 
+                r.append(cln)
+
+            return r
+         
+        ans=float("-inf")
+        rans=1
+        prev=-1
+        for i, v in enumerate(bfs(root)):
+            ans=max(ans,sum(v))
+            if ans>prev:
+                rans=i+1 
+            prev=ans
+        return rans
+
         
-        bfs(root)
-        levelSum = float("-inf")
-        heightOfLevel = 0 
-        
-        for idx in range(len(levelTraversed)):
-            temp=sum(levelTraversed[idx]) 
-            if temp>levelSum:
-                levelSum = max(levelSum,temp)
-                heightOfLevel = idx + 1 
-        return heightOfLevel 
