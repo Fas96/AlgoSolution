@@ -111,6 +111,7 @@
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Fas96/AlgoSolution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Fas96/AlgoSolution/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Fas96/AlgoSolution/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -153,6 +154,7 @@
 | [0813-all-paths-from-source-to-target](https://github.com/Fas96/AlgoSolution/tree/master/0813-all-paths-from-source-to-target) |
 | [0820-find-eventual-safe-states](https://github.com/Fas96/AlgoSolution/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Fas96/AlgoSolution/tree/master/0854-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Fas96/AlgoSolution/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0999-regions-cut-by-slashes](https://github.com/Fas96/AlgoSolution/tree/master/0999-regions-cut-by-slashes) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/Fas96/AlgoSolution/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -571,6 +573,7 @@
 | [0797-rabbits-in-forest](https://github.com/Fas96/AlgoSolution/tree/master/0797-rabbits-in-forest) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Fas96/AlgoSolution/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0870-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0870-magic-squares-in-grid) |
 | [0900-reordered-power-of-2](https://github.com/Fas96/AlgoSolution/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Fas96/AlgoSolution/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -1214,6 +1217,7 @@
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Fas96/AlgoSolution/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1247,6 +1251,7 @@
 | [0617-merge-two-binary-trees](https://github.com/Fas96/AlgoSolution/tree/master/0617-merge-two-binary-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Fas96/AlgoSolution/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0791-split-bst](https://github.com/Fas96/AlgoSolution/tree/master/0791-split-bst) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Fas96/AlgoSolution/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Fas96/AlgoSolution/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
