@@ -1077,6 +1077,7 @@
 | [0567-permutation-in-string](https://github.com/Fas96/AlgoSolution/tree/master/0567-permutation-in-string) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
 | [0677-map-sum-pairs](https://github.com/Fas96/AlgoSolution/tree/master/0677-map-sum-pairs) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Fas96/AlgoSolution/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0726-number-of-atoms](https://github.com/Fas96/AlgoSolution/tree/master/0726-number-of-atoms) |
 | [0756-pyramid-transition-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/Fas96/AlgoSolution/tree/master/0768-partition-labels) |
@@ -1461,6 +1462,7 @@
 | [0650-2-keys-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Fas96/AlgoSolution/tree/master/0664-strange-printer) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Fas96/AlgoSolution/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Fas96/AlgoSolution/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/Fas96/AlgoSolution/tree/master/0806-domino-and-tromino-tiling) |
 | [0808-number-of-matching-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/0808-number-of-matching-subsequences) |
 | [0826-soup-servings](https://github.com/Fas96/AlgoSolution/tree/master/0826-soup-servings) |
