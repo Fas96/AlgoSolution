@@ -248,6 +248,7 @@
 | [0075-sort-colors](https://github.com/Fas96/AlgoSolution/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Fas96/AlgoSolution/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0085-maximal-rectangle](https://github.com/Fas96/AlgoSolution/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/Fas96/AlgoSolution/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/Fas96/AlgoSolution/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
@@ -1178,6 +1179,7 @@
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Fas96/AlgoSolution/tree/master/0085-maximal-rectangle) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Fas96/AlgoSolution/tree/master/0145-binary-tree-postorder-traversal) |
 | [0394-decode-string](https://github.com/Fas96/AlgoSolution/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/Fas96/AlgoSolution/tree/master/0682-baseball-game) |
@@ -1270,6 +1272,7 @@
 | [0037-sudoku-solver](https://github.com/Fas96/AlgoSolution/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/Fas96/AlgoSolution/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Fas96/AlgoSolution/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/Fas96/AlgoSolution/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/Fas96/AlgoSolution/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/Fas96/AlgoSolution/tree/master/0498-diagonal-traverse) |
 | [0840-magic-squares-in-grid](https://github.com/Fas96/AlgoSolution/tree/master/0840-magic-squares-in-grid) |
@@ -1449,6 +1452,7 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Fas96/AlgoSolution/tree/master/0062-unique-paths) |
+| [0085-maximal-rectangle](https://github.com/Fas96/AlgoSolution/tree/master/0085-maximal-rectangle) |
 | [0096-unique-binary-search-trees](https://github.com/Fas96/AlgoSolution/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/Fas96/AlgoSolution/tree/master/0118-pascals-triangle) |
 | [0139-word-break](https://github.com/Fas96/AlgoSolution/tree/master/0139-word-break) |
@@ -1801,6 +1805,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/Fas96/AlgoSolution/tree/master/0085-maximal-rectangle) |
 | [1002-maximum-width-ramp](https://github.com/Fas96/AlgoSolution/tree/master/1002-maximum-width-ramp) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Fas96/AlgoSolution/tree/master/1628-count-submatrices-with-all-ones) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Fas96/AlgoSolution/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
