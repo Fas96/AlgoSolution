@@ -1,5 +1,18 @@
 class Solution:
-    def maximizeSquareArea(self, m: int, n: int, a: List[int], b: List[int]) -> int:
-        a,b = [1,*sorted(a),m],[1,*b,n]
-        d = {i-j:i for i,j in product(a,b)}
-        return max(d[i-j]-i for i,j in product(a,b))**2%(10**9+7) or -1
+    def maximizeSquareArea(self, m: int, n: int, hFences: List[int], vFences: List[int]) -> int:
+        hFences.extend([1, m])
+        vFences.extend([1, n])
+        stt = set()
+        ans = 0
+        mod=10**9+7
+        for i in range(len(hFences)):
+            for j in range(i+1, len(hFences)):
+                stt.add(abs(hFences[j]-hFences[i]))
+        for i in range(len(vFences)):
+            for j in range(i+1, len(vFences)):
+                val = abs(vFences[j]-vFences[i])
+                if val in stt:
+                    ans = max(ans, val)
+        if ans == 0:
+            return -1
+        return (ans*ans)%mod
