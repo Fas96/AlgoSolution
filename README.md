@@ -373,6 +373,7 @@
 | [1876-map-of-highest-peak](https://github.com/Fas96/AlgoSolution/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Fas96/AlgoSolution/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Fas96/AlgoSolution/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [1895-largest-magic-square](https://github.com/Fas96/AlgoSolution/tree/master/1895-largest-magic-square) |
 | [1917-maximum-average-pass-ratio](https://github.com/Fas96/AlgoSolution/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/Fas96/AlgoSolution/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Fas96/AlgoSolution/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -1301,6 +1302,7 @@
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Fas96/AlgoSolution/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Fas96/AlgoSolution/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1876-map-of-highest-peak](https://github.com/Fas96/AlgoSolution/tree/master/1876-map-of-highest-peak) |
+| [1895-largest-magic-square](https://github.com/Fas96/AlgoSolution/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/Fas96/AlgoSolution/tree/master/1975-maximum-matrix-sum) |
 | [2035-count-sub-islands](https://github.com/Fas96/AlgoSolution/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Fas96/AlgoSolution/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -1694,6 +1696,7 @@
 | [1590-make-sum-divisible-by-p](https://github.com/Fas96/AlgoSolution/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/Fas96/AlgoSolution/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1694-make-sum-divisible-by-p](https://github.com/Fas96/AlgoSolution/tree/master/1694-make-sum-divisible-by-p) |
+| [1895-largest-magic-square](https://github.com/Fas96/AlgoSolution/tree/master/1895-largest-magic-square) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Fas96/AlgoSolution/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Fas96/AlgoSolution/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/Fas96/AlgoSolution/tree/master/2145-grid-game) |
