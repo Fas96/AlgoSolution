@@ -506,6 +506,7 @@
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Fas96/AlgoSolution/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Fas96/AlgoSolution/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Fas96/AlgoSolution/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3379-transformed-array](https://github.com/Fas96/AlgoSolution/tree/master/3379-transformed-array) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Fas96/AlgoSolution/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Fas96/AlgoSolution/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/Fas96/AlgoSolution/tree/master/3427-special-array-ii) |
@@ -958,6 +959,7 @@
 | [2846-robot-collisions](https://github.com/Fas96/AlgoSolution/tree/master/2846-robot-collisions) |
 | [2886-faulty-keyboard](https://github.com/Fas96/AlgoSolution/tree/master/2886-faulty-keyboard) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Fas96/AlgoSolution/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3379-transformed-array](https://github.com/Fas96/AlgoSolution/tree/master/3379-transformed-array) |
 | [3433-count-mentions-per-user](https://github.com/Fas96/AlgoSolution/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Fas96/AlgoSolution/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Fas96/AlgoSolution/tree/master/3447-clear-digits) |
