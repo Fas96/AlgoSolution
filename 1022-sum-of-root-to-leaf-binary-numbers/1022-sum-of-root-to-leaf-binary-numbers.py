@@ -1,24 +1,19 @@
 # Definition for a binary tree node.
-# class TreeNode(object):
+# class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution(object):
-    sm=0
-    def sumRootToLeaf(self, root):
+class Solution:
+    def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
         
-        def dfs(root,path):
-            if not root:
-                return 
-            if not root.left and not root.right:
-                path+=str(root.val)
-                self.sm+=int(path,2)
-            dfs(root.left,path+str(root.val))
-            dfs(root.right,path+str(root.val))
-        dfs(root,"")
-        return self.sm
-   
-            
-        
+        def dfs(r,sm):
+            if not r:
+                return 0
+            sm = (sm << 1) | r.val
+            if not r.left and not r.right:
+                return sm
+            return dfs(r.left,sm)+dfs(r.right,sm)
+    
+        return  dfs(root,0)
         
