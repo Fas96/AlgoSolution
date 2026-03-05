@@ -1150,6 +1150,7 @@
 | [1720-crawler-log-folder](https://github.com/Fas96/AlgoSolution/tree/master/1720-crawler-log-folder) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Fas96/AlgoSolution/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Fas96/AlgoSolution/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Fas96/AlgoSolution/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Fas96/AlgoSolution/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Fas96/AlgoSolution/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Fas96/AlgoSolution/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
